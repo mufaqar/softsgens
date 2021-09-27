@@ -113,7 +113,7 @@ function Work() {
                         <a href="#" class="w-full block h-full">
                           <img
                             alt="blog photo"
-                            src="/images/testimonail.jpg"
+                            src="/images/testimonail.jpeg"
                             class="max-h-40 w-full object-cover"
                             width="400"
                             height="350"
@@ -133,7 +133,7 @@ function Work() {
                               <a href="#" class="block relative">
                                 <img
                                   alt="profil"
-                                  src="/images/testimonail.jpg"
+                                  src="/images/testimonail.jpeg"
                                   class="mx-auto object-cover rounded-full h-10 w-10 "
                                   width="400"
                                   height="350"
@@ -158,7 +158,7 @@ function Work() {
                       <a href="#" class="w-full block h-full">
                         <img
                           alt="blog photo"
-                          src="/images/testimonail.jpg"
+                          src="/images/testimonail.jpeg"
                           class="max-h-40 w-full object-cover"
                         />
                         <div class="bg-white dark:bg-gray-800 w-full p-4">
@@ -176,7 +176,7 @@ function Work() {
                             <a href="#" class="block relative">
                               <img
                                 alt="profil"
-                                src="/images/testimonail.jpg"
+                                src="/images/testimonail.jpeg"
                                 class="mx-auto object-cover rounded-full h-10 w-10 "
                               />
                             </a>
@@ -199,7 +199,7 @@ function Work() {
                       <a href="#" class="w-full block h-full">
                         <img
                           alt="blog photo"
-                          src="/images/testimonail.jpg"
+                          src="/images/testimonail.jpeg"
                           class="max-h-40 w-full object-cover"
                         />
                         <div class="bg-white dark:bg-gray-800 w-full p-4">
@@ -217,7 +217,7 @@ function Work() {
                             <a href="#" class="block relative">
                               <img
                                 alt="profil"
-                                src="/images/testimonail.jpg"
+                                src="/images/testimonail.jpeg"
                                 class="mx-auto object-cover rounded-full h-10 w-10"
                                 width="400"
                                 height="350"
