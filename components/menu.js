@@ -26,15 +26,11 @@ export default function Menu() {
                 </Link>
               </li>
               <li>
-                <Link href="/work">
-                  <a className="ml-16 hover:text-blue-700">Work</a>
+                <Link href="/portfolio">
+                  <a className="ml-16 hover:text-blue-700">Sucess Stories</a>
                 </Link>
               </li>
-              <li>
-                <Link href="/insights">
-                  <a className="ml-16 hover:text-blue-700">Insights</a>
-                </Link>
-              </li>
+
               <li>
                 <Link href="/company">
                   <a className="ml-16 hover:text-blue-700">Company</a>

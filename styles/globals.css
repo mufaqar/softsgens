@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400;500;600&display=swap');
+
+/* ./styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-hero {
+  background: url('../public/images/bannerBg.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.fa-times {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.fa-times:before {
+  content: '';
+  width: 35px;
+  height: 3px;
+  position: absolute;
+  top: -8px;
+  background-color: black;
+  cursor: pointer;
+}
+.fa-times::after {
+  content: '';
+  width: 35px;
+  height: 3px;
+  position: absolute;
+  bottom: -8px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.fa-bar {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.fa-bar:before {
+  content: '';
+  width: 35px;
+  height: 3px;
+  position: absolute;
+  background-color: black;
+  transform: rotate(135deg);
+  cursor: pointer;
+}
+.mb-menu {
+  display: none;
+}
