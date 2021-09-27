@@ -60,7 +60,45 @@ export default function Menu() {
             toggle ? 'block' : 'hidden'
           } absolute z-10 block w-full top-24 lg:hidden`}
         >
-          {/* <MobileMenu /> */}
+          <div>
+            <ul className="w-full bg-blue-400 ">
+              <li className="pt-10">
+                <Link href="/services">
+                  <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
+                    Services
+                  </a>
+                </Link>
+              </li>
+              <li className="pt-10">
+                <Link href="/work">
+                  <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
+                    Work
+                  </a>
+                </Link>
+              </li>
+              <li className="pt-10">
+                <Link href="/insights">
+                  <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
+                    Insights
+                  </a>
+                </Link>
+              </li>
+              <li className="pt-10">
+                <Link href="/company">
+                  <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
+                    Company
+                  </a>
+                </Link>
+              </li>
+              <li className="py-10">
+                <Link href="/contact" className="">
+                  <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
+                    Contact Us
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
