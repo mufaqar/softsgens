@@ -21,6 +21,12 @@ export default function Menu() {
           <div className="hidden lg:block">
             <ul className="flex flex-col items-center text-lg font-normal tracking-wider text-gray-700 lg:bg-white lg:flex-row font-fira">
               <li>
+                <Link href="/">
+                  <a className="ml-16 hover:text-blue-700">Home</a>
+                </Link>
+              </li>
+
+              <li>
                 <Link href="/services">
                   <a className="ml-16 hover:text-blue-700">Services</a>
                 </Link>
