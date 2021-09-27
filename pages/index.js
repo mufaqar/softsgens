@@ -9,6 +9,7 @@ import Work from '../components/work';
 import SucessStories from '../components/stories';
 import Footer from '../components/footer';
 import ContactUs from '../components/contactus';
+import Clients from '../components/clients';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <Menu />
       <Hero />
+      <Clients />
       <Work />
       <SucessStories />
       <ContactUs />
