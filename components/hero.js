@@ -5,9 +5,9 @@ export default function Hero() {
   return (
     <>
       <div className="bg-hero">
-        <div className="container flex  items-center justify-between py-44  mx-auto flex-row static overflow-hidden">
+        <div className="container flex  items-center justify-between px-4 lg:px-0 py-44  mx-auto flex-col-reverse lg:flex-row static overflow-hidden">
           <div className="w-full mt-10 lg:w-1/2 lg:mr-0">
-            <h2 className="p-2 text-4xl font-extrabold leading-tight text-gray-900 lg:text-5xl font-fira ">
+            <h2 className="p-2 text-4xl font-extrabold leading-tight text-gray-900 lg:text-5xl font-fira">
               Impacting Industry
               <br /> Leaders with Softgens
             </h2>
@@ -34,7 +34,7 @@ export default function Hero() {
           <img
             alt="moto"
             src="/images/heroimg.png"
-            className="absolute right-0"
+            className="lg:absolute md:block right-0  "
             width="765"
             height="558"
           />

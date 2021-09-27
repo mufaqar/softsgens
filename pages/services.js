@@ -13,6 +13,441 @@ export default function Services() {
       </Head>
       <Menu />
       <Hero />
+
+      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
+          <div class="flex flex-col justify-center">
+            <div class="max-w-xl mb-6">
+              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Designing and Branding
+              </h2>
+              <p class="text-base text-gray-700 md:text-lg">
+                Your story of glory speaks through your brand.We design and give
+                a personality, value and competitive edge to your brand. We
+                strongly believe that if you are not online, you are not in
+                today’s corporate business. We are the creators of good brands
+                with a specialized persona and essence of communication. Get
+                stunning broachers and flyers specially designed for you.
+              </p>
+            </div>
+            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+              Features
+            </p>
+            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Logo Design & Branding
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Brochure/Flyer Designs
+                </li>
+              </ul>
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Newsletter & Email Templates
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  All kind of Print & Web Media Designs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <img
+              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
+          <div>
+            <img
+              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-col justify-center">
+            <div class="max-w-xl mb-6">
+              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Web development
+              </h2>
+              <p class="text-base text-gray-700 md:text-lg">
+                Reliable, professional and search engine friendly web solutions
+                are a need of the today’s web. We build on strong methodologies
+                from define design phase to development and deployment. We build
+                on footprints of your unique needs. The result is a stable,
+                adaptable, organized and user-friendly website for both you and
+                customers.More Knocking on Your Virtual business door is our
+                target.
+              </p>
+            </div>
+            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+              Features
+            </p>
+            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  CMS and Blog Website Services
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  WooCommerce Development
+                </li>
+              </ul>
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Website Maintenance
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  E-Commerece Website
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
+          <div class="flex flex-col justify-center">
+            <div class="max-w-xl mb-6">
+              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Designing and Branding
+              </h2>
+              <p class="text-base text-gray-700 md:text-lg">
+                Your story of glory speaks through your brand.We design and give
+                a personality, value and competitive edge to your brand. We
+                strongly believe that if you are not online, you are not in
+                today’s corporate business. We are the creators of good brands
+                with a specialized persona and essence of communication. Get
+                stunning broachers and flyers specially designed for you.
+              </p>
+            </div>
+            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+              Features
+            </p>
+            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Logo Design & Branding
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Brochure/Flyer Designs
+                </li>
+              </ul>
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Newsletter & Email Templates
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  All kind of Print & Web Media Designs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <img
+              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
+          <div>
+            <img
+              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt=""
+            />
+          </div>
+
+          <div class="flex flex-col justify-center">
+            <div class="max-w-xl mb-6">
+              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                Web development
+              </h2>
+              <p class="text-base text-gray-700 md:text-lg">
+                Reliable, professional and search engine friendly web solutions
+                are a need of the today’s web. We build on strong methodologies
+                from define design phase to development and deployment. We build
+                on footprints of your unique needs. The result is a stable,
+                adaptable, organized and user-friendly website for both you and
+                customers.More Knocking on Your Virtual business door is our
+                target.
+              </p>
+            </div>
+            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+              Features
+            </p>
+            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  CMS and Blog Website Services
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  WooCommerce Development
+                </li>
+              </ul>
+              <ul class="space-y-3">
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  Website Maintenance
+                </li>
+                <li class="flex">
+                  <span class="mr-1">
+                    <svg
+                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      stroke="currentColor"
+                      viewBox="0 0 52 52"
+                    >
+                      <polygon
+                        stroke-width="4"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        fill="none"
+                        points="29 13 14 29 25 29 23 39 38 23 27 23"
+                      ></polygon>
+                    </svg>
+                  </span>
+                  E-Commerece Website
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <ContactUs />
       <Footer />
     </>
