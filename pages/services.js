@@ -116,7 +116,7 @@ export default function Services() {
           <div>
             <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="/images/placeholder.jpg"
               alt=""
               width="560"
               height="560"
@@ -130,7 +130,7 @@ export default function Services() {
           <div>
             <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="/images/placeholder.jpg"
               alt=""
               width="560"
               height="560"
@@ -337,7 +337,7 @@ export default function Services() {
           <div>
             <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="/images/placeholder.jpg"
               alt=""
               width="560"
               height="560"
@@ -350,8 +350,10 @@ export default function Services() {
           <div>
             <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="/images/placeholder.jpg"
               alt=""
+              width="560"
+              height="560"
             />
           </div>
 

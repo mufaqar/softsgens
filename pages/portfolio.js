@@ -56,7 +56,7 @@ export default function Portfolio() {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="/images/portfolio.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="500"
                 height="600"
@@ -75,7 +75,7 @@ export default function Portfolio() {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="/images/portfolio.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="500"
                 height="600"
@@ -94,7 +94,7 @@ export default function Portfolio() {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="/images/portfolio.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="500"
                 height="600"
@@ -113,7 +113,7 @@ export default function Portfolio() {
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="/images/portfolio.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="500"
                 height="600"

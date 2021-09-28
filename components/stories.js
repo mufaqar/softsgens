@@ -90,10 +90,10 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
-                width="250"
-                height="150"
+                width="850"
+                height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5 ">
@@ -113,10 +113,10 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
-                width="250"
-                height="150"
+                width="850"
+                height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
@@ -136,10 +136,10 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
-                width="250"
-                height="150"
+                width="850"
+                height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
@@ -159,10 +159,10 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
-                width="250"
-                height="150"
+                width="850"
+                height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
@@ -182,10 +182,10 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
-                width="250"
-                height="150"
+                width="850"
+                height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
@@ -205,10 +205,10 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
-                width="250"
-                height="150"
+                width="850"
+                height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
@@ -231,10 +231,10 @@ export default function SucessStories() {
               onClick={() => setclick(1)}
             >
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="250"
-                height="150"
+                height="180"
               />
             </div>
             <div
@@ -246,10 +246,10 @@ export default function SucessStories() {
               onClick={() => setclick(2)}
             >
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="250"
-                height="150"
+                height="180"
               />
             </div>
             <div
@@ -261,10 +261,10 @@ export default function SucessStories() {
               onClick={() => setclick(3)}
             >
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="250"
-                height="150"
+                height="180"
               />
             </div>
             <div
@@ -276,10 +276,10 @@ export default function SucessStories() {
               onClick={() => setclick(4)}
             >
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="250"
-                height="150"
+                height="180"
               />
             </div>
             <div
@@ -291,10 +291,10 @@ export default function SucessStories() {
               onClick={() => setclick(5)}
             >
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="250"
-                height="150"
+                height="180"
               />
             </div>
             <div
@@ -306,10 +306,10 @@ export default function SucessStories() {
               onClick={() => setclick(6)}
             >
               <Image
-                src="https://softgens.netlify.app/images/feeback.jpeg"
+                src="/images/placeholder.jpg"
                 alt=""
                 width="250"
-                height="150"
+                height="180"
               />
             </div>
           </div>
