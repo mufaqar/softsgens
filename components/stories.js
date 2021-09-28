@@ -90,7 +90,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -113,7 +113,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -136,7 +136,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -159,7 +159,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -182,7 +182,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -205,7 +205,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -231,7 +231,7 @@ export default function SucessStories() {
               onClick={() => setclick(1)}
             >
               <Image
-                src="images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -246,7 +246,7 @@ export default function SucessStories() {
               onClick={() => setclick(2)}
             >
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -261,7 +261,7 @@ export default function SucessStories() {
               onClick={() => setclick(3)}
             >
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -276,7 +276,7 @@ export default function SucessStories() {
               onClick={() => setclick(4)}
             >
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -291,7 +291,7 @@ export default function SucessStories() {
               onClick={() => setclick(5)}
             >
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"
@@ -306,7 +306,7 @@ export default function SucessStories() {
               onClick={() => setclick(6)}
             >
               <Image
-                src="/images/feeback.jpeg"
+                src="https://softgens.netlify.app/images/feeback.jpeg"
                 alt=""
                 width="250"
                 height="150"

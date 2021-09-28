@@ -127,21 +127,21 @@ export default function Footer() {
             </p>
             <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
               <li>
-                <Link ref="/">
+                <Link href="/">
                   <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                     Home
                   </a>
                 </Link>
               </li>
               <li>
-                <Link ref="/compnay">
+                <Link href="/compnay">
                   <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                     About
                   </a>
                 </Link>
               </li>
               <li>
-                <Link ref="/services">
+                <Link href="/services">
                   <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
                     Services
                   </a>
