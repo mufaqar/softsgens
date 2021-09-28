@@ -51,7 +51,7 @@ export default function Services() {
                       ></polygon>
                     </svg>
                   </span>
-                  Logo Design & Branding
+                  Logo Design And Branding
                 </li>
                 <li className="flex">
                   <span className="mr-1">
@@ -89,7 +89,7 @@ export default function Services() {
                       ></polygon>
                     </svg>
                   </span>
-                  Newsletter & Email Templates
+                  Newsletter And Email Templates
                 </li>
                 <li className="flex">
                   <span className="mr-1">
@@ -107,7 +107,7 @@ export default function Services() {
                       ></polygon>
                     </svg>
                   </span>
-                  All kind of Print & Web Media Designs
+                  All kind of Print And Web Media Designs
                 </li>
               </ul>
             </div>
@@ -268,7 +268,7 @@ export default function Services() {
                       ></polygon>
                     </svg>
                   </span>
-                  Logo Design & Branding
+                  Logo Design and Branding
                 </li>
                 <li className="flex">
                   <span className="mr-1">
@@ -306,7 +306,7 @@ export default function Services() {
                       ></polygon>
                     </svg>
                   </span>
-                  Newsletter & Email Templates
+                  Newsletter and Email Templates
                 </li>
                 <li className="flex">
                   <span className="mr-1">
@@ -324,7 +324,7 @@ export default function Services() {
                       ></polygon>
                     </svg>
                   </span>
-                  All kind of Print & Web Media Designs
+                  All kind of Print And Web Media Designs
                 </li>
               </ul>
             </div>
