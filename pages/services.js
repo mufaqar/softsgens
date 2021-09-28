@@ -43,7 +43,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -61,7 +61,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -81,7 +81,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -99,7 +99,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -160,7 +160,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -178,7 +178,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -198,7 +198,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -216,7 +216,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -260,7 +260,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -278,7 +278,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -298,7 +298,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -316,7 +316,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -376,7 +376,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -394,7 +394,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -414,7 +414,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
@@ -432,7 +432,7 @@ export default function Services() {
                       viewBox="0 0 52 52"
                     >
                       <polygon
-                        stroke-width="4"
+                        strokeWidth="4"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         fill="none"
