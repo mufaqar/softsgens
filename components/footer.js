@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -7,31 +7,32 @@ export default function Footer() {
         <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
           <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
             <div className="sm:col-span-2">
-              <a
-                href="/"
-                aria-label="Go home"
-                title="Company"
-                className="inline-flex items-center"
-              >
-                <svg
-                  className="w-8 text-deep-purple-accent-400"
-                  viewBox="0 0 24 24"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeMiterlimit="10"
-                  stroke="currentColor"
-                  fill="none"
+              <Link href="/">
+                <a
+                  aria-label="Go home"
+                  title="Company"
+                  className="inline-flex items-center"
                 >
-                  <rect x="3" y="1" width="7" height="12" />
-                  <rect x="3" y="17" width="7" height="6" />
-                  <rect x="14" y="1" width="7" height="6" />
-                  <rect x="14" y="11" width="7" height="12" />
-                </svg>
-                <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                  Company
-                </span>
-              </a>
+                  <svg
+                    className="w-8 text-deep-purple-accent-400"
+                    viewBox="0 0 24 24"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeMiterlimit="10"
+                    stroke="currentColor"
+                    fill="none"
+                  >
+                    <rect x="3" y="1" width="7" height="12" />
+                    <rect x="3" y="17" width="7" height="6" />
+                    <rect x="14" y="1" width="7" height="6" />
+                    <rect x="14" y="11" width="7" height="12" />
+                  </svg>
+                  <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                    Company
+                  </span>
+                </a>
+              </Link>
               <div className="mt-6 lg:max-w-sm">
                 <p className="text-lg text-gray-700 font-fira">
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -61,12 +62,12 @@ export default function Footer() {
               <div className="flex">
                 <p className="mr-1 text-gray-800">Email:</p>
                 <a
-                  href="mailto:info@lorem.mail"
+                  href="mailto:info@softgens.com"
                   aria-label="Our email"
                   title="Our email"
                   className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
-                  info@lorem.mail
+                  info@softgens.com
                 </a>
               </div>
               <div className="flex">
@@ -79,7 +80,7 @@ export default function Footer() {
                   title="Our address"
                   className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
                 >
-                  312 Lovely Street, NY
+                  Suit 134 B AHS Multan Road Lahore Pakistan
                 </a>
               </div>
             </div>
@@ -89,7 +90,7 @@ export default function Footer() {
               </span>
               <div className="flex items-center mt-1 space-x-3">
                 <a
-                  href="/"
+                  href="https://www.facebook.com/mufaqar"
                   className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -97,7 +98,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="/"
+                  href="https://www.facebook.com/mufaqar"
                   className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -106,7 +107,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="/"
+                  href="https://www.facebook.com/mufaqar"
                   className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -122,32 +123,29 @@ export default function Footer() {
           </div>
           <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
             <p className="text-sm text-gray-600">
-              © Copyright 2020 Lorem Inc. All rights reserved.
+              © Copyright 2020 SoftGens. All rights reserved.
             </p>
             <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
               <li>
-                <a
-                  href="/"
-                  className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  F.A.Q
-                </a>
+                <Link ref="/">
+                  <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                    F.A.Q
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Privacy Policy
-                </a>
+                <Link ref="/">
+                  <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                    Privacy Policy
+                  </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/"
-                  className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
-                >
-                  Terms &amp; Conditions
-                </a>
+                <Link ref="/">
+                  <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+                    Terms &amp; Conditions
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

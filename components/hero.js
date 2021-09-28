@@ -31,10 +31,10 @@ export default function Hero() {
               </Link>
             </div>
           </div>
-          <img
+          <Image
             alt="moto"
             src="/images/heroimg.png"
-            className="lg:absolute md:block right-0  "
+            className="lg:absolute md:block right-0"
             width="765"
             height="558"
           />

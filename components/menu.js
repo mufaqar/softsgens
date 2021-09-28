@@ -11,13 +11,15 @@ export default function Menu() {
       <div className="flex items-center h-24 border-b-2 border-gray-100">
         <nav className="container relative flex items-center justify-between px-5 mx-auto lg:px-0">
           <Link href="/" className="flex-1 ">
-            <Image
-              src="/images/logo.png"
-              alt=""
-              className="cursor-pointer "
-              width="200"
-              height="40"
-            />
+            <a>
+              <Image
+                src="/images/logo.png"
+                alt=""
+                className="cursor-pointer "
+                width="200"
+                height="40"
+              />
+            </a>
           </Link>
 
           <div className="hidden lg:block">
@@ -90,13 +92,7 @@ export default function Menu() {
                   </a>
                 </Link>
               </li>
-              <li className="pt-10">
-                <Link href="/insights">
-                  <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
-                    Insights
-                  </a>
-                </Link>
-              </li>
+
               <li className="pt-10">
                 <Link href="/company">
                   <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">

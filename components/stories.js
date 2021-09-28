@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function SucessStories() {
   const [click, setclick] = useState(1);
@@ -88,7 +89,12 @@ export default function SucessStories() {
             } flex flex-col lg:flex-row`}
           >
             <div className="w-full lg:w-3/5">
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5 ">
               <h1 className="text-2xl font-semibold font-fira">Jhon Mack</h1>
@@ -106,7 +112,12 @@ export default function SucessStories() {
             } flex flex-col lg:flex-row`}
           >
             <div className="w-full lg:w-3/5">
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
               <h1 className="text-2xl font-semibold font-fira">Mic B</h1>
@@ -124,7 +135,12 @@ export default function SucessStories() {
             } flex flex-col lg:flex-row`}
           >
             <div className="w-full lg:w-3/5">
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
               <h1 className="text-2xl font-semibold font-fira">Riya</h1>
@@ -142,7 +158,12 @@ export default function SucessStories() {
             } flex flex-col lg:flex-row`}
           >
             <div className="w-full lg:w-3/5">
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
               <h1 className="text-2xl font-semibold font-fira">Dany</h1>
@@ -160,7 +181,12 @@ export default function SucessStories() {
             } flex flex-col lg:flex-row`}
           >
             <div className="w-full lg:w-3/5">
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
               <h1 className="text-2xl font-semibold font-fira">Thomas</h1>
@@ -178,7 +204,12 @@ export default function SucessStories() {
             } flex flex-col lg:flex-row`}
           >
             <div className="w-full lg:w-3/5">
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
               <h1 className="text-2xl font-semibold font-fira">Showan</h1>
@@ -199,7 +230,12 @@ export default function SucessStories() {
               }  w-1/6  cursor-pointer`}
               onClick={() => setclick(1)}
             >
-              <img src="images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div
               className={` ${
@@ -209,7 +245,12 @@ export default function SucessStories() {
               } w-1/6  cursor-pointer `}
               onClick={() => setclick(2)}
             >
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div
               className={` ${
@@ -219,7 +260,12 @@ export default function SucessStories() {
               } w-1/6  cursor-pointer `}
               onClick={() => setclick(3)}
             >
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div
               className={` ${
@@ -229,7 +275,12 @@ export default function SucessStories() {
               } w-1/6  cursor-pointer `}
               onClick={() => setclick(4)}
             >
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div
               className={` ${
@@ -239,7 +290,12 @@ export default function SucessStories() {
               } w-1/6  cursor-pointer `}
               onClick={() => setclick(5)}
             >
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
             <div
               className={` ${
@@ -249,7 +305,12 @@ export default function SucessStories() {
               } w-1/6  cursor-pointer `}
               onClick={() => setclick(6)}
             >
-              <img src="/images/feeback.jpeg" alt="" width="250" height="150" />
+              <Image
+                src="/images/feeback.jpeg"
+                alt=""
+                width="250"
+                height="150"
+              />
             </div>
           </div>
         </div>

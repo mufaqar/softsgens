@@ -1,3 +1,4 @@
+import Image from 'next/image';
 function Work() {
   return (
     <>
@@ -111,7 +112,7 @@ function Work() {
                     <div className="pt-0 mb-3 lg:pt-32 ">
                       <div className="overflow-hidden shadow-lg rounded-lg h-90 w-full lg:w-72 md:w-80 cursor-pointer m-auto">
                         <a href="#" className="w-full block h-full">
-                          <img
+                          <Image
                             alt="blog photo"
                             src="/images/testimonail.jpeg"
                             className="max-h-40 w-full object-cover"
@@ -131,7 +132,7 @@ function Work() {
                             </p>
                             <div className="flex items-center mt-4">
                               <a href="#" className="block relative">
-                                <img
+                                <Image
                                   alt="profil"
                                   src="/images/testimonail.jpeg"
                                   className="mx-auto object-cover rounded-full h-10 w-10 "
@@ -156,7 +157,7 @@ function Work() {
                     {/* 2 */}
                     <div className="overflow-hidden shadow-lg rounded-lg h-90 w-full lg:w-72 md:w-80 cursor-pointer m-auto sm:mt-3 pl-0 ml-0">
                       <a href="#" className="w-full block h-full">
-                        <img
+                        <Image
                           alt="blog photo"
                           src="/images/testimonail.jpeg"
                           className="max-h-40 w-full object-cover"
@@ -174,7 +175,7 @@ function Work() {
                           </p>
                           <div className="flex items-center mt-4">
                             <a href="#" className="block relative">
-                              <img
+                              <Image
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
                                 className="mx-auto object-cover rounded-full h-10 w-10 "
@@ -197,7 +198,7 @@ function Work() {
                     {/* 3 */}
                     <div className="relative overflow-hidden shadow-lg rounded-lg h-90 w-full lg:w-72 md:w-80 cursor-pointer m-auto">
                       <a href="#" className="w-full block h-full">
-                        <img
+                        <Image
                           alt="blog photo"
                           src="/images/testimonail.jpeg"
                           className="max-h-40 w-full object-cover"
@@ -215,7 +216,7 @@ function Work() {
                           </p>
                           <div className="flex items-center mt-4">
                             <a href="#" className="block relative">
-                              <img
+                              <Image
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
                                 className="mx-auto object-cover rounded-full h-10 w-10"
