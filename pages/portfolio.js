@@ -45,15 +45,14 @@ export default function Portfolio() {
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100"></div>
           </h2>
           <p className="text-gray-700 lg:text-sm lg:max-w-md">
-            "Class is dead", says Foucault; however, according to Reicher, it is
-            not so much class that is dead, but rather the absurdity, and some
-            would say the paradigm, of class. However, the subject is
-            interpolated into a postpatriarchialist dialectic theory that
-            includes consciousness as a totality.
+            however, according to Reicher, it is not so much class that is dead,
+            but rather the absurdity, and some would say the paradigm, of class.
+            However, the subject is interpolated into a postpatriarchialist
+            dialectic theory that includes consciousness as a totality.
           </p>
         </div>
         <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
-          <a href="/" aria-label="View Item">
+          <a href="http://mufaqar.com" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -67,14 +66,12 @@ export default function Portfolio() {
                   Mona Lisa
                 </p>
                 <p className="text-sm tracking-wide text-gray-300">
-                  Painted between 1503 and 1517, Da Vinci’s alluring portrait
-                  has been dogged by two questions since the day it was made:
-                  Who’s the subject and why is she smiling?
+                  Painted between 1503 and 1517
                 </p>
               </div>
             </div>
           </a>
-          <a href="/" aria-label="View Item">
+          <a href="http://mufaqar.com" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -88,14 +85,12 @@ export default function Portfolio() {
                   The Starry Night
                 </p>
                 <p className="text-sm tracking-wide text-gray-300">
-                  Vincent Van Gogh’s most popular painting, The Starry Night was
-                  created by Van Gogh at the asylum in Saint-Rémy, where he’d
-                  committed himself in 1889.
+                  Vincent Van
                 </p>
               </div>
             </div>
           </a>
-          <a href="/" aria-label="View Item">
+          <a href="http://mufaqar.com" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
@@ -109,15 +104,12 @@ export default function Portfolio() {
                   Portfolio
                 </p>
                 <p className="text-sm tracking-wide text-gray-300">
-                  Opulently gilded and extravagantly patterned, The Kiss, Gustav
-                  Klimt’s fin-de-siècle portrayal of intimacy, is a mix of
-                  Symbolism and Vienna Jugendstil, the Austrian variant of Art
-                  Nouveau.
+                  Opulently gilded and extravagantly patterned Nouveau.
                 </p>
               </div>
             </div>
           </a>
-          <a href="/" aria-label="View Item">
+          <a href="http://mufaqar.com" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
               <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"

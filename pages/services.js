@@ -3,6 +3,7 @@ import Menu from '../components/menu';
 import Hero from '../components/hero';
 import Footer from '../components/footer';
 import ContactUs from '../components/contactus';
+import Image from 'next/image';
 
 export default function Services() {
   return (
@@ -44,8 +45,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -62,8 +63,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -82,8 +83,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -100,8 +101,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -113,10 +114,12 @@ export default function Services() {
             </div>
           </div>
           <div>
-            <img
+            <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
+              width="560"
+              height="560"
             />
           </div>
         </div>
@@ -125,10 +128,12 @@ export default function Services() {
       <div className="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
         <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
           <div>
-            <img
+            <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
+              width="560"
+              height="560"
             />
           </div>
 
@@ -161,8 +166,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -179,8 +184,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -199,8 +204,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -217,8 +222,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -261,8 +266,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -279,8 +284,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -299,8 +304,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -317,8 +322,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -330,10 +335,12 @@ export default function Services() {
             </div>
           </div>
           <div>
-            <img
+            <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
+              width="560"
+              height="560"
             />
           </div>
         </div>
@@ -341,7 +348,7 @@ export default function Services() {
       <div className="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
         <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
           <div>
-            <img
+            <Image
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
@@ -377,8 +384,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -395,8 +402,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -415,8 +422,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>
@@ -433,8 +440,8 @@ export default function Services() {
                     >
                       <polygon
                         strokeWidth="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         fill="none"
                         points="29 13 14 29 25 29 23 39 38 23 27 23"
                       ></polygon>

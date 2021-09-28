@@ -161,6 +161,8 @@ function Work() {
                           alt="blog photo"
                           src="/images/testimonail.jpeg"
                           className="max-h-40 w-full object-cover"
+                          width="400"
+                          height="350"
                         />
                         <div className="bg-white dark:bg-gray-800 w-full p-4">
                           <p className="text-indigo-500 text-md font-medium">
@@ -179,6 +181,8 @@ function Work() {
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
                                 className="mx-auto object-cover rounded-full h-10 w-10 "
+                                width="400"
+                                height="350"
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
@@ -202,6 +206,8 @@ function Work() {
                           alt="blog photo"
                           src="/images/testimonail.jpeg"
                           className="max-h-40 w-full object-cover"
+                          width="400"
+                          height="350"
                         />
                         <div className="bg-white dark:bg-gray-800 w-full p-4">
                           <p className="text-indigo-500 text-md font-medium">

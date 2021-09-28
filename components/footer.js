@@ -129,21 +129,21 @@ export default function Footer() {
               <li>
                 <Link ref="/">
                   <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                    F.A.Q
+                    Home
                   </a>
                 </Link>
               </li>
               <li>
-                <Link ref="/">
+                <Link ref="/compnay">
                   <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                    Privacy Policy
+                    About
                   </a>
                 </Link>
               </li>
               <li>
-                <Link ref="/">
+                <Link ref="/services">
                   <a className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
-                    Terms &amp; Conditions
+                    Services
                   </a>
                 </Link>
               </li>
