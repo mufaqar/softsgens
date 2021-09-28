@@ -136,8 +136,8 @@ function Work() {
                                   alt="profil"
                                   src="/images/testimonail.jpeg"
                                   className="mx-auto object-cover rounded-full h-10 w-10 "
-                                  width="400"
-                                  height="350"
+                                  width="75"
+                                  height="75"
                                 />
                               </a>
                               <div className="flex flex-col justify-between ml-4 text-sm">
@@ -181,8 +181,8 @@ function Work() {
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
                                 className="mx-auto object-cover rounded-full h-10 w-10 "
-                                width="400"
-                                height="350"
+                                width="75"
+                                height="75"
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
@@ -226,8 +226,8 @@ function Work() {
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
                                 className="mx-auto object-cover rounded-full h-10 w-10"
-                                width="400"
-                                height="350"
+                                width="75"
+                                height="75"
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">

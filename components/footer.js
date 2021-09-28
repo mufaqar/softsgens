@@ -10,7 +10,7 @@ export default function Footer() {
               <Link href="/">
                 <a
                   aria-label="Go home"
-                  title="Company"
+                  title="SoftGens"
                   className="inline-flex items-center"
                 >
                   <svg
@@ -29,18 +29,15 @@ export default function Footer() {
                     <rect x="14" y="11" width="7" height="12" />
                   </svg>
                   <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                    Company
+                    SoftGens
                   </span>
                 </a>
               </Link>
               <div className="mt-6 lg:max-w-sm">
                 <p className="text-lg text-gray-700 font-fira">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam.
-                </p>
-                <p className="mt-4 text-lg text-gray-700 font-fira">
-                  Eaque ipsa quae ab illo inventore veritatis et quasi
-                  architecto beatae vitae dicta sunt explicabo.
+                  A one-stop shop for businesses big and small. From building,
+                  to designing, to analyzing and improving, we are always ready
+                  to make your company's website smarter.
                 </p>
               </div>
             </div>
@@ -116,14 +113,14 @@ export default function Footer() {
                 </a>
               </div>
               <p className="mt-4 text-lg text-gray-700 font-fira">
-                Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-                spare ribs salami.
+                I'd Love To Hear About Your Project
               </p>
             </div>
           </div>
           <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
             <p className="text-sm text-gray-600">
-              © Copyright 2020 SoftGens. All rights reserved.
+              © 2021 Web Design Pakistan | Website Designers in Pakistan –
+              SoftGens. All rights reserved.
             </p>
             <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
               <li>

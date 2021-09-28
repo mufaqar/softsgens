@@ -45,7 +45,7 @@ export default function Menu() {
                 }
               >
                 <Link href="/portfolio">
-                  <a className="ml-16  hover:text-blue-700">Sucess Stories</a>
+                  <a className="ml-16  hover:text-blue-700">Portfolio</a>
                 </Link>
               </li>
 
@@ -53,7 +53,7 @@ export default function Menu() {
                 className={router.pathname == '/company' ? 'text-blue-700' : ''}
               >
                 <Link href="/company">
-                  <a className="ml-16  hover:text-blue-700">Company</a>
+                  <a className="ml-16  hover:text-blue-700">About Us</a>
                 </Link>
               </li>
               <li>

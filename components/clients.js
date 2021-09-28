@@ -12,10 +12,8 @@ export default function Clients() {
             <br /> Your Trusted Digital Partner
           </h2>
           <p className="mt-8 mb-6 text-lg font-fira">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vitae
-            harum libero obcaecati praesentium. Harum aspernatur et atque quam
-            aut, dignissimos totam fugit, deleniti eaque beatae provident qui
-            consequatur quod. Veritatis velit iusto aliquid asperiores?
+            Whatever you need, from websites, to design, to business-boosting
+            solutions, we are ready to roll up our sleeves and get to work.
           </p>
           <Link href="/" className="">
             <a className="text-base font-semibold text-blue-600 uppercase">

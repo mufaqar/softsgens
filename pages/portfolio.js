@@ -18,10 +18,11 @@ export default function Portfolio() {
         <div className="container flex  items-center justify-between py-44  mx-auto flex-row static overflow-hidden">
           <div className="w-full mt-10 lg:w-1/2 lg:mr-0">
             <h2 className="p-2 text-4xl font-extrabold leading-tight text-gray-900 lg:text-5xl font-fira ">
-              Sucess Stories
+              Sucess Stories <br /> Real results, delivered.
             </h2>
             <p className="p-2 mt-4 text-lg text-gray-700 font-fira lg:pr-20 ">
-              Real results, delivered.
+              Whatever you need, from websites, to design, to business-boosting
+              solutions, we are ready to roll up our sleeves and get to work.
             </p>
           </div>
           <Image
@@ -38,17 +39,16 @@ export default function Portfolio() {
         <div className="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
           <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
             <span className="inline-block mb-1 sm:mb-4">
-              There is no must in art
+              Have a look at our latest work
               <br className="hidden md:block" />
               because art is free.
             </span>
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100"></div>
           </h2>
           <p className="text-gray-700 lg:text-sm lg:max-w-md">
-            however, according to Reicher, it is not so much class that is dead,
-            but rather the absurdity, and some would say the paradigm, of class.
-            However, the subject is interpolated into a postpatriarchialist
-            dialectic theory that includes consciousness as a totality.
+            We’ve worked on a wide range of projects since 2010. Our portfolio
+            of custom built solutions include brochure-style websites, large
+            corporate sites, custom web apps and scalable e-commerce solutions.
           </p>
         </div>
         <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
