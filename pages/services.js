@@ -14,14 +14,14 @@ export default function Services() {
       <Menu />
       <Hero />
 
-      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
-        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
-          <div class="flex flex-col justify-center">
-            <div class="max-w-xl mb-6">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+      <div className="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
+          <div className="flex flex-col justify-center">
+            <div className="max-w-xl mb-6">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Designing and Branding
               </h2>
-              <p class="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-gray-700 md:text-lg">
                 Your story of glory speaks through your brand.We design and give
                 a personality, value and competitive edge to your brand. We
                 strongly believe that if you are not online, you are not in
@@ -30,15 +30,15 @@ export default function Services() {
                 stunning broachers and flyers specially designed for you.
               </p>
             </div>
-            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+            <p className="mb-4 text-sm font-bold tracking-widest uppercase">
               Features
             </p>
-            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+            <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -53,10 +53,10 @@ export default function Services() {
                   </span>
                   Logo Design & Branding
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -72,11 +72,11 @@ export default function Services() {
                   Brochure/Flyer Designs
                 </li>
               </ul>
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -91,10 +91,10 @@ export default function Services() {
                   </span>
                   Newsletter & Email Templates
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -114,7 +114,7 @@ export default function Services() {
           </div>
           <div>
             <img
-              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
             />
@@ -122,22 +122,22 @@ export default function Services() {
         </div>
       </div>
 
-      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
-        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
+      <div className="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
           <div>
             <img
-              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
             />
           </div>
 
-          <div class="flex flex-col justify-center">
-            <div class="max-w-xl mb-6">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          <div className="flex flex-col justify-center">
+            <div className="max-w-xl mb-6">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Web development
               </h2>
-              <p class="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-gray-700 md:text-lg">
                 Reliable, professional and search engine friendly web solutions
                 are a need of the today’s web. We build on strong methodologies
                 from define design phase to development and deployment. We build
@@ -147,15 +147,15 @@ export default function Services() {
                 target.
               </p>
             </div>
-            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+            <p className="mb-4 text-sm font-bold tracking-widest uppercase">
               Features
             </p>
-            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+            <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -170,10 +170,10 @@ export default function Services() {
                   </span>
                   CMS and Blog Website Services
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -189,11 +189,11 @@ export default function Services() {
                   WooCommerce Development
                 </li>
               </ul>
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -208,10 +208,10 @@ export default function Services() {
                   </span>
                   Website Maintenance
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -231,14 +231,14 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
-        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
-          <div class="flex flex-col justify-center">
-            <div class="max-w-xl mb-6">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+      <div className="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
+          <div className="flex flex-col justify-center">
+            <div className="max-w-xl mb-6">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Designing and Branding
               </h2>
-              <p class="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-gray-700 md:text-lg">
                 Your story of glory speaks through your brand.We design and give
                 a personality, value and competitive edge to your brand. We
                 strongly believe that if you are not online, you are not in
@@ -247,15 +247,15 @@ export default function Services() {
                 stunning broachers and flyers specially designed for you.
               </p>
             </div>
-            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+            <p className="mb-4 text-sm font-bold tracking-widest uppercase">
               Features
             </p>
-            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+            <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -270,10 +270,10 @@ export default function Services() {
                   </span>
                   Logo Design & Branding
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -289,11 +289,11 @@ export default function Services() {
                   Brochure/Flyer Designs
                 </li>
               </ul>
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -308,10 +308,10 @@ export default function Services() {
                   </span>
                   Newsletter & Email Templates
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -331,29 +331,29 @@ export default function Services() {
           </div>
           <div>
             <img
-              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
             />
           </div>
         </div>
       </div>
-      <div class="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
-        <div class="grid gap-5 row-gap-10 lg:grid-cols-2">
+      <div className="container py-16 mx-auto px-10 lg:px-0 lg:py-20">
+        <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
           <div>
             <img
-              class="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+              className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
               src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
               alt=""
             />
           </div>
 
-          <div class="flex flex-col justify-center">
-            <div class="max-w-xl mb-6">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+          <div className="flex flex-col justify-center">
+            <div className="max-w-xl mb-6">
+              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                 Web development
               </h2>
-              <p class="text-base text-gray-700 md:text-lg">
+              <p className="text-base text-gray-700 md:text-lg">
                 Reliable, professional and search engine friendly web solutions
                 are a need of the today’s web. We build on strong methodologies
                 from define design phase to development and deployment. We build
@@ -363,15 +363,15 @@ export default function Services() {
                 target.
               </p>
             </div>
-            <p class="mb-4 text-sm font-bold tracking-widest uppercase">
+            <p className="mb-4 text-sm font-bold tracking-widest uppercase">
               Features
             </p>
-            <div class="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+            <div className="grid space-y-3 sm:gap-2 sm:grid-cols-2 sm:space-y-0">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -386,10 +386,10 @@ export default function Services() {
                   </span>
                   CMS and Blog Website Services
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -405,11 +405,11 @@ export default function Services() {
                   WooCommerce Development
                 </li>
               </ul>
-              <ul class="space-y-3">
-                <li class="flex">
-                  <span class="mr-1">
+              <ul className="space-y-3">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >
@@ -424,10 +424,10 @@ export default function Services() {
                   </span>
                   Website Maintenance
                 </li>
-                <li class="flex">
-                  <span class="mr-1">
+                <li className="flex">
+                  <span className="mr-1">
                     <svg
-                      class="w-5 h-5 mt-px text-deep-purple-accent-400"
+                      className="w-5 h-5 mt-px text-deep-purple-accent-400"
                       stroke="currentColor"
                       viewBox="0 0 52 52"
                     >

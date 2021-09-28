@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 export default function Menu() {
   const [toggle, SetToggle] = useState(false);
+  const router = useRouter();
   return (
     <>
       <div className="flex items-center h-24 border-b-2 border-gray-100">
@@ -19,32 +21,42 @@ export default function Menu() {
           </Link>
 
           <div className="hidden lg:block">
-            <ul className="flex flex-col items-center text-lg font-normal tracking-wider text-gray-700 lg:bg-white lg:flex-row font-fira">
-              <li>
+            <ul className="flex flex-col items-center text-lg  tracking-wider font-semibold uppercase text-gray-700 lg:bg-white lg:flex-row font-fira">
+              <li className={router.pathname == '/' ? 'text-blue-700' : ''}>
                 <Link href="/">
-                  <a className="ml-16 hover:text-blue-700">Home</a>
+                  <a className="ml-16  hover:text-blue-700">Home</a>
                 </Link>
               </li>
 
-              <li>
+              <li
+                className={
+                  router.pathname == '/services' ? 'text-blue-700' : ''
+                }
+              >
                 <Link href="/services">
-                  <a className="ml-16 hover:text-blue-700">Services</a>
+                  <a className="ml-16   hover:text-blue-700">Services</a>
                 </Link>
               </li>
-              <li>
+              <li
+                className={
+                  router.pathname == '/portfolio' ? 'text-blue-700' : ''
+                }
+              >
                 <Link href="/portfolio">
-                  <a className="ml-16 hover:text-blue-700">Sucess Stories</a>
+                  <a className="ml-16  hover:text-blue-700">Sucess Stories</a>
                 </Link>
               </li>
 
-              <li>
+              <li
+                className={router.pathname == '/company' ? 'text-blue-700' : ''}
+              >
                 <Link href="/company">
-                  <a className="ml-16 hover:text-blue-700">Company</a>
+                  <a className="ml-16  hover:text-blue-700">Company</a>
                 </Link>
               </li>
               <li>
                 <Link href="/contact" className="">
-                  <a className="p-4 ml-16 text-white rounded-full pl-7 pr-7 hover:text-blue-700 bg-gradient-to-l from-blue-300 to-blue-500">
+                  <a className="p-4 ml-16  text-white rounded-full pl-7 pr-7 hover:text-blue-700 bg-gradient-to-l from-blue-300 to-blue-500">
                     Contact Us
                   </a>
                 </Link>

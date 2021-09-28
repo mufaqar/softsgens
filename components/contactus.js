@@ -10,10 +10,10 @@ export default function ContactUs() {
               width="100%"
               height="100%"
               className="absolute inset-0 grayscale"
-              frameborder="0"
+              frameBorder="0"
               title="map"
-              marginheight="0"
-              marginwidth="0"
+              marginHeight="0"
+              marginWidth="0"
               scrolling="no"
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13608.098878321893!2d74.25313499999999!3d31.496004350000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1632295719756!5m2!1sen!2s"
             ></iframe>
@@ -23,17 +23,14 @@ export default function ContactUs() {
                   ADDRESS
                 </h2>
                 <p className="mt-1">
-                  Photo booth tattooed prism, portland taiyaki hoodie neutra
-                  typewriter
+                  Suit 134 B AHS Lahore , Punjab , Pakistan
                 </p>
               </div>
               <div className="px-6 mt-4 lg:w-1/2 lg:mt-0">
                 <h2 className="text-xs font-semibold tracking-widest text-white title-font">
                   EMAIL
                 </h2>
-                <a className="leading-relaxed text-gray-200">
-                  example@email.com
-                </a>
+                <a className="leading-relaxed text-gray-200">hi@softgens.com</a>
                 <h2 className="mt-4 text-xs font-semibold tracking-widest text-white title-font">
                   PHONE
                 </h2>
@@ -49,7 +46,7 @@ export default function ContactUs() {
               Post-ironic portland shabby chic echo park, banjo fashion axe
             </p>
             <div className="relative mb-4">
-              <label for="name" className="text-sm leading-7 text-gray-600">
+              <label htmlFor="name" className="text-sm leading-7 text-gray-600">
                 Name
               </label>
               <input
@@ -60,7 +57,10 @@ export default function ContactUs() {
               />
             </div>
             <div className="relative mb-4">
-              <label for="email" className="text-sm leading-7 text-gray-600">
+              <label
+                htmlFor="email"
+                className="text-sm leading-7 text-gray-600"
+              >
                 Email
               </label>
               <input
@@ -71,7 +71,10 @@ export default function ContactUs() {
               />
             </div>
             <div className="relative mb-4">
-              <label for="message" className="text-sm leading-7 text-gray-600">
+              <label
+                htmlFor="message"
+                className="text-sm leading-7 text-gray-600"
+              >
                 Message
               </label>
               <textarea
