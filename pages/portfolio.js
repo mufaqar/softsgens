@@ -3,6 +3,7 @@ import Menu from '../components/menu';
 import Link from 'next/link';
 import Footer from '../components/footer';
 import ContactUs from '../components/contactus';
+import Image from 'next/image';
 
 export default function Portfolio() {
   return (
@@ -23,7 +24,7 @@ export default function Portfolio() {
               Real results, delivered.
             </p>
           </div>
-          <img
+          <Image
             alt="moto"
             src="/images/heroimg.png"
             className="absolute right-0 "
@@ -54,7 +55,7 @@ export default function Portfolio() {
         <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
           <a href="/" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-              <img
+              <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
                 src="/images/portfolio.jpeg"
                 alt=""
@@ -75,7 +76,7 @@ export default function Portfolio() {
           </a>
           <a href="/" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-              <img
+              <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
                 src="/images/portfolio.jpeg"
                 alt=""
@@ -96,7 +97,7 @@ export default function Portfolio() {
           </a>
           <a href="/" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-              <img
+              <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
                 src="/images/portfolio.jpeg"
                 alt=""
@@ -118,7 +119,7 @@ export default function Portfolio() {
           </a>
           <a href="/" aria-label="View Item">
             <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-              <img
+              <Image
                 className="object-cover w-full h-56 md:h-64 xl:h-80"
                 src="/images/portfolio.jpeg"
                 alt=""
