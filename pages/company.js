@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Menu from '../components/menu';
 import Hero from '../components/hero';
 import Footer from '../components/footer';
-import ContactUs from '../components/contactus';
+import Image from 'next/image';
 
 export default function Company() {
   return (
@@ -14,12 +14,12 @@ export default function Company() {
       <Menu />
       <Hero />
 
-      <div class="container mx-auto">
-        <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
+      <div className="container mx-auto">
+        <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:text-center">
           Our Story
         </h2>
 
-        <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
+        <p className="mb-5 text-base text-gray-700 md:text-lg md:text-center">
           SoftGens is a full-service web company dedicated to providing the
           highest quality design, development and online marketing services to
           our clients. Our company is built on the fact that we are a quality
@@ -27,7 +27,7 @@ export default function Company() {
           projects that we fully believe in—projects that meet our needs and
           criteria, and where we are confident we will meet yours.
         </p>
-        <p class="mb-5 text-base text-gray-700 md:text-lg md:text-center">
+        <p className="mb-5 text-base text-gray-700 md:text-lg md:text-center">
           As a full-service web company, everything is designed, developed and
           marketed by our in-house teams. Founded in 2011 and located in Lahore,
           Pakisan, we began as a web design company but quickly came to
@@ -85,14 +85,14 @@ export default function Company() {
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <line
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         x1="12"
                         y1="2"
                         x2="12"
@@ -100,7 +100,7 @@ export default function Company() {
                       ></line>
                       <polyline
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         points="19,15 12,22 5,15"
                       ></polyline>
                     </svg>
@@ -128,14 +128,14 @@ export default function Company() {
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <line
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         x1="12"
                         y1="2"
                         x2="12"
@@ -143,7 +143,7 @@ export default function Company() {
                       ></line>
                       <polyline
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         points="19,15 12,22 5,15"
                       ></polyline>
                     </svg>
@@ -173,14 +173,14 @@ export default function Company() {
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <line
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         x1="12"
                         y1="2"
                         x2="12"
@@ -188,7 +188,7 @@ export default function Company() {
                       ></line>
                       <polyline
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         points="19,15 12,22 5,15"
                       ></polyline>
                     </svg>
@@ -221,14 +221,14 @@ export default function Company() {
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <line
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         x1="12"
                         y1="2"
                         x2="12"
@@ -236,7 +236,7 @@ export default function Company() {
                       ></line>
                       <polyline
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         points="19,15 12,22 5,15"
                       ></polyline>
                     </svg>
@@ -265,14 +265,14 @@ export default function Company() {
                     <svg
                       className="w-4 text-gray-600"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       viewBox="0 0 24 24"
                     >
                       <line
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         x1="12"
                         y1="2"
                         x2="12"
@@ -280,7 +280,7 @@ export default function Company() {
                       ></line>
                       <polyline
                         fill="none"
-                        stroke-miterlimit="10"
+                        strokeMiterlimit="10"
                         points="19,15 12,22 5,15"
                       ></polyline>
                     </svg>
@@ -306,33 +306,33 @@ export default function Company() {
             <div className="flex">
               <div className="flex flex-col items-center mr-4">
                 <div>
-                  <div class="flex items-center justify-center w-10 h-10 border rounded-full">
+                  <div className="flex items-center justify-center w-10 h-10 border rounded-full">
                     <svg
-                      class="w-6 text-gray-600"
+                      className="w-6 text-gray-600"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <polyline
                         fill="none"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="10"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeMiterlimit="10"
                         points="6,12 10,16 18,8"
                       ></polyline>
                     </svg>
                   </div>
                 </div>
               </div>
-              <div class="pt-1">
-                <p class="mb-2 text-lg font-bold">Success</p>
-                <p class="text-gray-700"></p>
+              <div className="pt-1">
+                <p className="mb-2 text-lg font-bold">Success</p>
+                <p className="text-gray-700"></p>
               </div>
             </div>
           </div>
-          <div class="relative">
-            <img
-              class="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
+          <div className="relative">
+            <Image
+              className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
               src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />

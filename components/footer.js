@@ -37,7 +37,7 @@ export default function Footer() {
                 <p className="text-lg text-gray-700 font-fira">
                   A one-stop shop for businesses big and small. From building,
                   to designing, to analyzing and improving, we are always ready
-                  to make your company's website smarter.
+                  to make your company website smarter.
                 </p>
               </div>
             </div>
@@ -113,7 +113,7 @@ export default function Footer() {
                 </a>
               </div>
               <p className="mt-4 text-lg text-gray-700 font-fira">
-                I'd Love To Hear About Your Project
+                We Love To Hear About Your Project
               </p>
             </div>
           </div>
