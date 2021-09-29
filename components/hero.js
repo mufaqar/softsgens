@@ -13,7 +13,7 @@ export default function Hero() {
             <p className="p-2 mt-4 text-lg text-gray-700 font-fira lg:pr-20 ">
               We are a one-stop shop for businesses big and small. From
               building, to designing, to analyzing and improving, we are always
-              ready to make your company's website smarter.
+              ready to make your company website smarter.
             </p>
             <div className="flex p-2 mt-6 lg:p-0">
               <Link href="/contact">
