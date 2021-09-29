@@ -4,12 +4,14 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <>
-      <div className="bg-hero">
+      <div className="bg-hero relative overflow-hidden">
         <div className="container flex  items-center justify-between px-4 lg:px-0 py-44  mx-auto flex-col-reverse lg:flex-row static overflow-hidden">
+          <div className=" bg-gradient-to-l from-blue-300 to-blue-500 w-[250px] h-[250px] rounded-full absolute -top-20 -left-20 opacity-50"></div>
           <div className="w-full mt-10 lg:w-1/2 lg:mr-0">
             <h2 className="p-2 text-4xl font-extrabold leading-tight text-gray-900 lg:text-5xl font-fira">
               Web. Design. Mobile. (And everything in between.)
             </h2>
+
             <p className="p-2 mt-4 text-lg text-gray-700 font-fira lg:pr-20 ">
               We are a one-stop shop for businesses big and small. From
               building, to designing, to analyzing and improving, we are always
