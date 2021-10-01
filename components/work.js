@@ -3,30 +3,27 @@ function Work() {
   return (
     <>
       <div className="bg-blue-500">
-        <div
-          className="min-h-screen flex items-center max-w-screen-xl p-4 
-       dark:bg-gray-800 mx-auto px-4 sm:px-6 lg:px-8 relative py-26 pb-20 pt-16 lg:pt-0"
-        >
+        <div className="relative flex items-center max-w-screen-xl min-h-screen p-4 px-4 mx-auto dark:bg-gray-800 sm:px-6 lg:px-8 lg:pt-12">
           <div className="relative">
-            <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-              <div className="lg:col-start-2 lg:max-w-2xl ml-auto lg:pl-20 lg:pr-20">
-                <p className="text-base leading-6 text-gray-200 font-semibold uppercase">
+            <div className="flex flex-col lg:flex-row">
+              <div className="pt-10 ml-auto lg:pt-48 lg:col-start-2 lg:max-w-2xl lg:pl-10 lg:pr-32">
+                <p className="text-base font-semibold leading-6 text-gray-200 uppercase">
                   Success Stories
                 </p>
-                <h4 className="mt-2 text-2xl font-fira leading-8 font-extrabold text-white dark:text-white sm:text-3xl sm:leading-9">
+                <h4 className="mt-2 text-2xl font-extrabold leading-8 text-white font-fira dark:text-white sm:text-3xl sm:leading-9">
                   Our Work
                 </h4>
-                <p className="mt-4 leading-6  dark:text-gray-300 text-lg text-white font-fira">
+                <p className="mt-4 text-lg leading-6 text-white dark:text-gray-300 font-fira">
                   Build a simply and powered collaborative space for all your
                   team. Track, share, measure, you have a fully control,
                   it&#x27;s never be simply and efficient.
                 </p>
-                <ul className="mt-8 md:grid md:grid-cols-2 gap-6">
+                <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full bg-green-100 text-green-800 dark:text-green-500 drark:bg-transparent">
+                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
                         <svg
-                          className="h-4 w-4"
+                          className="w-4 h-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -37,16 +34,16 @@ function Work() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-black dark:text-gray-200">
+                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200">
                         Live modifications
                       </span>
                     </div>
                   </li>
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full bg-green-100 text-green-800 dark:text-green-500 drark:bg-transparent">
+                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
                         <svg
-                          className="h-4 w-4"
+                          className="w-4 h-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -57,16 +54,16 @@ function Work() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-black dark:text-gray-200">
+                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200">
                         Data tracker
                       </span>
                     </div>
                   </li>
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full bg-green-100 text-green-800 dark:text-green-500 drark:bg-transparent">
+                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
                         <svg
-                          className="h-4 w-4"
+                          className="w-4 h-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -77,16 +74,16 @@ function Work() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-black dark:text-gray-200">
+                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200">
                         24/24 support
                       </span>
                     </div>
                   </li>
                   <li className="mt-6 lg:mt-0">
                     <div className="flex">
-                      <span className="flex-shrink-0 flex items-center justify-center h-6 w-6 rounded-full bg-green-100 text-green-800 dark:text-green-500 drark:bg-transparent">
+                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
                         <svg
-                          className="h-4 w-4"
+                          className="w-4 h-4"
                           viewBox="0 0 20 20"
                           fill="currentColor"
                         >
@@ -97,45 +94,48 @@ function Work() {
                           ></path>
                         </svg>
                       </span>
-                      <span className="ml-4 text-base leading-6 font-medium text-black dark:text-gray-200 whitespace-nowrap">
+                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200 whitespace-nowrap">
                         Free tips to improve work time
                       </span>
                     </div>
                   </li>
                 </ul>
               </div>
-              <div className="mt-10 lg:-mx-4 relative relative-20 lg:mt-0 lg:col-start-1">
+              <div className="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                 <div className="relative space-y-4">
-                  <div className="flex items-center justify-start flex-col lg:flex-row lg:justify-start lg:space-x-4 lg:mt-16">
+                  <div className="flex flex-col items-center justify-start lg:flex-row lg:justify-start lg:space-x-4 ">
                     {/* 1 */}
 
-                    <div className="pt-0 mb-3 lg:pt-32 ">
-                      <div className="overflow-hidden shadow-lg rounded-lg h-90 w-full lg:w-72 md:w-80 cursor-pointer m-auto">
-                        <a href="#" className="w-full block h-full">
+                    <div className="pt-0 mb-3 lg:pt-20 ">
+                      <div className="relative w-full m-auto rounded-lg shadow-lg cursor-pointer h-90 lg:w-72 md:w-80">
+                        <a href="#" className="block w-full h-full">
                           <Image
                             alt="blog photo"
                             src="/images/testimonail.jpeg"
-                            className="max-h-40 w-full object-cover"
+                            className="object-cover w-full rounded-t-lg max-h-40"
                             width="400"
-                            height="350"
+                            height="300"
                           />
-                          <div className="bg-white dark:bg-gray-800 w-full p-4">
-                            <p className="text-indigo-500 text-md font-medium">
+                          <div className="w-full p-4 bg-white dark:bg-gray-800">
+                            <p className="font-medium text-indigo-500 text-md">
                               Article
                             </p>
-                            <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+                            <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
                               Supercharged !
                             </p>
-                            <p className="text-gray-400 dark:text-gray-300 font-light text-md">
+                            <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                               The new supercar is here, 543 cv and 140 000$.
                               This is best racing GT about 7 years on...
                             </p>
                             <div className="flex items-center mt-4">
-                              <a href="#" className="block relative">
+                              <a
+                                href="#"
+                                className="absolute block top-[-40px] right-[20px] z-20"
+                              >
                                 <Image
                                   alt="profil"
                                   src="/images/testimonail.jpeg"
-                                  className="mx-auto object-cover rounded-full h-10 w-10 "
+                                  className="object-cover w-10 h-10 mx-auto rounded-full"
                                   width="75"
                                   height="75"
                                 />
@@ -155,32 +155,35 @@ function Work() {
                     </div>
 
                     {/* 2 */}
-                    <div className="overflow-hidden shadow-lg rounded-lg h-90 w-full lg:w-72 md:w-80 cursor-pointer m-auto sm:mt-3 pl-0 ml-0">
-                      <a href="#" className="w-full block h-full">
+                    <div className="relative w-full pl-0 m-auto mt-10 ml-0 shadow-lg cursor-pointer lg:mt-0 h-90 lg:w-72 md:w-80 sm:mt-3">
+                      <a href="#" className="block w-full h-full top:20">
                         <Image
                           alt="blog photo"
                           src="/images/testimonail.jpeg"
-                          className="max-h-40 w-full object-cover"
+                          className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
-                          height="350"
+                          height="300"
                         />
-                        <div className="bg-white dark:bg-gray-800 w-full p-4">
-                          <p className="text-indigo-500 text-md font-medium">
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                          <p className="font-medium text-indigo-500 text-md">
                             Article
                           </p>
-                          <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
                             Supercharged !
                           </p>
-                          <p className="text-gray-400 dark:text-gray-300 font-light text-md">
+                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
                             is best racing GT about 7 years on...
                           </p>
                           <div className="flex items-center mt-4">
-                            <a href="#" className="block relative">
+                            <a
+                              href="#"
+                              className="absolute block top-[-30px] right-[55px] z-20"
+                            >
                               <Image
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
-                                className="mx-auto object-cover rounded-full h-10 w-10 "
+                                className="object-cover w-10 h-10 mx-auto rounded-full "
                                 width="75"
                                 height="75"
                               />
@@ -198,34 +201,130 @@ function Work() {
                       </a>
                     </div>
                   </div>
-                  <div className="flex items-end justify-center lg:justify-start space-x-4">
+                  <div className="flex flex-col items-end justify-center space-x-4 lg:flex-row lg:justify-start">
                     {/* 3 */}
-                    <div className="relative overflow-hidden shadow-lg rounded-lg h-90 w-full lg:w-72 md:w-80 cursor-pointer m-auto">
-                      <a href="#" className="w-full block h-full">
+                    <div className="relative w-full m-auto mt-10 rounded-lg shadow-lg cursor-pointer h-90 lg:w-72 md:w-80">
+                      <a href="#" className="block w-full h-full">
                         <Image
                           alt="blog photo"
                           src="/images/testimonail.jpeg"
-                          className="max-h-40 w-full object-cover"
+                          className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
-                          height="350"
+                          height="300"
                         />
-                        <div className="bg-white dark:bg-gray-800 w-full p-4">
-                          <p className="text-indigo-500 text-md font-medium">
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                          <p className="font-medium text-indigo-500 text-md">
                             Article
                           </p>
-                          <p className="text-gray-800 dark:text-white text-xl font-medium mb-2">
+                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
                             Supercharged !
                           </p>
-                          <p className="text-gray-400 dark:text-gray-300 font-light text-md">
+                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
                             is best racing GT about 7 years on...
                           </p>
                           <div className="flex items-center mt-4">
-                            <a href="#" className="block relative">
+                            <a
+                              href="#"
+                              className="absolute block top-[-40px] right-[20px] z-20"
+                            >
                               <Image
                                 alt="profil"
                                 src="/images/testimonail.jpeg"
-                                className="mx-auto object-cover rounded-full h-10 w-10"
+                                className="object-cover w-10 h-10 mx-auto rounded-full"
+                                width="75"
+                                height="75"
+                              />
+                            </a>
+                            <div className="flex flex-col justify-between ml-4 text-sm">
+                              <p className="text-gray-800 dark:text-white">
+                                Jean Jacques
+                              </p>
+                              <p className="text-gray-400 dark:text-gray-300">
+                                20 mars 2029 - 6 min read
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    {/* 4th */}
+                    <div className="relative lg:mt-[-35px] mt-16 w-full m-auto rounded-lg shadow-lg cursor-pointer h-90 lg:w-72 md:w-80">
+                      <a href="#" className="block w-full h-full">
+                        <Image
+                          alt="blog photo"
+                          src="/images/testimonail.jpeg"
+                          className="object-cover w-full rounded-t-lg max-h-40"
+                          width="400"
+                          height="300"
+                        />
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                          <p className="font-medium text-indigo-500 text-md">
+                            Article
+                          </p>
+                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                            Supercharged !
+                          </p>
+                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                            The new supercar is here, 543 cv and 140 000$. This
+                            is best racing GT about 7 years on...
+                          </p>
+                          <div className="flex items-center mt-4">
+                            <a
+                              href="#"
+                              className="absolute block top-[-40px] right-[20px] z-20"
+                            >
+                              <Image
+                                alt="profil"
+                                src="/images/testimonail.jpeg"
+                                className="object-cover w-10 h-10 mx-auto rounded-full"
+                                width="75"
+                                height="75"
+                              />
+                            </a>
+                            <div className="flex flex-col justify-between ml-4 text-sm">
+                              <p className="text-gray-800 dark:text-white">
+                                Jean Jacques
+                              </p>
+                              <p className="text-gray-400 dark:text-gray-300">
+                                20 mars 2029 - 6 min read
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    {/* 5th */}
+                    <div className="relative mt-16 lg:absolute lg:left-[-320px] lg:mb-[60px] lg:mt-0 w-full m-auto rounded-lg shadow-lg cursor-pointer h-90 lg:w-72 md:w-80">
+                      <a href="#" className="block w-full h-full">
+                        <Image
+                          alt="blog photo"
+                          src="/images/testimonail.jpeg"
+                          className="object-cover w-full rounded-t-lg max-h-40"
+                          width="400"
+                          height="300"
+                        />
+                        <div className="w-full p-4 bg-white dark:bg-gray-800">
+                          <p className="font-medium text-indigo-500 text-md">
+                            Article
+                          </p>
+                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                            Supercharged !
+                          </p>
+                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                            The new supercar is here, 543 cv and 140 000$. This
+                            is best racing GT about 7 years on...
+                          </p>
+                          <div className="flex items-center mt-4">
+                            <a
+                              href="#"
+                              className="absolute block top-[-40px] right-[20px] z-20"
+                            >
+                              <Image
+                                alt="profil"
+                                src="/images/testimonail.jpeg"
+                                className="object-cover w-10 h-10 mx-auto rounded-full"
                                 width="75"
                                 height="75"
                               />

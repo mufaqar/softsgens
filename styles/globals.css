@@ -11,7 +11,12 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+.hero-img {
+  background: url('../public/images/contact.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .fa-times {
   width: 35px;
   height: 3px;
