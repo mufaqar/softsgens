@@ -18,88 +18,6 @@ function Work() {
                   team. Track, share, measure, you have a fully control,
                   it&#x27;s never be simply and efficient.
                 </p>
-                <ul className="gap-6 mt-8 md:grid md:grid-cols-2">
-                  <li className="mt-6 lg:mt-0">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200">
-                        Live modifications
-                      </span>
-                    </div>
-                  </li>
-                  <li className="mt-6 lg:mt-0">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200">
-                        Data tracker
-                      </span>
-                    </div>
-                  </li>
-                  <li className="mt-6 lg:mt-0">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200">
-                        24/24 support
-                      </span>
-                    </div>
-                  </li>
-                  <li className="mt-6 lg:mt-0">
-                    <div className="flex">
-                      <span className="flex items-center justify-center flex-shrink-0 w-6 h-6 text-green-800 bg-green-100 rounded-full dark:text-green-500 drark:bg-transparent">
-                        <svg
-                          className="w-4 h-4"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                            clipRule="evenodd"
-                          ></path>
-                        </svg>
-                      </span>
-                      <span className="ml-4 text-base font-medium leading-6 text-black dark:text-gray-200 whitespace-nowrap">
-                        Free tips to improve work time
-                      </span>
-                    </div>
-                  </li>
-                </ul>
               </div>
               <div className="relative mt-10 lg:-mx-4 relative-20 lg:mt-0 lg:col-start-1">
                 <div className="relative space-y-4">
@@ -111,21 +29,21 @@ function Work() {
                         <a href="#" className="block w-full h-full">
                           <Image
                             alt="blog photo"
-                            src="/images/testimonail.jpeg"
+                            src="/images/work1.png"
                             className="object-cover w-full rounded-t-lg max-h-40"
                             width="400"
                             height="300"
                           />
                           <div className="w-full p-4 bg-white dark:bg-gray-800">
                             <p className="font-medium text-indigo-500 text-md">
-                              Article
+                              WordPress , PHP , MySQL
                             </p>
                             <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                              Supercharged !
+                              Teddington Legal
                             </p>
                             <p className="font-light text-gray-400 dark:text-gray-300 text-md">
-                              The new supercar is here, 543 cv and 140 000$.
-                              This is best racing GT about 7 years on...
+                              Design and Developed Website and Build with
+                              WordPress
                             </p>
                             <div className="flex items-center mt-4">
                               <a
@@ -134,7 +52,7 @@ function Work() {
                               >
                                 <Image
                                   alt="profil"
-                                  src="/images/testimonail.jpeg"
+                                  src="/images/brands/wp.png"
                                   className="object-cover w-10 h-10 mx-auto rounded-full"
                                   width="75"
                                   height="75"
@@ -142,10 +60,7 @@ function Work() {
                               </a>
                               <div className="flex flex-col justify-between ml-4 text-sm">
                                 <p className="text-gray-800 dark:text-white">
-                                  Jean Jacques
-                                </p>
-                                <p className="text-gray-400 dark:text-gray-300">
-                                  20 mars 2029 - 6 min read
+                                  Live Website
                                 </p>
                               </div>
                             </div>
@@ -159,21 +74,21 @@ function Work() {
                       <a href="#" className="block w-full h-full top:20">
                         <Image
                           alt="blog photo"
-                          src="/images/testimonail.jpeg"
+                          src="/images/work2.png"
                           className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
                           height="300"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                           <p className="font-medium text-indigo-500 text-md">
-                            Article
+                            Woocommerece , WordPress , PHP
                           </p>
                           <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                            Supercharged !
+                            mypartystore
                           </p>
                           <p className="font-light text-gray-400 dark:text-gray-300 text-md">
-                            The new supercar is here, 543 cv and 140 000$. This
-                            is best racing GT about 7 years on...
+                            An Ecomerece Store System build with WP and
+                            Woocomemrece
                           </p>
                           <div className="flex items-center mt-4">
                             <a
@@ -182,7 +97,7 @@ function Work() {
                             >
                               <Image
                                 alt="profil"
-                                src="/images/testimonail.jpeg"
+                                src="/images/brands/woo.png"
                                 className="object-cover w-10 h-10 mx-auto rounded-full "
                                 width="75"
                                 height="75"
@@ -190,10 +105,7 @@ function Work() {
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
                               <p className="text-gray-800 dark:text-white">
-                                Jean Jacques
-                              </p>
-                              <p className="text-gray-400 dark:text-gray-300">
-                                20 mars 2029 - 6 min read
+                                Live Website
                               </p>
                             </div>
                           </div>
@@ -207,17 +119,17 @@ function Work() {
                       <a href="#" className="block w-full h-full">
                         <Image
                           alt="blog photo"
-                          src="/images/testimonail.jpeg"
+                          src="/images/work3.png"
                           className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
                           height="300"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                           <p className="font-medium text-indigo-500 text-md">
-                            Article
+                            WordPress, Mysql , API
                           </p>
                           <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                            Supercharged !
+                            FREEDOMWAY TRUCKS
                           </p>
                           <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
@@ -230,7 +142,7 @@ function Work() {
                             >
                               <Image
                                 alt="profil"
-                                src="/images/testimonail.jpeg"
+                                src="/images/brands/wp.png"
                                 className="object-cover w-10 h-10 mx-auto rounded-full"
                                 width="75"
                                 height="75"
@@ -238,10 +150,7 @@ function Work() {
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
                               <p className="text-gray-800 dark:text-white">
-                                Jean Jacques
-                              </p>
-                              <p className="text-gray-400 dark:text-gray-300">
-                                20 mars 2029 - 6 min read
+                                Live Website
                               </p>
                             </div>
                           </div>
@@ -254,17 +163,17 @@ function Work() {
                       <a href="#" className="block w-full h-full">
                         <Image
                           alt="blog photo"
-                          src="/images/testimonail.jpeg"
+                          src="/images/work5.png"
                           className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
                           height="300"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                           <p className="font-medium text-indigo-500 text-md">
-                            Article
+                            WordPress , PHP
                           </p>
                           <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                            Supercharged !
+                            7 Awi
                           </p>
                           <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
@@ -277,7 +186,7 @@ function Work() {
                             >
                               <Image
                                 alt="profil"
-                                src="/images/testimonail.jpeg"
+                                src="/images/brands/wp.png"
                                 className="object-cover w-10 h-10 mx-auto rounded-full"
                                 width="75"
                                 height="75"
@@ -285,10 +194,7 @@ function Work() {
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
                               <p className="text-gray-800 dark:text-white">
-                                Jean Jacques
-                              </p>
-                              <p className="text-gray-400 dark:text-gray-300">
-                                20 mars 2029 - 6 min read
+                                Live Website
                               </p>
                             </div>
                           </div>
@@ -300,17 +206,17 @@ function Work() {
                       <a href="#" className="block w-full h-full">
                         <Image
                           alt="blog photo"
-                          src="/images/testimonail.jpeg"
+                          src="/images/work5.png"
                           className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
                           height="300"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                           <p className="font-medium text-indigo-500 text-md">
-                            Article
+                            WordPress , PHP
                           </p>
                           <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                            Supercharged !
+                            7 Awi
                           </p>
                           <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
@@ -323,7 +229,7 @@ function Work() {
                             >
                               <Image
                                 alt="profil"
-                                src="/images/testimonail.jpeg"
+                                src="/images/brands/wp.png"
                                 className="object-cover w-10 h-10 mx-auto rounded-full"
                                 width="75"
                                 height="75"

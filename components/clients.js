@@ -49,37 +49,87 @@ export default function Clients() {
         </div>
         <div className="mt-8 lg:mt-0 grid items-center justify-end w-full grid-cols-4 gap-1.5 p-3 lg:p-10 gap-y-0 item-center grid-row-3 lg:w-1/2 ">
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/wp.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/woo.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/php.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
 
           <div></div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/js.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/react.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/next.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/strapi.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div></div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/tailwindcss.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/shopify.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
           <div>
-            <Image src={brandImg} alt="" width="250" height="250" />
+            <Image
+              src="/images/brands/conentful.png"
+              alt=""
+              width="250"
+              height="250"
+            />
           </div>
         </div>
       </div>

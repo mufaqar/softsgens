@@ -87,22 +87,22 @@ export default function Footer() {
                   SOFTGENS
                 </h1>
                 <p className="hidden mt-4 text-xl font-light text-center text-white lg:text-left lg:block">
-                  Copyright © 2012-2021 Softgens Company.
+                  Copyright © 2012-2021 Softgens.
                   <br /> All rights reserved.
                 </p>
               </span>
             </div>
             <div className="mt-8 lg:mt-0">
               <p className="text-xl font-normal text-center text-white lg:text-right">
-                Lorem ipsum dolor sit amet.
+                Have a project or a question?
                 <br />
-                dolor sitLorem, ipsum.
+                We'd love to hear from you.
               </p>
               <p className="mt-6 text-xl font-semibold text-center text-white lg:text-right">
                 info@softgens.com
               </p>
               <p className="text-xl font-normal text-center text-white lg:text-right ">
-                +123 4567 7890
+                +92 302 6006280
               </p>
             </div>
           </div>

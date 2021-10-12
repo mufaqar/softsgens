@@ -90,18 +90,20 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/jay1.jpg"
                 alt=""
                 width="850"
                 height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5 ">
-              <h1 className="text-2xl font-semibold font-fira">Jhon Mack</h1>
+              <h1 className="text-2xl font-semibold font-fira">
+                Jay Johnson (UK)
+              </h1>
               <p className="text-gray-600 font-fira">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                totam suscipit quod impedit unde nisi culpa quos voluptates, ad,
-                repudiandae dolore! Mollitia doloribus.impedit unde
+                Mufaqar is a pleasure to work with. He is committed to his work.
+                He is also very patient and will tweak it until one gets the
+                desired results. I will recommend him any day.
               </p>
             </div>
           </div>
@@ -120,11 +122,13 @@ export default function SucessStories() {
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
-              <h1 className="text-2xl font-semibold font-fira">Mic B</h1>
+              <h1 className="text-2xl font-semibold font-fira">
+                Brandions GmbH ( Germany ){' '}
+              </h1>
               <p className="text-gray-600 font-fira">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                totam suscipit quod impedit unde nisi culpa quos voluptates, ad,
-                repudiandae dolore! Mollitia doloribus.
+                It was the first time we've worked with Mufaqar. He did
+                everything to our full satisfaction and was strong in
+                communicating with us. We can highly recommend working with him
               </p>
             </div>
           </div>
@@ -143,11 +147,13 @@ export default function SucessStories() {
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
-              <h1 className="text-2xl font-semibold font-fira">Riya</h1>
+              <h1 className="text-2xl font-semibold font-fira">Eva Fischer</h1>
               <p className="text-gray-600 font-fira">
-                Lorem ipsum dolor impedit unde sit amet consectetur adipisicing
-                elit. Ipsum totam suscipit quod impedit unde nisi culpa quos
-                voluptates, ad, repudiandae impedit unde
+                Thank you so much! Big help, great job, everything is working
+                now! Mufaqar really knows what to do, could explain in clear
+                marked screenshots where I can help myself in future, and he did
+                more than I had expected! I'm happy having found a wunderful
+                support for all future questions and tasks.
               </p>
             </div>
           </div>
@@ -168,9 +174,10 @@ export default function SucessStories() {
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
               <h1 className="text-2xl font-semibold font-fira">Dany</h1>
               <p className="text-gray-600 font-fira">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                totam suscipit culpa quos voluptates, ad, repudiandae dolore!
-                Mollitia doloribus.
+                Mufaqar finished the work, as he always does, successfully! He
+                needs to improve his communication throughout the job. If there
+                is confusion about something, he must ask questions to make sure
+                both people are on the same page before starting the task.
               </p>
             </div>
           </div>
@@ -189,11 +196,11 @@ export default function SucessStories() {
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
-              <h1 className="text-2xl font-semibold font-fira">Thomas</h1>
+              <h1 className="text-2xl font-semibold font-fira">breekeenan</h1>
               <p className="text-gray-600 font-fira">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                totam suscipit quod impedit unde nisi culpa quos voluptates, ad,
-                repudiandae dolore! Mollitia doloribus. impedit unde
+                I’ve used Mufaqar multiple times for different websites and they
+                are all amazing. They are professional, high end, stylish
+                websites every time.
               </p>
             </div>
           </div>
@@ -231,10 +238,10 @@ export default function SucessStories() {
               onClick={() => setclick(1)}
             >
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/jay.png"
                 alt=""
                 width="250"
-                height="180"
+                height="141"
               />
             </div>
             <div
@@ -246,10 +253,10 @@ export default function SucessStories() {
               onClick={() => setclick(2)}
             >
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/client2.png"
                 alt=""
                 width="250"
-                height="180"
+                height="141"
               />
             </div>
             <div
@@ -261,10 +268,10 @@ export default function SucessStories() {
               onClick={() => setclick(3)}
             >
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/client3.png"
                 alt=""
                 width="250"
-                height="180"
+                height="141"
               />
             </div>
             <div

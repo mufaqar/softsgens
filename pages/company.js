@@ -333,8 +333,10 @@ export default function Company() {
           <div className="relative">
             <Image
               className="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
-              src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="/images/contact.png"
               alt=""
+              width="450"
+              height="450"
             />
           </div>
         </div>
