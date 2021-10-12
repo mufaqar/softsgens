@@ -26,6 +26,9 @@ export default function ContactUs() {
               <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
                 Elementor
               </span>
+              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
+                Woo
+              </span>
             </div>
             <div className="flex mt-8">
               <input
@@ -80,12 +83,7 @@ export default function ContactUs() {
                 placeholder="How We Can Help You"
                 className="outline-none rounded bg-transparent placeholder-gray-500 border-[1px] border-gray-300 w-full px-[10px] py-[10px] mt-2"
               ></textarea>
-              <div className="flex items-center mt-3 ">
-                <input type="checkbox" name="" id="" />
-                <p className="ml-2 text-lg text-gray-500">
-                  Terms And Conditions
-                </p>
-              </div>
+
               <div className="flex justify-end">
                 <input
                   type="submit"
@@ -108,8 +106,8 @@ export default function ContactUs() {
                 </span>
               </div>
               <p className="font-medium text-gray-100 tex-left ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
-                iure modi
+                Get in touch <br /> Call or email us and we’ll organise an
+                initial chat to see if we’re a good fit.
               </p>
             </div>
 
@@ -120,8 +118,9 @@ export default function ContactUs() {
                 </span>
               </div>
               <p className="font-medium text-gray-100 tex-left ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
-                iure modi
+                Goals & Aspirations <br />
+                Why do you need a new website and what return do you expect from
+                your investment?
               </p>
             </div>
 
@@ -132,8 +131,9 @@ export default function ContactUs() {
                 </span>
               </div>
               <p className="font-medium text-gray-100 tex-left ">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia
-                iure modi
+                Agree a plan <br />
+                We can write it together, or respond to your brief – we’ll work
+                around your needs.
               </p>
             </div>
           </div>
