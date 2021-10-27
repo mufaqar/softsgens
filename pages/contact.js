@@ -3,6 +3,7 @@ import Menu from '../components/menu';
 import Link from 'next/link';
 import Footer from '../components/footer';
 import ContactUs from '../components/contactus';
+import Image from 'next/image';
 
 export default function ContactMe() {
   return (
