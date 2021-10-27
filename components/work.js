@@ -163,21 +163,21 @@ function Work() {
                       <a href="#" className="block w-full h-full">
                         <Image
                           alt="blog photo"
-                          src="/images/work5.png"
+                          src="/images/work4.png"
                           className="object-cover w-full rounded-t-lg max-h-40"
                           width="400"
                           height="300"
                         />
                         <div className="w-full p-4 bg-white dark:bg-gray-800">
                           <p className="font-medium text-indigo-500 text-md">
-                            WordPress , PHP
+                            Shopify , Ecomemrece , Payment
                           </p>
                           <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                            7 Awi
+                            Baja Store
                           </p>
                           <p className="font-light text-gray-400 dark:text-gray-300 text-md">
-                            The new supercar is here, 543 cv and 140 000$. This
-                            is best racing GT about 7 years on...
+                            An Ecomerece system with payment and shipping
+                            integration
                           </p>
                           <div className="flex items-center mt-4">
                             <a
