@@ -283,10 +283,10 @@ export default function SucessStories() {
               onClick={() => setclick(4)}
             >
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/client3.png"
                 alt=""
                 width="250"
-                height="180"
+                height="141"
               />
             </div>
             <div
@@ -298,10 +298,10 @@ export default function SucessStories() {
               onClick={() => setclick(5)}
             >
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/client3.png"
                 alt=""
                 width="250"
-                height="180"
+                height="141"
               />
             </div>
             <div
@@ -313,10 +313,10 @@ export default function SucessStories() {
               onClick={() => setclick(6)}
             >
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/client3.png"
                 alt=""
                 width="250"
-                height="180"
+                height="141"
               />
             </div>
           </div>
