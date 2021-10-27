@@ -90,7 +90,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/feedback/jay1.jpg"
+                src="/images/feedback/eino.jpg"
                 alt=""
                 width="850"
                 height="450"
@@ -115,7 +115,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/any.jpg"
                 alt=""
                 width="850"
                 height="450"
@@ -140,7 +140,7 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/freedom.jpg"
                 alt=""
                 width="850"
                 height="450"
@@ -165,14 +165,14 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/peach.jpg"
                 alt=""
                 width="850"
                 height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
-              <h1 className="text-2xl font-semibold font-fira">Dany</h1>
+              <h1 className="text-2xl font-semibold font-fira">Peachy Essay</h1>
               <p className="text-gray-600 font-fira">
                 Mufaqar finished the work, as he always does, successfully! He
                 needs to improve his communication throughout the job. If there
@@ -189,14 +189,16 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/solution.jpg"
                 alt=""
                 width="850"
                 height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
-              <h1 className="text-2xl font-semibold font-fira">breekeenan</h1>
+              <h1 className="text-2xl font-semibold font-fira">
+                Solution Founder
+              </h1>
               <p className="text-gray-600 font-fira">
                 I’ve used Mufaqar multiple times for different websites and they
                 are all amazing. They are professional, high end, stylish
@@ -212,18 +214,18 @@ export default function SucessStories() {
           >
             <div className="w-full lg:w-3/5">
               <Image
-                src="/images/placeholder.jpg"
+                src="/images/feedback/social.jpg"
                 alt=""
                 width="850"
                 height="450"
               />
             </div>
             <div className="w-full p-8 border-2 border-gray-100 lg:w-2/5">
-              <h1 className="text-2xl font-semibold font-fira">Showan</h1>
+              <h1 className="text-2xl font-semibold font-fira">Social Camel</h1>
               <p className="text-gray-600 font-fira">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                totam suscipit quod impedit culpa quos voluptates, ad,
-                repudiandae dolore! Mollitia doloribus.
+                With the Power of Art, Science and Data, We deliver Growth! Over
+                the past few years, we’ve refined our approach to be the best
+                suited social media agency.
               </p>
             </div>
           </div>
@@ -283,7 +285,7 @@ export default function SucessStories() {
               onClick={() => setclick(4)}
             >
               <Image
-                src="/images/feedback/client3.png"
+                src="/images/feedback/peach-icon.jpg"
                 alt=""
                 width="250"
                 height="141"
@@ -298,7 +300,7 @@ export default function SucessStories() {
               onClick={() => setclick(5)}
             >
               <Image
-                src="/images/feedback/client3.png"
+                src="/images/feedback/solution-icon.jpg"
                 alt=""
                 width="250"
                 height="141"
@@ -313,7 +315,7 @@ export default function SucessStories() {
               onClick={() => setclick(6)}
             >
               <Image
-                src="/images/feedback/client3.png"
+                src="/images/feedback/social-icon.jpg"
                 alt=""
                 width="250"
                 height="141"
