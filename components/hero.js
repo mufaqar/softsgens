@@ -30,7 +30,7 @@ export default function Hero() {
               </Link>
             </div>
           </div>
-          <img
+          <Image
             alt="moto"
             src="/images/heroimg.png"
             className="lg:absolute md:block right-0"

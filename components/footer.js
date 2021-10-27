@@ -96,7 +96,7 @@ export default function Footer() {
               <p className="text-xl font-normal text-center text-white lg:text-right">
                 Have a project or a question?
                 <br />
-                We'd love to hear from you.
+                We would love to hear from you.
               </p>
               <p className="mt-6 text-xl font-semibold text-center text-white lg:text-right">
                 info@softgens.com

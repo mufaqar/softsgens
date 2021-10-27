@@ -126,7 +126,7 @@ export default function SucessStories() {
                 Brandions GmbH ( Germany ){' '}
               </h1>
               <p className="text-gray-600 font-fira">
-                It was the first time we've worked with Mufaqar. He did
+                It was the first time we have worked with Mufaqar. He did
                 everything to our full satisfaction and was strong in
                 communicating with us. We can highly recommend working with him
               </p>
@@ -152,7 +152,7 @@ export default function SucessStories() {
                 Thank you so much! Big help, great job, everything is working
                 now! Mufaqar really knows what to do, could explain in clear
                 marked screenshots where I can help myself in future, and he did
-                more than I had expected! I'm happy having found a wunderful
+                more than I had expected! I am happy having found a wunderful
                 support for all future questions and tasks.
               </p>
             </div>
