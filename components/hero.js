@@ -9,7 +9,7 @@ export default function Hero() {
           <div className=" bg-gradient-to-l from-blue-300 to-blue-500 w-[250px] h-[250px] rounded-full absolute -top-20 -left-20 opacity-50"></div>
           <div className="w-full mt-10 lg:w-1/2 lg:mr-0">
             <h2 className="p-2 text-4xl font-extrabold leading-tight text-gray-900 lg:text-5xl font-fira">
-              Web. Design. Mobile. (And everything in between.)
+              A digital agency focused on web.
             </h2>
 
             <p className="p-2 mt-4 text-lg text-gray-700 font-fira lg:pr-20 ">
@@ -23,7 +23,7 @@ export default function Hero() {
                   Start A project
                 </a>
               </Link>
-              <Link href="/contact">
+              <Link href="/portfolio">
                 <a className="p-4 ml-6 text-gray-800 uppercase border-2 border-gray-800 rounded-full pl-7 pr-7 hover:bg-gradient-to-l from-blue-300 to-blue-500">
                   Portfolio
                 </a>

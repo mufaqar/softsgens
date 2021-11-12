@@ -8,14 +8,11 @@ export default function ContactUs() {
         <div className="px-8 py-10 m-6 bg-white border-2 border-gray-100 rounded-md lg:m-0">
           <form action="" className="">
             <h1 className="mx-auto mb-6 text-3xl font-bold">
-              Contact Me About
+              Tell us about your project.
             </h1>
             <div className="flex flex-wrap w-[380px]">
               <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
                 Web Development
-              </span>
-              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
-                React js
               </span>
               <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
                 Next js
@@ -24,26 +21,19 @@ export default function ContactUs() {
                 Wordpress
               </span>
               <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
-                Elementor
+                Online Store
               </span>
               <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
-                Woo
+                Branding
               </span>
             </div>
-            <div className="flex mt-8">
+            <div className="flex flex-col  mt-8">
               <input
                 type="text"
-                name="name"
+                name="your-name"
                 id=""
-                placeholder="First Name"
-                className="outline-none rounded placeholder-gray-500 bg-transparent border-[1px] border-gray-300 px-[10px] py-[10px] mr-1 w-[50%]"
-              />
-              <input
-                type="text"
-                name="name"
-                id=""
-                placeholder="Last Name"
-                className="outline-none rounded bg-transparent placeholder-gray-500 border-[1px] border-gray-300 px-[10px] py-[10px]  mr-0 w-[50%]"
+                placeholder="Your Name"
+                className="outline-none rounded placeholder-gray-500 bg-transparent border-[1px] border-gray-300 px-[10px] py-[10px] "
               />
             </div>
             <div className="flex flex-col mt-[6px]">
@@ -56,38 +46,32 @@ export default function ContactUs() {
               />
               <input
                 type="text"
-                name="name"
+                name="phone"
                 id=""
-                placeholder="(201) 555 5555"
+                placeholder="Phone Number"
                 className="outline-none rounded bg-transparent placeholder-gray-500 border-[1px] border-gray-300 w-full px-[10px] py-[10px] mt-2"
               />
               <input
                 type="text"
                 name="name"
                 id=""
-                placeholder="Company*"
+                placeholder="Company Name"
                 className="outline-none rounded bg-transparent placeholder-gray-500 border-[1px] border-gray-300 w-full px-[10px] py-[10px] mt-2"
               />
-              <input
-                type="text"
-                name="name"
-                id=""
-                placeholder="Country"
-                className="outline-none rounded bg-transparent placeholder-gray-500 border-[1px] border-gray-300 w-full px-[10px] py-[10px] mt-2"
-              />
+
               <textarea
                 name=""
                 id=""
                 cols="10"
                 rows="4"
-                placeholder="How We Can Help You"
+                placeholder="Tell us about your project (Scope, timeline, budget, etc.)"
                 className="outline-none rounded bg-transparent placeholder-gray-500 border-[1px] border-gray-300 w-full px-[10px] py-[10px] mt-2"
               ></textarea>
 
               <div className="flex justify-end">
                 <input
                   type="submit"
-                  value="SEND"
+                  value="Submit"
                   className="w-24 p-3 mt-4 font-semibold text-white bg-blue-500 rounded hover:bg-blue-400"
                 />
               </div>
