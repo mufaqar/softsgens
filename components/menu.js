@@ -59,7 +59,7 @@ export default function Menu() {
               <li>
                 <Link href="/contact" className="">
                   <a className="p-4 ml-16  text-white rounded-full pl-7 pr-7 hover:text-blue-700 bg-gradient-to-l from-blue-300 to-blue-500">
-                    Let's Talk
+                    Let{"'"}s Talk
                   </a>
                 </Link>
               </li>
@@ -103,7 +103,7 @@ export default function Menu() {
               <li className="py-10">
                 <Link href="/contact" className="">
                   <a className="mt-6 ml-16 text-2xl text-white hover:text-blue-700">
-                    Let's Talk
+                    Let{"'"}s Talk
                   </a>
                 </Link>
               </li>
