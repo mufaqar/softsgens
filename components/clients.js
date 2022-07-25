@@ -7,38 +7,38 @@ export default function Clients() {
     <>
       <div className="container flex flex-col items-center min-h-screen p-2 mx-auto lg:flex-row lg:p-0">
         <div className="w-full lg:w-1/2">
-          <h2 className="mt-8 text-4xl font-bold text-gray-800 lg:mt-0">
+          <h2 className="mt-8 sub-heading lg:mt-0">
             A Family Run-Agency
             <br /> Your Trusted Digital Partner
           </h2>
-          <p className="mt-8 mb-6 text-lg font-fira">
+          <p className="mt-8 mb-6 text-lg">
             Whatever you need, from websites, to design, to business-boosting
             solutions, we are ready to roll up our sleeves and get to work.
           </p>
           <Link href="/" className="">
-            <a className="text-base font-semibold text-blue-600 uppercase">
+            <a className="text-base font-semibold uppercase">
               See What We do
             </a>
           </Link>
-          <div className="flex justify-center mt-5 lg:justify-start">
-            <div className="flex flex-col items-center justify-center mt-4 mr-8 lg:mr-20">
-              <h3 className="text-3xl font-semibold text-blue-500 lg:text-5xl">
+          <div className="grid justify-center grid-cols-2 mt-5 md:grid-cols-3 lg:justify-start">
+            <div className="flex flex-col items-center justify-center mt-6 mr-8 lg:mr-20">
+              <h3 className="text-3xl font-semibold text-main lg:text-5xl">
                 250+
               </h3>
               <span className="items-center mt-3 text-xs font-medium text-gray-500 uppercase whitespace-nowrap">
                 Client Satisfied
               </span>
             </div>
-            <div className="flex flex-col items-center justify-center mt-4 mr-8 m lg:mr-20">
-              <h3 className="text-3xl font-semibold text-blue-500 lg:text-5xl">
+            <div className="flex flex-col items-center justify-center mt-6 mr-8 lg:mr-20">
+              <h3 className="text-3xl font-semibold text-main lg:text-5xl">
                 11
               </h3>
               <span className="items-center mt-3 text-xs font-medium text-gray-500 uppercase whitespace-nowrap">
                 years of experiance
               </span>
             </div>
-            <div className="flex flex-col items-center justify-center mt-4 mr-8 lg:mr-20">
-              <h3 className="text-3xl font-semibold text-blue-500 lg:text-5xl">
+            <div className="flex flex-col items-center justify-center mt-6 mr-8 lg:mr-20">
+              <h3 className="text-3xl font-semibold text-main lg:text-5xl">
                 600+
               </h3>
               <span className="items-center mt-3 text-xs font-medium text-gray-500 uppercase whitespace-nowrap">
