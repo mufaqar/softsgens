@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import Header from "../components/header"
 import Image from 'next/image';
-import webDev from '../public/images/w-d.webp'
-import StoryBgOne from '../public/images/StoryBgOne.svg'
+import Head from 'next/head';
 import { data } from '../data_files/portfolioData'
 import Footer from "../components/footer"
 
@@ -21,6 +20,11 @@ export default function Portfolio() {
 
   return (
     <div className='relative'>
+      <Head>
+        <title>Portfolio | SoftGens </title>
+        <meta name="description" content="Portfolio" />
+      </Head>
+
       <Header
         title="Portfolio"
         content="We are a one-stop shop for businesses big and small. From building, to designing, to analyzing and improving, we are always ready to make your company website smarter."

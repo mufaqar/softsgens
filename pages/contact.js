@@ -8,6 +8,11 @@ export default function ContactMe() {
   return (
     <>
 
+      <Head>
+        <title>Contact Us | SoftGens </title>
+        <meta name="description" content="Contact Us" />
+      </Head>
+
       <Header
         title="Contact Us"
         content="We are a one-stop shop for businesses big and small. From building, to designing, to analyzing and improving, we are always ready to make your company website smarter."
