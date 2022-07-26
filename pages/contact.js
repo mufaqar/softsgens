@@ -1,10 +1,53 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import Footer from '../components/footer';
-import Image from 'next/image';
 import Header from '../components/header'
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-hook-inview'
+import { useEffect } from 'react';
+
 
 export default function ContactMe() {
+
+  const [ref, inView] = useInView();
+    const animationOpacity = useAnimation();
+    const animation = useAnimation();
+    const formCircle = useAnimation();
+
+    useEffect(() => {
+        if(inView){
+            animation.start({
+              x: 0
+            })
+            animationOpacity.start({
+                opacity: 1,
+                scale: 1,
+                transition: {
+                    type: "spring", duration: 1, bounce: 0.3
+                }
+            })
+            formCircle.start({
+              opacity: 1,
+              scale: 1,
+              transition: {
+                  type: "spring", duration: 2, bounce: 0.3
+              }
+          })
+        }else{
+            animationOpacity.start({
+                opacity: 0,
+                scale: 0.8
+            })
+            animation.start({
+              x: "100vw"
+            })
+            formCircle.start({
+              opacity: 0,
+              scale: 0.8
+          })
+        }
+    }, [inView]);
+
+
   return (
     <>
 
@@ -22,8 +65,8 @@ export default function ContactMe() {
       />
 
       <div className="container mx-auto mt-48 mb-28">
-        <div className="flex flex-col justify-between text-black md:flex-row ">
-          <div className="flex flex-col justify-between space-y-8">
+        <div ref={ref} className="flex flex-col justify-between text-black md:flex-row ">
+          <motion.div className="flex flex-col justify-between space-y-8" animate={animationOpacity}>
             <div>
               <h1 className="text-4xl font-bold tracking-wide">Contact Us</h1>
               <p className="pt-2 text-sm text-gray-400">For all your non-existant company needs Fake Corp are <br/>here to help, do not hesitate to contact us!</p>
@@ -56,12 +99,12 @@ export default function ContactMe() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
               </a>
             </div>
-          </div>
+          </motion.div>
           <div className="relative">
-            <div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -right-28 -top-28"></div>
-            <div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -left-28 -bottom-16"></div>
-            <div className="relative z-10 p-8 text-gray-600 bg-white shadow-lg rounded-xl md:w-[560px]">
-              <form className="flex flex-col space-y-4" action="">
+            <motion.div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -right-28 -top-28" animate={animationOpacity}></motion.div>
+            <motion.div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -left-28 -bottom-16" animate={animationOpacity}></motion.div>
+            <motion.div className="relative z-10 p-8 text-gray-600 bg-white shadow-lg rounded-xl md:w-[560px]" animate={animation}>
+              <form className="flex flex-col space-y-4" action="" >
                 <div>
                   <label className="text-sm">Name</label>
                   <input type="text"
@@ -82,7 +125,7 @@ export default function ContactMe() {
                 </div>
                 <button className="self-end inline-block px-6 py-4 text-sm font-bold text-white uppercase bg-indigo-600 rounded-lg">Send Message</button>
               </form>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
