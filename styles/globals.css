@@ -184,7 +184,7 @@ footer .copyright{
   background-repeat: no-repeat;
 }
 .service-card-bg {
-  background: url('../public/images/dots.svg');
+  background: url('../public/images/dots.png');
   background-repeat: repeat;
   background-position: left top;
 }
