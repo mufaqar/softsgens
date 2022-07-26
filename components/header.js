@@ -140,7 +140,7 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
                 autoplay
                 loop
                 src={lottifyURL}
-                style={{ maxHeight: {lottifyheight}, maxWidth: {lottifyWidth} }}
+                style={{ height: {lottifyheight}, width: {lottifyWidth} }}
               >
               </Player>
             </div>

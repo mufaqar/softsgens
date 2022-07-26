@@ -24,7 +24,7 @@ export default function Portfolio() {
       <Header
         title="Portfolio"
         content="We are a one-stop shop for businesses big and small. From building, to designing, to analyzing and improving, we are always ready to make your company website smarter."
-        lottifyURL="https://assets10.lottiefiles.com/packages/lf20_bklapohq.json"
+        lottifyURL="https://assets3.lottiefiles.com/packages/lf20_eeuhulsy.json"
         lottifyWidth="1000px"
         lottifyheight="500px"
       />
@@ -33,17 +33,17 @@ export default function Portfolio() {
         {
           data.map((portfolio, index) => (
             <div className="portfolio_card" key={index} >
-              <Image className="h-64 w-full rounded-2xl object-cover object-top portfolio-image" src={portfolio.featureImg} alt=""/>
+              <Image className="object-cover object-top w-full h-64 rounded-2xl portfolio-image" src={portfolio.featureImg} alt=""/>
                 <div className="relative px-4 -mt-16">
-                  <div className="p-6 li-gradient rounded-xl shadow-xl">
+                  <div className="p-6 shadow-xl li-gradient rounded-xl">
                     <div className="flex items-baseline">
-                      <span className="inline-block bg-blue-200 text-blue-800 text-xs px-2 rounded-full uppercase">{portfolio.framework}</span>
-                      <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wider">
+                      <span className="inline-block px-2 text-xs text-blue-800 uppercase bg-blue-200 rounded-full">{portfolio.framework}</span>
+                      <div className="ml-2 text-xs font-semibold tracking-wider text-gray-600 uppercase">
                         3 camas &bull; 2 banheiros
                       </div>
                     </div>
-                    <h4 className="mt-1 font-semibold text-xl leading-tight truncate">{portfolio.siteName}</h4>
-                    <a href={portfolio.link} target="__blank" className="font-semibold text-base text-blue-500 mt-2 underline">
+                    <h4 className="mt-1 text-xl font-semibold leading-tight truncate">{portfolio.siteName}</h4>
+                    <a href={portfolio.link} target="__blank" className="mt-2 text-base font-semibold text-blue-500 underline">
                       Visit Site
                     </a>
                   </div>

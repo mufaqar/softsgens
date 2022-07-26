@@ -11,7 +11,7 @@ export default function ContactMe() {
       <Header
         title="Contact Us"
         content="We are a one-stop shop for businesses big and small. From building, to designing, to analyzing and improving, we are always ready to make your company website smarter."
-        lottifyURL="https://assets10.lottiefiles.com/packages/lf20_bklapohq.json"
+        lottifyURL="https://assets5.lottiefiles.com/private_files/lf30_o0calpsv.json"
         lottifyWidth="1000px"
         lottifyheight="500px"
       />
@@ -55,7 +55,7 @@ export default function ContactMe() {
           <div className="relative">
             <div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -right-28 -top-28"></div>
             <div className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -left-28 -bottom-16"></div>
-            <div className="relative z-10 p-8 text-gray-600 bg-white shadow-lg rounded-xl md:w-80">
+            <div className="relative z-10 p-8 text-gray-600 bg-white shadow-lg rounded-xl md:w-[560px]">
               <form className="flex flex-col space-y-4" action="">
                 <div>
                   <label className="text-sm">Name</label>

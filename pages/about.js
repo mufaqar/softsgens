@@ -11,7 +11,7 @@ function About() {
       <Header 
         title="Offering Digital Solutions to Amazing People"
         content="We are a one-stop shop for businesses big and small. From building, to designing, to analyzing and improving, we are always ready to make your company website smarter."
-        lottifyURL="https://assets10.lottiefiles.com/packages/lf20_bklapohq.json"
+        lottifyURL="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"
         lottifyWidth="1000px"
         lottifyheight="500px"
       />

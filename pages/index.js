@@ -16,9 +16,9 @@ export default function Home() {
       <Header 
         title="A digital agency focused on web"
         content="We are a one-stop shop for businesses big and small. From building, to designing, to analyzing and improving, we are always ready to make your company website smarter."
-        lottifyURL="https://assets4.lottiefiles.com/private_files/lf30_FQVNNa.json"
-        lottifyWidth="500px"
-        lottifyheight="400px"
+        lottifyURL="https://assets8.lottiefiles.com/packages/lf20_dl87KC.json"
+        lottifyWidth="400px"
+        lottifyheight="300px"
       />
       <Service/>
       <AboutUs/>
