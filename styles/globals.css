@@ -48,6 +48,24 @@
 body {
   overflow-x: hidden;   
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle, rgba(209,185,215,1) 24%, rgb(250, 210, 181) 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #5C9BF8;
+}
+
 .bg-hero {
   background: url('../public/images/bannerBg.png');
   background-position: left bottom;
