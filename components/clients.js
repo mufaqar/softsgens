@@ -1,17 +1,44 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import brandImg from '../public/images/brand.png';
+import { useEffect } from 'react';
+import { motion, useAnimation } from "framer-motion"
+import { useInView } from 'react-hook-inview'
+
 
 export default function Clients() {
+
+  const [ref, inView] = useInView();
+  const animation = useAnimation();
+  const animationLogo = useAnimation();
+
+  useEffect(() => {
+    if(inView){
+      animation.start({
+        x : 0
+      })
+      animationLogo.start({
+        x : 0
+      })
+    }
+    if(!inView){
+      animation.start({
+        x : "-100vw"
+      })
+      animationLogo.start({
+        x: "100vw"
+      })
+    }
+  }, [inView]);
+  
   return (
     <>
-      <div className="container flex flex-col items-center min-h-screen p-2 mx-auto lg:flex-row lg:p-0">
-        <div className="w-full lg:w-1/2">
+      <div ref={ref} className="container flex flex-col items-center min-h-screen p-2 mx-auto lg:flex-row lg:p-0">
+        <motion.div className="w-full lg:w-1/2" animate={animation}>
           <h2 className="mt-8 sub-heading lg:mt-0">
             A Family Run-Agency
             <br /> Your Trusted Digital Partner
           </h2>
-          <p className="mt-8 mb-6 text-lg">
+          <p className="mt-8 mb-6 text-lg" >
             Whatever you need, from websites, to design, to business-boosting
             solutions, we are ready to roll up our sleeves and get to work.
           </p>
@@ -46,8 +73,8 @@ export default function Clients() {
               </span>
             </div>
           </div>
-        </div>
-        <div className="mt-8 lg:mt-0 grid items-center justify-end w-full grid-cols-4 gap-1.5 p-3 lg:p-10 gap-y-0 item-center grid-row-3 lg:w-1/2 ">
+        </motion.div>
+        <motion.div animate={animationLogo} className="mt-8 lg:mt-0 grid items-center justify-end w-full grid-cols-4 gap-1.5 p-3 lg:p-10 gap-y-0 item-center grid-row-3 lg:w-1/2 ">
           <div>
             <Image
               src="/images/brands/wp.png"
@@ -131,7 +158,7 @@ export default function Clients() {
               height="250"
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );

@@ -1,21 +1,59 @@
 import React from 'react'
 import Image from 'next/image';
-import webDev from '../public/images/w-d.webp'
 import { data } from '../data_files/servicesData'
-
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-hook-inview' 
 
 export default function ServicesCard() {
 
+    const [ref, inView] = useInView();
+    const animation = useAnimation();
+    const animationImg = useAnimation();
+    const animationImgRight = useAnimation();
+
+    useEffect(() => {
+        if(inView){
+            animation.start({
+                opacity: 1,
+                scale: 1,
+                transition: {
+                    type: "spring", duration: 2, bounce: 0.3
+                }
+            })
+            animationImg.start({
+                x: 0
+            })
+            animationImgRight.start({
+                x: 0
+            })
+            
+        }else{
+            animation.start({
+                opacity: 0,
+                scale: 0.8
+            })
+            animationImg.start({
+                x: "-100vw"
+            })
+            animationImgRight.start({
+                x: " 100vw"
+            })
+            
+        }
+    }, [inView]);
+
+
     return (
         <div className='mt-20'>
-            <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20">
+            <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20" ref={ref}>
                 {
                     data.map((item, index) => {
                         return (
                             index % 2 === 0 ?
                                 <>
-                                    <div key={index} className="grid gap-5 row-gap-10 lg:grid-cols-2">
-                                        <div className='flex justify-end pt-12 service-card-bg'>
+                                    <div key={index} className="grid gap-5 row-gap-10 lg:grid-cols-2 " >
+                                        <motion.div className='flex justify-end pt-12 service-card-bg' animate={animationImg}>
                                             <Image
                                                 className="object-cover w-full h-56 shadow-lg rounded-2xl sm:h-96"
                                                 src={item.image}
@@ -23,9 +61,9 @@ export default function ServicesCard() {
                                                 width="560"
                                                 height="500"
                                             />
-                                        </div>
+                                        </motion.div>
 
-                                        <div className="flex flex-col justify-center pl-12">
+                                        <motion.div className="flex flex-col justify-center pl-12" animate={animation}>
                                             <div className="max-w-xl mb-6">
                                                 <h2 className="main-title">{item.title}</h2>
                                                 <p className="mt-4 text-base text-gray-700 md:text-lg">{item.description}</p>
@@ -112,14 +150,14 @@ export default function ServicesCard() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </motion.div>
                                     </div>
                                 </>
                                 :
                                 <>
                                     <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20">
                                         <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
-                                            <div className="flex flex-col justify-center">
+                                            <motion.div className="flex flex-col justify-center" animate={animation}>
                                                 <div className="max-w-xl mb-6">
                                                     <h2 className="main-title">{item.title}</h2>
                                                     <p className="mt-4 text-base text-gray-700 md:text-lg">{item.description}</p>
@@ -206,8 +244,8 @@ export default function ServicesCard() {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                            </div>
-                                            <div className='flex justify-end pt-12 service-card-bg'>
+                                            </motion.div>
+                                            <motion.div animate={animationImgRight} className='flex justify-end pt-12 service-card-bg'>
                                                 <Image
                                                     className="object-cover w-full h-56 shadow-lg rounded-2xl sm:h-96"
                                                     src={item.image}
@@ -215,7 +253,7 @@ export default function ServicesCard() {
                                                     width="560"
                                                     height="500"
                                                 />
-                                            </div>
+                                            </motion.div>
                                         </div>
                                     </div>
                                 </>

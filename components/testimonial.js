@@ -8,11 +8,44 @@ import t4 from "../public/images/testimonial/t-4.jpg";
 import t5 from "../public/images/testimonial/t-5.jpg";
 import { RiStarFill } from 'react-icons/ri';
 import { FaPlay } from 'react-icons/fa';
-
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-hook-inview'
+import { useEffect } from 'react';
 
 
 
 function Testimonial() {
+
+    const [ref, inView] = useInView();
+    const animation = useAnimation();
+    const animationOpacity = useAnimation();
+
+    useEffect(() => {
+        if(inView){
+            animation.start({
+                x: 0,
+                transition: {
+                    type: "spring", duration: 1, bounce: 0.3
+                }
+            })
+            animationOpacity.start({
+                opacity: 1,
+                scale: 1,
+                transition: {
+                    type: "spring", duration: 2, bounce: 0.3
+                }
+            })
+        }else{
+            animation.start({
+                x: "-100vw"
+            })
+            animationOpacity.start({
+                opacity: 0,
+                scale: 0.8
+            })
+        }
+    }, [inView]);
+    
     const data = [
         {
             title: "The Best Template You Got to Have it!",
@@ -68,16 +101,16 @@ function Testimonial() {
     return (
         <>
             <section className="p-4 py-20 mb-24 blue_gradient_bg rounded-[60px] shadow-xl">
-                <h6 className="text-center text-orange-400 h3">Testimonial</h6>
-                <h2 className="mt-2 text-center text-white main-title">
+                <motion.h6 className="text-center text-orange-400 h3" animate={animationOpacity}>Testimonial</motion.h6>
+                <motion.h2 className="mt-2 text-center text-white main-title" animate={animationOpacity}>
                     What They Say About Us
-                </h2>
-                <p className="max-w-2xl mx-auto mt-4 text-lg leading-7 tracking-wide text-center text-gray-400">
+                </motion.h2>
+                <motion.p animate={animationOpacity} className="max-w-2xl mx-auto mt-4 text-lg leading-7 tracking-wide text-center text-gray-400">
                     Uniquely promote adaptive quality vectors rather than stand-alone
                     e-markets. pontificate alternative architectures whereas iterate.
-                </p>
-                <div className="container grid mx-auto mt-10 md:grid-cols-2">
-                    <div className="">
+                </motion.p>
+                <div ref={ref} className="container grid mx-auto mt-10 md:grid-cols-2">
+                    <motion.div className="" animate={animation}>
                         <Image src={quote} alt="quote" width={70} height={60}></Image>
                         <h2 className="mt-6 text-2xl font-semibold text-white sub-heading">{testimonial[id].title}</h2>
                         <ul className="flex items-center mt-2 space-x-2">
@@ -90,7 +123,7 @@ function Testimonial() {
                         <p className="mt-8 text-lg leading-7 tracking-wide text-gray-400">{testimonial[id].description}</p>
                         <h3 className="mt-6 font-medium text-orange-400 h3">{testimonial[id].name}</h3>
                         <p className="mt-1 text-gray-400">{testimonial[id].designation}</p>
-                    </div>
+                    </motion.div>
                     <div className="relative ml-20">
                         <div className="flex justify-end dots-bg">
                             <figure className="relative mt-12">

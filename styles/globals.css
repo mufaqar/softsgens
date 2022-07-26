@@ -10,6 +10,7 @@
   html {
     font-family: 'Poppins', sans-serif !important;
   }
+  
 }
 
 @layer components {
@@ -44,6 +45,9 @@
 }
 
 
+body {
+  overflow-x: hidden;   
+}
 .bg-hero {
   background: url('../public/images/bannerBg.png');
   background-position: left bottom;

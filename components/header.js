@@ -3,11 +3,39 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
-
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-hook-inview'
 
 export default function Header({title, content, lottifyURL, lottifyWidth, lottifyheight}) {
+
   const [toggle, SetToggle] = useState(false);
   const router = useRouter();
+  const [ref, inView] = useInView();
+  const animation = useAnimation();
+  const animationLotti = useAnimation();
+
+  useEffect(() => {
+      if(inView){
+          animation.start({
+              x: 1
+          })
+          animationLotti.start({
+            opacity: 1,
+            transition: {
+              duration: 1
+            }
+          })
+      }else{
+          animation.start({
+              x: "-100vw"
+          })
+          animationLotti.start({
+            opacity: 0
+          })
+      }
+  }, [inView]);
+
   return (
     <>
       <header>
@@ -62,7 +90,7 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
                 <li>
                   <Link href="/contact" className="">
                     <a className="p-4 text-white rounded-full pl-7 pr-7 hover:text-blue-700 hover:underline bg-gradient-to-l from-blue-300 to-blue-500">
-                      Let{"'"}s Talk
+                      Let&apos;s Talk
                     </a>
                   </Link>
                 </li>
@@ -113,16 +141,16 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
               </ul>
             </div>
           </div>
-        </div>
-        <main className='main bg-gradient'>
+        </div> 
+        <main className='main bg-gradient' ref={ref}>
           <div className='container flex flex-col items-center justify-between mx-auto md:flex-row inner '>
-            <div className='lg:w-1/2'>
+            <motion.div className='lg:w-1/2' animate={animation} >
               <div className="pl-2 mt-10 lg:mr-0">
                 <h2 className="p-2 leading-[70px] main-heading">{title}<span className='text-blue-500'>!</span></h2>
                 <p className="p-1 main-text">{content}</p>
-                <div className="flex p-2 mt-6 lg:p-0">
+                <motion.div className="flex p-2 mt-6 lg:p-0" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
                   <Link href="/contact">
-                    <a className="btn-blue">
+                    <a className="btn-blue" >
                       Start A project
                     </a>
                   </Link>
@@ -131,11 +159,11 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
                       Portfolio
                     </a>
                   </Link>
-                </div>
+                </motion.div>
               </div>
-            </div>
+            </motion.div>
 
-            <div className='lg:w-1/2'>
+            <motion.div className='lg:w-1/2' animate={animationLotti}>
               <Player
                 autoplay
                 loop
@@ -143,7 +171,7 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
                 style={{ height: {lottifyheight}, width: {lottifyWidth} }}
               >
               </Player>
-            </div>
+            </motion.div>
           </div>
         </main>
 
