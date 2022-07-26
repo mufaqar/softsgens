@@ -9,12 +9,12 @@ import { FiPhone } from 'react-icons/fi';
 export default function Footer() {
   return (
     <>
-      <footer class="footer pt-20 bg-base-200 text-base-content li-gradient">
-        <div class="container mx-auto">
+      <footer className="pt-20 footer bg-base-200 text-base-content li-gradient">
+        <div className="container mx-auto">
           <div className='grid px-10 lg:space-x-20 md:grid-cols-2 lg:grid-cols-4'>
             <div className='flex flex-col'>
               <figure>
-                <Image src={logo} width={200} height={40}></Image>
+                <Image src={logo} width={200} height={40} alt="img"></Image>
               </figure>
               <p className='mt-2 main-text'>Softsgens is a team of talented agile developers who provide bespoke software development services.</p>
               <div className='flex items-center justify-between mt-4'>
@@ -32,7 +32,7 @@ export default function Footer() {
                 <li className='mt-5 font-medium cursor-pointer hover:underline'>Careers</li>
                 <li className='mt-5 font-medium cursor-pointer hover:underline'>About Us</li>
                 <li className='mt-5 font-medium cursor-pointer hover:underline'>Hire Us</li>
-                <li className='mt-5 font-medium cursor-pointer hover:underline'>Faq's</li>
+                <li className='mt-5 font-medium cursor-pointer hover:underline'>Faqs</li>
                 <li className='mt-5 font-medium cursor-pointer hover:underline'>Contact Us</li>
               </ul>
             </div>

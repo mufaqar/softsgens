@@ -16,7 +16,7 @@ export default function Service() {
         </div>
         <div className='grid mt-16 md:grid-cols-2'>
             <div className='flex justify-center ser-img'>
-                <Image src={ServicesImg}></Image>
+                <Image src={ServicesImg} alt="img"></Image>
             </div>
             <div className='grid grid-cols-2'>
                 <div className='flex flex-col items-center justify-center mt-8'>

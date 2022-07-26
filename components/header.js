@@ -106,7 +106,7 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
                 <li className="py-10">
                   <Link href="/contact" className="">
                     <a className="mt-6 text-2xl text-white hover:text-blue-700 hover:underline ">
-                      Let's Talk
+                      Let&apos;s Talk
                     </a>
                   </Link>
                 </li>
