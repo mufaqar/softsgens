@@ -24,6 +24,7 @@ function Testimonial() {
         if(inView){
             animation.start({
                 x: 0,
+                opacity: 1,
                 transition: {
                     type: "spring", duration: 1, bounce: 0.3
                 }
@@ -37,7 +38,8 @@ function Testimonial() {
             })
         }else{
             animation.start({
-                x: "-100vw"
+                x: "-3vw",
+                opacity: 0
             })
             animationOpacity.start({
                 opacity: 0,

@@ -16,7 +16,8 @@ export default function ContactMe() {
     useEffect(() => {
         if(inView){
             animation.start({
-              x: 0
+              x: 0,
+              opacity: 1
             })
             animationOpacity.start({
                 opacity: 1,
@@ -38,7 +39,8 @@ export default function ContactMe() {
                 scale: 0.8
             })
             animation.start({
-              x: "100vw"
+              x: "3vw",
+              opacity: 0
             })
             formCircle.start({
               opacity: 0,

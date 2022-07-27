@@ -18,7 +18,8 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
   useEffect(() => {
       if(inView){
           animation.start({
-              x: 1
+              x: 1,
+              opacity: 1
           })
           animationLotti.start({
             opacity: 1,
@@ -28,7 +29,8 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
           })
       }else{
           animation.start({
-              x: "-100vw"
+              x: "-3vw",
+              opacity: 0
           })
           animationLotti.start({
             opacity: 0

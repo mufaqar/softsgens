@@ -34,7 +34,8 @@ export default function Service() {
                 }
             })
             animationImg.start({
-                x: 0
+                opacity: 1,
+                scale: 1
             })
         }else{
             animation.start({
@@ -46,7 +47,8 @@ export default function Service() {
                 scale: 0.8
             })
             animationImg.start({
-                x: "-100vw"
+                opacity: 0,
+                scale: 0.8
             })
         }
     }, [inView]);

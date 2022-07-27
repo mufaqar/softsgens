@@ -16,10 +16,8 @@ function Story() {
     useEffect(() => {
         if(inView){
             animation.start({
-                x: 0,
-                transition: {
-                    type: "spring", duration: 1, bounce: 0.3
-                }
+                opacity: 1
+                
             })
             animationOpacity.start({
                 opacity: 1,
@@ -30,7 +28,7 @@ function Story() {
             })
         }else{
             animation.start({
-                x: "100vw"
+                opacity: 0
             })
             animationOpacity.start({
                 opacity: 0,

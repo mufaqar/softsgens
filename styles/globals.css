@@ -216,7 +216,20 @@ footer .copyright{
 .portfolio-image{
   border: 1px solid rgb(209, 209, 209) !important;
 }
-
+footer{
+  max-height: 675px !important;
+  overflow-y: hidden;
+}
+footer>div{
+  min-height: 760px;
+  transform: skew(0deg, 6deg);
+  border-top-left-radius: 80px;
+  border-top-right-radius: 80px;
+  margin-top: -250px;
+}
+.footer-wrapper{
+  transform: skew(0deg, -6deg) !important;
+}
 
 
 
@@ -226,6 +239,9 @@ footer .copyright{
   }
   .inner{
     padding-top:210px;
+  }
+  footer{
+    max-height: 1500px !important;
   }
 }
 
