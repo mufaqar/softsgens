@@ -222,13 +222,16 @@ footer{
 }
 footer>div{
   min-height: 760px;
-  transform: skew(0deg, 6deg);
+  transform: skew(0deg, -6deg);
   border-top-left-radius: 80px;
   border-top-right-radius: 80px;
   margin-top: -250px;
 }
 .footer-wrapper{
-  transform: skew(0deg, -6deg) !important;
+  transform: skew(0deg, 6deg) !important;
+}
+.footerlottify{
+  transform: skew(0deg, 2deg) !important;
 }
 
 
@@ -241,8 +244,13 @@ footer>div{
     padding-top:210px;
   }
   footer{
-    max-height: 1500px !important;
+    max-height: 1440px !important;
   }
+}
+
+
+@media (min-width:769px) and (max-width:1023px){
+
 }
 
 @media (min-width:1280px) {

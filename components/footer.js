@@ -5,12 +5,37 @@ import { SiMinutemailer } from "react-icons/si";
 import { HiOutlineOfficeBuilding } from "react-icons/hi";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { FiPhone } from "react-icons/fi";
+import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-hook-inview'
+
 
 export default function Footer() {
+
+  const [ref, inView] = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if(inView){
+      animation.start({
+        top: "192px",
+        transition: {
+          delay: .5, duration: .3
+        }
+      })
+    }else{
+       animation.start({
+        top: "-100%"
+       })
+    }
+  }, [inView]);
+
+
   return (
     <>
-      <footer>
-        <div className="pt-20 footer bg-base-200 text-base-content li-gradient mt-[6.3rem]">
+      <footer className="relative" ref={ref}>
+        <div className="pt-20 footer text-base-content li-gradient mt-[6.3rem] pb-12">
           <div className="container mx-auto pt-11 footer-wrapper">
             <div className="grid px-10 lg:space-x-20 md:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col">
@@ -105,12 +130,24 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer-wrapper flex justify-center py-5 mt-20 copyright">
-            <p className="font-semibold text-gray-500 text-center">
+          <div className="flex justify-center py-5 mt-20 footer-wrapper copyright">
+            <p className="font-semibold text-center text-gray-500">
               © 2022 Rights Reserved. Designed By Softsgens
             </p>
           </div>
+          
         </div>
+       
+        <motion.div className="absolute left-20 w-[300px] footerlottify -z-10" animate={animation}>
+          <Player
+            autoplay
+            loop
+            src="https://assets1.lottiefiles.com/packages/lf20_FYx0Ph.json"
+            style={{ maxHeight: "200" , width: "200" }}
+          >
+          </Player>
+        </motion.div>
+      
       </footer>
     </>
   );
