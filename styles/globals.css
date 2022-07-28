@@ -250,7 +250,14 @@ footer>div{
 
 
 @media (min-width:769px) and (max-width:1023px){
-
+  footer {
+    max-height: 910px !important;
+  }
+}
+@media (min-width:1024px) and (max-width:1230px){
+  footer {
+    max-height: 733px !important;
+  }
 }
 
 @media (min-width:1280px) {
