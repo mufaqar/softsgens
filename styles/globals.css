@@ -206,7 +206,7 @@ footer .copyright{
   background-repeat: no-repeat;
 }
 .service-card-bg {
-  background: url('../public/images/1.jpg');
+  background-image: url('../public/images/dots.png');
   /* background: #1e38a3; */
   background-repeat: repeat;
   background-position: left top;
