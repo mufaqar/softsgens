@@ -1,36 +1,34 @@
-import Link from "next/link";
-import Image from "next/image";
-import logo from "../public/images/logo.png";
-import { SiMinutemailer } from "react-icons/si";
-import { HiOutlineOfficeBuilding } from "react-icons/hi";
-import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FiPhone } from "react-icons/fi";
+import Link from 'next/link';
+import Image from 'next/image';
+import logo from '../public/images/logo.png';
+import { SiMinutemailer } from 'react-icons/si';
+import { HiOutlineOfficeBuilding } from 'react-icons/hi';
+import { MdOutlineAlternateEmail } from 'react-icons/md';
+import { FiPhone } from 'react-icons/fi';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-hook-inview'
-
+import { useInView } from 'react-hook-inview';
 
 export default function Footer() {
-
   const [ref, inView] = useInView();
   const animation = useAnimation();
 
   useEffect(() => {
-    if(inView){
+    if (inView) {
       animation.start({
-        top: "192px",
+        top: '192px',
         transition: {
-          delay: .5, duration: .3
-        }
-      })
-    }else{
-       animation.start({
-        top: "-100%"
-       })
+          delay: 0.5,
+          duration: 0.3,
+        },
+      });
+    } else {
+      animation.start({
+        top: '-100%',
+      });
     }
   }, [inView]);
-
 
   return (
     <>
@@ -93,7 +91,7 @@ export default function Footer() {
                     JavaScript
                   </li>
                   <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    Wordpress
+                    WordPress
                   </li>
                 </ul>
               </div>
@@ -102,31 +100,32 @@ export default function Footer() {
                 <h3 className="text-lg font-bold">Contact Us</h3>
                 <div className="flex mt-4">
                   <div>
-                    <HiOutlineOfficeBuilding size={"1.7rem"} />
+                    <HiOutlineOfficeBuilding size={'1.7rem'} />
                   </div>
                   <p className="ml-2">
-                    {" "}
-                    Lorem Ipsum è un testo segnaposto utilizzato nel settore ...
+                    {' '}
+                    Suit 134-B Multan Road Lahore, Pakistan
                   </p>
                 </div>
 
                 <div className="flex mt-5">
                   <div>
-                    <MdOutlineAlternateEmail size={"1.7rem"} />
+                    <MdOutlineAlternateEmail size={'1.7rem'} />
                   </div>
                   <p className="ml-2"> info@softsgens.com </p>
                 </div>
 
                 <div className="flex mt-5">
                   <div>
-                    <FiPhone size={"1.7rem"} />
+                    <FiPhone size={'1.7rem'} />
                   </div>
-                  <p className="ml-2"> +92300 0000 000 </p>
+                  <p className="ml-2"> +92 302 6006 280 </p>
                 </div>
-
-                <button className="px-8 py-3 mt-8 text-lg font-semibold text-white uppercase bg-blue-500 border-gray-200 rounded-md shadow cursor-pointer hover:bg-white hover:text-gray-800 hover:border-2">
-                  Hire Now
-                </button>
+                <div className="flex mt-5">
+                  <a  className="px-8 py-3 mt-8 text-lg font-semibold text-white uppercase bg-blue-500 border-gray-200 rounded-md shadow cursor-pointer hover:bg-white hover:text-gray-800 hover:border-2">
+                    Hire Now
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -135,19 +134,19 @@ export default function Footer() {
               © 2022 Rights Reserved. Designed By Softsgens
             </p>
           </div>
-          
         </div>
-       
-        <motion.div className="absolute left-20 w-[300px] footerlottify -z-10" animate={animation}>
+
+        <motion.div
+          className="absolute left-20 w-[300px] footerlottify -z-10"
+          animate={animation}
+        >
           <Player
             autoplay
             loop
             src="https://assets1.lottiefiles.com/packages/lf20_FYx0Ph.json"
-            style={{ maxHeight: "200" , width: "200" }}
-          >
-          </Player>
+            style={{ maxHeight: '200', width: '200' }}
+          ></Player>
         </motion.div>
-      
       </footer>
     </>
   );
