@@ -5,10 +5,15 @@ import { useRouter } from 'next/router';
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-hook-inview'
+import { useInView } from 'react-hook-inview';
 
-export default function Header({title, content, lottifyURL, lottifyWidth, lottifyheight}) {
-
+export default function Header({
+  title,
+  content,
+  lottifyURL,
+  lottifyWidth,
+  lottifyheight,
+}) {
   const [toggle, SetToggle] = useState(false);
   const router = useRouter();
   const [ref, inView] = useInView();
@@ -16,26 +21,26 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
   const animationLotti = useAnimation();
 
   useEffect(() => {
-      if(inView){
-          animation.start({
-              x: 1,
-              opacity: 1
-          })
-          animationLotti.start({
-            opacity: 1,
-            transition: {
-              duration: 1
-            }
-          })
-      }else{
-          animation.start({
-              x: "-3vw",
-              opacity: 0
-          })
-          animationLotti.start({
-            opacity: 0
-          })
-      }
+    if (inView) {
+      animation.start({
+        x: 1,
+        opacity: 1,
+      });
+      animationLotti.start({
+        opacity: 1,
+        transition: {
+          duration: 1,
+        },
+      });
+    } else {
+      animation.start({
+        x: '-3vw',
+        opacity: 0,
+      });
+      animationLotti.start({
+        opacity: 0,
+      });
+    }
   }, [inView]);
 
   return (
@@ -57,7 +62,11 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
 
             <div className="hidden lg:block">
               <ul className="flex flex-col items-center space-x-12 text-lg font-semibold tracking-wider text-gray-700 uppercase lg:flex-row">
-                <li className={router.pathname == '/' ? 'text-blue-700 underline' : ''}>
+                <li
+                  className={
+                    router.pathname == '/' ? 'text-blue-700 underline' : ''
+                  }
+                >
                   <Link href="/">
                     <a className="hover:text-blue-700 hover:underline ">Home</a>
                   </Link>
@@ -65,28 +74,40 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
 
                 <li
                   className={
-                    router.pathname == '/services' ? 'text-blue-700 underline' : ''
+                    router.pathname == '/services'
+                      ? 'text-blue-700 underline'
+                      : ''
                   }
                 >
                   <Link href="/services">
-                    <a className=" hover:text-blue-700 hover:underline">Services</a>
+                    <a className=" hover:text-blue-700 hover:underline">
+                      Services
+                    </a>
                   </Link>
                 </li>
                 <li
                   className={
-                    router.pathname == '/portfolio' ? 'text-blue-700 underline' : ''
+                    router.pathname == '/portfolio'
+                      ? 'text-blue-700 underline'
+                      : ''
                   }
                 >
                   <Link href="/portfolio">
-                    <a className=" hover:text-blue-700 hover:underline">Portfolio</a>
+                    <a className=" hover:text-blue-700 hover:underline">
+                      Portfolio
+                    </a>
                   </Link>
                 </li>
 
                 <li
-                  className={router.pathname == '/about' ? 'text-blue-700 underline' : ''}
+                  className={
+                    router.pathname == '/about' ? 'text-blue-700 underline' : ''
+                  }
                 >
                   <Link href="/about">
-                    <a className=" hover:text-blue-700 hover:underline">About</a>
+                    <a className=" hover:text-blue-700 hover:underline">
+                      About
+                    </a>
                   </Link>
                 </li>
                 <li>
@@ -106,8 +127,9 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
           </nav>
 
           <div
-            className={` ${toggle ? 'block' : 'hidden'
-              } absolute z-10 block w-full top-24 lg:hidden`}
+            className={` ${
+              toggle ? 'block' : 'hidden'
+            } absolute z-10 block w-full top-24 lg:hidden`}
           >
             <div>
               <ul className="w-full pl-10 bg-blue-400 md:pl-0">
@@ -119,9 +141,9 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
                   </Link>
                 </li>
                 <li className="pt-10">
-                  <Link href="/work">
+                  <Link href="/portfolio">
                     <a className="mt-6 text-2xl text-white hover:text-blue-700 hover:underline ">
-                      Work
+                      Portfolio
                     </a>
                   </Link>
                 </li>
@@ -143,40 +165,41 @@ export default function Header({title, content, lottifyURL, lottifyWidth, lottif
               </ul>
             </div>
           </div>
-        </div> 
-        <main className='main bg-gradient' ref={ref}>
-          <div className='container flex flex-col items-center justify-between mx-auto md:flex-row inner '>
-            <motion.div className='lg:w-1/2' animate={animation} >
+        </div>
+        <main className="main bg-gradient" ref={ref}>
+          <div className="container flex flex-col items-center justify-between mx-auto md:flex-row inner ">
+            <motion.div className="lg:w-1/2" animate={animation}>
               <div className="pl-2 mt-10 lg:mr-0">
-                <h2 className="p-2 leading-[70px] main-heading">{title}<span className='text-blue-500'>!</span></h2>
+                <h2 className="p-2 leading-[70px] main-heading">
+                  {title}
+                  <span className="text-blue-500">!</span>
+                </h2>
                 <p className="p-1 main-text">{content}</p>
-                <motion.div className="flex p-2 mt-6 lg:p-0" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+                <motion.div
+                  className="flex p-2 mt-6 lg:p-0"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                >
                   <Link href="/contact">
-                    <a className="btn-blue" >
-                      Start A project
-                    </a>
+                    <a className="btn-blue">Start A project</a>
                   </Link>
                   <Link href="/portfolio">
-                    <a className="ml-2 border-btn">
-                      Portfolio
-                    </a>
+                    <a className="ml-2 border-btn">Portfolio</a>
                   </Link>
                 </motion.div>
               </div>
             </motion.div>
 
-            <motion.div className='lg:w-1/2' animate={animationLotti}>
+            <motion.div className="lg:w-1/2" animate={animationLotti}>
               <Player
                 autoplay
                 loop
                 src={lottifyURL}
-                style={{ height: {lottifyheight}, width: {lottifyWidth} }}
-              >
-              </Player>
+                style={{ height: { lottifyheight }, width: { lottifyWidth } }}
+              ></Player>
             </motion.div>
           </div>
         </main>
-
       </header>
     </>
   );
