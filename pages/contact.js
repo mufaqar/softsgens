@@ -66,13 +66,13 @@ export default function ContactMe() {
         lottifyheight="500px"
       />
 
-      <div className="container mx-auto mt-48 mb-28">
+      <div className="container mx-auto mt-48 mb-28 ">
         <div
           ref={ref}
           className="flex flex-col justify-between text-black md:flex-row "
         >
           <motion.div
-            className="flex flex-col justify-between space-y-8"
+            className="flex flex-col justify-between space-y-8 px-4 "
             animate={animationOpacity}
           >
             <div>
@@ -208,9 +208,9 @@ export default function ContactMe() {
               </a>
             </div>
           </motion.div>
-          <div className="relative">
+          <div className="relative px-4 ">
             <motion.div
-              className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -right-28 -top-28"
+              className="absolute z-[-1] w-40 h-40 bg-indigo-400 rounded-full md:-right-28 -right-0 -top-28"
               animate={animationOpacity}
             ></motion.div>
             <motion.div
