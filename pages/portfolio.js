@@ -33,7 +33,7 @@ export default function Portfolio() {
         lottifyheight="500px"
       />
 
-      <div className='container grid p-4 mx-auto mb-20 lg:p-0 lg:grid-cols-3 gap-x-8 mt-36'>
+      <div className='container grid p-4 mx-auto mb-20 lg:p-0 lg:grid-cols-3 gap-8 mt-36'>
         {
           data.map((portfolio, index) => (
             <div className="portfolio_card" key={index} >
