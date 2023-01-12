@@ -170,7 +170,7 @@ export default function Header({
           <div className="container flex flex-col items-center justify-between mx-auto md:flex-row inner ">
             <motion.div className="lg:w-1/2" animate={animation}>
               <div className="pl-2 mt-10 lg:mr-0">
-                <h2 className="p-2 leading-[70px] main-heading">
+                <h2 className="p-2 main-heading">
                   {title}
                   <span className="text-blue-500">!</span>
                 </h2>

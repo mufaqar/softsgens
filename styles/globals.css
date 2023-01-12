@@ -21,13 +21,13 @@
     @apply p-4  text-gray-800 uppercase border-2 border-white rounded-full md:pl-7 md:pr-7 hover:border-blue-400 hover:text-white hover:bg-gradient-to-l from-blue-300 to-blue-500 text-sm md:text-base
   }
   .main-heading{
-    @apply text-5xl font-extrabold leading-[68px] text-gray-900 md:text-6xl
+    @apply text-3xl font-extrabold leading-[42px] text-gray-900 md:text-6xl md:leading-[70px]
   }
   .main-text{
     @apply mt-2 text-lg leading-8 text-gray-700
   }
   .sub-heading{
-    @apply text-4xl md:text-5xl font-bold text-gray-800 leading-10 md:leading-[60px]
+    @apply text-3xl md:text-5xl font-bold text-gray-800 leading-8 md:leading-[60px]
   }
   .main-title{
     @apply text-3xl md:text-4xl font-bold text-gray-800

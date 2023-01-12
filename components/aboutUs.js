@@ -37,7 +37,7 @@ export default function AboutUs() {
           <motion.div
             animate={animation}
             ref={ref}
-            className="py-16 pl-10 md:pr-10 lg:pr-48 lg:pl-20"
+            className="py-16 pl-4 pr-4 md:pr-10 lg:pr-48 lg:pl-20"
           >
             <h2 className="text-left main-title text-secoundry">About Us</h2>
             <h3 className="mt-4 mb-2 h3">Why SoftGens</h3>

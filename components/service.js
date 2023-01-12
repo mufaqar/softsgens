@@ -56,7 +56,7 @@ export default function Service() {
   }, [inView]);
 
   return (
-    <div className="container mx-auto mt-32" ref={ref}>
+    <div className="container mx-auto mt-32 px-4" ref={ref}>
       <motion.h1
         className="text-center main-title text-secoundry"
         animate={animation}

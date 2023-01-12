@@ -36,7 +36,7 @@ export default function Clients() {
   
   return (
     <>
-      <div ref={ref} className="container flex flex-col items-center mt-6 lg:mt-32 p-2 mx-auto lg:flex-row lg:p-0">
+      <div ref={ref} className="container flex flex-col items-center mt-6 lg:mt-32 p-4 mx-auto lg:flex-row lg:p-0">
         <motion.div className="w-full lg:w-1/2" animate={animation}>
           <h2 className="mt-8 sub-heading lg:mt-0">
             A Family Run-Agency

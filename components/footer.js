@@ -35,7 +35,7 @@ export default function Footer() {
       <footer className="relative" ref={ref}>
         <div className="pt-20 footer text-base-content li-gradient mt-[6.3rem] pb-12">
           <div className="container mx-auto pt-11 footer-wrapper">
-            <div className="grid px-10 lg:space-x-20 md:grid-cols-2 lg:grid-cols-4">
+            <div className="grid md:px-10 px-4 lg:space-x-20 md:grid-cols-2 lg:grid-cols-4">
               <div className="flex flex-col">
                 <figure>
                   <Image src={logo} width={200} height={40} alt="img"></Image>
@@ -137,7 +137,7 @@ export default function Footer() {
         </div>
 
         <motion.div
-          className="absolute left-20 w-[300px] footerlottify -z-10"
+          className="absolute left-20 max-w-[300px] footerlottify -z-10"
           animate={animation}
         >
           <Player
