@@ -46,13 +46,13 @@ export default function ServicesCard() {
 
     return (
         <div className='mt-20'>
-            <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20 overflow-hidden" ref={ref}>
+            <div className="container px-4 py-16 mx-auto lg:px-4 lg:py-20 overflow-hidden" ref={ref}>
                 {
                     data.map((item, index) => {
                         return (
                             index % 2 === 0 ?
                                 <>
-                                    <div key={index} className="grid gap-5 row-gap-10 lg:grid-cols-2 " >
+                                    <div key={index} className="grid gap-5 row-gap-10 md:grid-cols-2 " >
                                         <motion.div className='flex justify-end pt-12 service-card-bg' animate={animationImg}>
                                             <Image
                                                 className="object-cover w-full h-56 shadow-lg rounded-2xl sm:h-96"
@@ -63,7 +63,7 @@ export default function ServicesCard() {
                                             />
                                         </motion.div>
 
-                                        <motion.div className="flex flex-col justify-center pl-12" animate={animation}>
+                                        <motion.div className="flex flex-col justify-center lg:pl-12 pl-0" animate={animation}>
                                             <div className="max-w-xl mb-6">
                                                 <h2 className="main-title">{item.title}</h2>
                                                 <p className="mt-4 text-base text-gray-700 md:text-lg">{item.description}</p>
@@ -155,9 +155,9 @@ export default function ServicesCard() {
                                 </>
                                 :
                                 <>
-                                    <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20">
-                                        <div className="grid gap-5 row-gap-10 lg:grid-cols-2">
-                                            <motion.div className="flex flex-col justify-center" animate={animation}>
+                                    <div className="container py-16 mx-auto lg:py-20">
+                                        <div className="grid gap-5 row-gap-10 md:grid-cols-2">
+                                            <motion.div className="flex flex-col justify-center lg:pl-0 pl-0 lg:order-first order-last" animate={animation}>
                                                 <div className="max-w-xl mb-6">
                                                     <h2 className="main-title">{item.title}</h2>
                                                     <p className="mt-4 text-base text-gray-700 md:text-lg">{item.description}</p>
@@ -245,7 +245,7 @@ export default function ServicesCard() {
                                                     </ul>
                                                 </div>
                                             </motion.div>
-                                            <motion.div animate={animationImgRight} className='flex justify-end pt-12 service-card-bg'>
+                                            <motion.div animate={animationImgRight} className='flex justify-end pt-12 service-card-bg lg:order-last order-first'>
                                                 <Image
                                                     className="object-cover w-full h-56 shadow-lg rounded-2xl sm:h-96"
                                                     src={item.image}

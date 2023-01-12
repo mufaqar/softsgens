@@ -129,7 +129,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center py-5 mt-20 footer-wrapper copyright">
+          <div className="flex justify-center py-5 px-4 mt-20 footer-wrapper copyright">
             <p className="font-semibold text-center text-gray-500">
               © 2022 Rights Reserved. Designed By Softsgens
             </p>
