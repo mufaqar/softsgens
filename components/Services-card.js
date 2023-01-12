@@ -46,7 +46,7 @@ export default function ServicesCard() {
 
     return (
         <div className='mt-20'>
-            <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20" ref={ref}>
+            <div className="container px-10 py-16 mx-auto lg:px-0 lg:py-20 overflow-hidden" ref={ref}>
                 {
                     data.map((item, index) => {
                         return (
