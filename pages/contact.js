@@ -64,6 +64,7 @@ export default function ContactMe() {
         lottifyURL="https://assets5.lottiefiles.com/private_files/lf30_o0calpsv.json"
         lottifyWidth="1000px"
         lottifyheight="500px"
+        button={true}
       />
 
       <div className="container mx-auto mt-48 mb-28 ">

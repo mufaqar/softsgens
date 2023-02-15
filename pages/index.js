@@ -19,6 +19,7 @@ export default function Home() {
         lottifyURL="https://assets8.lottiefiles.com/packages/lf20_dl87KC.json"
         lottifyWidth="400px"
         lottifyheight="300px"
+        button={true}
       />
       <Service/>
       <AboutUs/>

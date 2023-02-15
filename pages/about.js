@@ -20,6 +20,7 @@ function About() {
         lottifyURL="https://assets3.lottiefiles.com/packages/lf20_w51pcehl.json"
         lottifyWidth="1000px"
         lottifyheight="500px"
+        button={true}
       />
 
       <Story/>

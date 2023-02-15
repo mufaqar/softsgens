@@ -18,6 +18,7 @@ export default function Services() {
         lottifyURL="https://assets10.lottiefiles.com/packages/lf20_bklapohq.json"
         lottifyWidth="1000px"
         lottifyheight="500px"
+        button={true}
       />
 
       <ServicesCard />

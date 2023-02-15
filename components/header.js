@@ -1,11 +1,11 @@
-import Link from 'next/link';
-import { useState } from 'react';
-import Image from 'next/image';
-import { useRouter } from 'next/router';
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
-import { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-hook-inview';
+import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
+import { useRouter } from "next/router";
+import { Player, Controls } from "@lottiefiles/react-lottie-player";
+import { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-hook-inview";
 
 export default function Header({
   title,
@@ -13,6 +13,7 @@ export default function Header({
   lottifyURL,
   lottifyWidth,
   lottifyheight,
+  button,
 }) {
   const [toggle, SetToggle] = useState(false);
   const router = useRouter();
@@ -34,7 +35,7 @@ export default function Header({
       });
     } else {
       animation.start({
-        x: '-3vw',
+        x: "-3vw",
         opacity: 0,
       });
       animationLotti.start({
@@ -64,7 +65,7 @@ export default function Header({
               <ul className="flex flex-col items-center space-x-12 text-lg font-semibold tracking-wider text-gray-700 uppercase lg:flex-row">
                 <li
                   className={
-                    router.pathname == '/' ? 'text-blue-700 underline' : ''
+                    router.pathname == "/" ? "text-blue-700 underline" : ""
                   }
                 >
                   <Link href="/">
@@ -74,9 +75,9 @@ export default function Header({
 
                 <li
                   className={
-                    router.pathname == '/services'
-                      ? 'text-blue-700 underline'
-                      : ''
+                    router.pathname == "/services"
+                      ? "text-blue-700 underline"
+                      : ""
                   }
                 >
                   <Link href="/services">
@@ -87,9 +88,9 @@ export default function Header({
                 </li>
                 <li
                   className={
-                    router.pathname == '/portfolio'
-                      ? 'text-blue-700 underline'
-                      : ''
+                    router.pathname == "/portfolio"
+                      ? "text-blue-700 underline"
+                      : ""
                   }
                 >
                   <Link href="/portfolio">
@@ -101,7 +102,7 @@ export default function Header({
 
                 <li
                   className={
-                    router.pathname == '/about' ? 'text-blue-700 underline' : ''
+                    router.pathname == "/about" ? "text-blue-700 underline" : ""
                   }
                 >
                   <Link href="/about">
@@ -121,14 +122,14 @@ export default function Header({
             </div>
 
             <div
-              className={`${toggle ? 'fa-bar' : 'fa-times'} sm:block lg:hidden`}
+              className={`${toggle ? "fa-bar" : "fa-times"} sm:block lg:hidden`}
               onClick={() => SetToggle(!toggle)}
             ></div>
           </nav>
 
           <div
             className={` ${
-              toggle ? 'block' : 'hidden'
+              toggle ? "block" : "hidden"
             } absolute z-10 block w-full top-24 lg:hidden`}
           >
             <div>
@@ -175,22 +176,34 @@ export default function Header({
                   <span className="text-blue-500">!</span>
                 </h2>
                 <p className="p-1 main-text">{content}</p>
-                <motion.div
-                  className="flex p-2 mt-6 lg:p-0"
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                >
-                  <Link href="/contact">
-                    <a className="btn-blue">Start A project</a>
-                  </Link>
+                {button ? (
+                  <motion.div
+                    className="flex p-2 mt-6 lg:p-0"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                  >
+                    <Link href="/contact">
+                      <a className="btn-blue">Start A project</a>
+                    </Link>
+                    <Link href="/portfolio">
+                      <a className="ml-2 border-btn">Portfolio</a>
+                    </Link>
+                  </motion.div>
+                ) : (
+                  <motion.div
+                    className="flex p-2 mt-6 lg:p-0"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                  >
                   <Link href="/portfolio">
-                    <a className="ml-2 border-btn">Portfolio</a>
-                  </Link>
-                </motion.div>
+                      <a className="btn-blue">Back to projects</a>
+                    </Link>
+                    </motion.div>
+                )}
               </div>
             </motion.div>
 
-            <motion.div className="lg:w-1/2" animate={animationLotti}>
+            <motion.div className="lg:w-1/2 md:ml-10" animate={animationLotti}>
               <Player
                 autoplay
                 loop
