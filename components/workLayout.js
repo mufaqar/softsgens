@@ -10,8 +10,6 @@ export default function WorkLayout({item}) {
                    <img
                         src={item?.featureimage?.asset.url}
                         alt={item?.title}
-                        priority="true"
-                        layout="fill"
                         className="group-hover:opacity-70 w-full h-[450px] rounded-3xl object-cover object-top"
                     />
                    </figure>
