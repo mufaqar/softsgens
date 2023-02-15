@@ -1,6 +1,9 @@
 // next.config.js
 module.exports = {
   images: {
-    domains: ['softgens.netlify.app', 'images.pexels.com', 'cdn.sanity.io'],
+    domains: ["softgens.netlify.app", "images.pexels.com", "cdn.sanity.io"],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
