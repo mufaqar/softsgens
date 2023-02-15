@@ -282,3 +282,6 @@ footer>div{
     position: relative !important;
     height: unset !important;
   }
+.longinfo ul{
+  margin: .7rem 0;
+}
