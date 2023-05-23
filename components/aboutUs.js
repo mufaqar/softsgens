@@ -52,10 +52,11 @@ export default function AboutUs() {
               solutions. Once we have your blessing, we make it all come
               together and present the finished product to you, wrapped in a bow
             </p>
-            <Link href="#">
-              <a className="text-lg font-semibold text-blue-600">
-                Why Work With Us
-              </a>
+            <Link
+              href="/contact"
+              className="text-lg font-semibold text-blue-600"
+            >
+              Why Work With Us
             </Link>
           </motion.div>
         </div>
