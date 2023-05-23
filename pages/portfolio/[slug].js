@@ -78,7 +78,7 @@ export default function SingleWork({ project }) {
 
       <section className="py-24 px-8">
         <div className="md:max-w-[1140px] mx-auto longinfo">
-          {/* <PortableText
+          <PortableText
             content={project?.content}
             serializers={{
               h1: (props) => (
@@ -100,7 +100,7 @@ export default function SingleWork({ project }) {
                 <li className="text-xl text-slate-700 font-bold">{children}</li>
               ),
             }}
-          /> */}
+          />
         </div>
       </section>
 
