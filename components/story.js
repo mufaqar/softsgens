@@ -34,7 +34,7 @@ function Story() {
         scale: 0.8,
       });
     }
-  }, [inView]);
+  }, [inView, animation, animationOpacity]);
 
   return (
     <>

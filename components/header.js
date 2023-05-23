@@ -42,7 +42,7 @@ export default function Header({
         opacity: 0,
       });
     }
-  }, [inView]);
+  }, [inView, animation, animationLotti]);
 
   return (
     <>

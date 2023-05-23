@@ -19,7 +19,7 @@ export default function AboutUs() {
         opacity: 0,
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <>

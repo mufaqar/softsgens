@@ -6,7 +6,7 @@ import { sanityClient } from '../../config/sanityClient';
 import PortableText from 'react-portable-text';
 
 export default function SingleWork({ project }) {
-  console.log('🚀 ~ file: [slug].js:7 ~ SingleWork ~ data', project);
+  //  console.log('🚀 ~ file: [slug].js:7 ~ SingleWork ~ data', project);
   return (
     <>
       <Head>
@@ -59,8 +59,6 @@ export default function SingleWork({ project }) {
               src={project?.mobile_view_image?.asset.url}
               alt=""
               className="rounded-3xl"
-              layout="fill"
-              objectFit="cover"
             />
           </div>
         </div>

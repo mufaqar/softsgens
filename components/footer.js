@@ -28,7 +28,7 @@ export default function Footer() {
         top: '-100%',
       });
     }
-  }, [inView]);
+  }, [inView, animation]);
 
   return (
     <>

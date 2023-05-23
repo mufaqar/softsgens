@@ -49,7 +49,7 @@ export default function ContactMe() {
         scale: 0.8,
       });
     }
-  }, [inView]);
+  }, [inView, animation, animationOpacity, formCircle]);
 
   return (
     <>
