@@ -15,6 +15,8 @@ export default function WorkLayout({ item }) {
               src={item?.featureimage?.asset.url}
               alt={item?.title}
               className="group-hover:opacity-70 w-full h-[450px] rounded-3xl object-cover object-top"
+              width={450}
+              height={400}
             />
           </figure>
         </Link>
@@ -25,8 +27,7 @@ export default function WorkLayout({ item }) {
                 key={idx}
                 className="bg-zinc-700/30 hover:bg-zinc-700/50 rounded-full block text-white p-2 text-base font-normal"
               >
-                {' '}
-                # {ser}{' '}
+                # {ser}
               </li>
             );
           })}
