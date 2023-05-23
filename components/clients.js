@@ -30,7 +30,7 @@ export default function Clients() {
         opacity: 0,
       });
     }
-  }, [inView]);
+  }, [inView, animation, animationLogo]);
 
   return (
     <>

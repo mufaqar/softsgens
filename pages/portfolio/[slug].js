@@ -104,7 +104,7 @@ export default function SingleWork({ project }) {
 
       <section className="py-12 px-8 relative w-[95%] mx-auto ">
         {project?.gallery.map((gal, idx) => (
-          <img
+          <Image
             src={gal?.asset.url}
             alt=""
             className="w-full mb-10 rounded-3xl"

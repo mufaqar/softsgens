@@ -53,7 +53,7 @@ export default function Service() {
         scale: 0.8,
       });
     }
-  }, [inView]);
+  }, [inView, animation, animationicon, animationImg]);
 
   return (
     <div className="container mx-auto mt-32 px-4" ref={ref}>
