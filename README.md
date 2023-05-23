@@ -1,6 +1,8 @@
-# Next.js + Tailwind SG Website
+# Softsgens
 
-This is Website for demo pursepose This this
+#softsgens.com
+
+Website for Softsgens
 
 # Status
 
