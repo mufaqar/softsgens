@@ -61,19 +61,23 @@ export default function Footer() {
                 <h3 className="text-lg font-bold">Useful Links</h3>
                 <ul className="mb-4">
                   <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    Careers
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    About Us
+                    <Link href="/contact">Hire Us </Link>
+                  </li>
+
+                  <li className="mt-5 font-medium cursor-pointer hover:underline">
+                    <Link href="/contact"> Contact Us </Link>
                   </li>
                   <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    Hire Us
-                  </li>
-                  <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    Faqs
-                  </li>
-                  <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    Contact Us
+                    <a
+                      href="https://www.linkedin.com/company/softs-generations"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Careers
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -85,7 +89,7 @@ export default function Footer() {
                     PHP
                   </li>
                   <li className="mt-5 font-medium cursor-pointer hover:underline">
-                    React
+                    ReactJs ( NextJs )
                   </li>
                   <li className="mt-5 font-medium cursor-pointer hover:underline">
                     JavaScript
@@ -103,7 +107,6 @@ export default function Footer() {
                     <HiOutlineOfficeBuilding size={'1.7rem'} />
                   </div>
                   <p className="ml-2">
-                    {' '}
                     Suit 134-B Multan Road Lahore, Pakistan
                   </p>
                 </div>
@@ -122,9 +125,12 @@ export default function Footer() {
                   <p className="ml-2"> +92 302 6006 280 </p>
                 </div>
                 <div className="flex mt-5">
-                  <a  className="px-8 py-3 mt-8 text-lg font-semibold text-white uppercase bg-blue-500 border-gray-200 rounded-md shadow cursor-pointer hover:bg-white hover:text-gray-800 hover:border-2">
+                  <Link
+                    href="/contact"
+                    className="px-8 py-3 mt-8 text-lg font-semibold text-white uppercase bg-blue-500 border-gray-200 rounded-md shadow cursor-pointer hover:bg-white hover:text-gray-800 hover:border-2"
+                  >
                     Hire Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
