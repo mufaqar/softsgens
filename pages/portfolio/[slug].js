@@ -59,6 +59,8 @@ export default function SingleWork({ project }) {
               src={project?.mobile_view_image?.asset.url}
               alt=""
               className="rounded-3xl"
+              width={1024}
+              height={1024}
             />
           </div>
         </div>
@@ -68,9 +70,9 @@ export default function SingleWork({ project }) {
         <Image
           src="/images/services.png"
           alt=""
-          layout="fill"
           className="rounded-3xl"
-          objectFit="cover"
+          width={1024}
+          height={1024}
         />
       </section>
 
@@ -109,6 +111,8 @@ export default function SingleWork({ project }) {
             alt=""
             className="w-full mb-10 rounded-3xl"
             key={idx}
+            width={490}
+            height={490}
           />
         ))}
       </section>
