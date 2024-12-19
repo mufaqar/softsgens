@@ -9,10 +9,10 @@ export default function WorkLayout({ item }) {
           'relative group bg-[#4388F6] transition cursor-pointer duration-200 rounded-3xl'
         }
       >
-        <Link href={`portfolio/${item?.slug.current}`}>
+        <Link href={`portfolio/${item?.slug}`}>
           <figure>
             <Image
-              src={item?.featureimage?.asset.url}
+              src={item?.feature}
               alt={item?.title}
               className="group-hover:opacity-70 w-full h-[450px] rounded-3xl object-cover object-top"
               width={450}
@@ -21,13 +21,13 @@ export default function WorkLayout({ item }) {
           </figure>
         </Link>
         <ul className="cat absolute md:top-10 top-4 left-5 md:flex md:space-x-4 space-x-0 md:space-y-0 space-y-4">
-          {item?.services.map((ser, idx) => {
+          {item?.features?.map((ser, idx) => {
             return (
               <li
                 key={idx}
                 className="bg-zinc-700/30 hover:bg-zinc-700/50 rounded-full block text-white p-2 text-base font-normal"
               >
-                # {ser}
+                # {ser?.name}
               </li>
             );
           })}

@@ -5,9 +5,16 @@ import Head from "next/head";
 import Footer from "../../components/footer";
 import WorkLayout from "../../components/workLayout";
 import { sanityClient } from "../../config/sanityClient";
+import { Categories } from "../../data_files/portfolioData";
 
 export default function Portfolio({ portfolio }) {
-  
+  const allWorks = Categories.flatMap((category) =>
+    category.works.map((work) => ({
+      ...work,
+      categoryId: category.id,
+      category: category.category,
+    }))
+  );
   const [overView, setOverView] = useState(false);
   const [id, setId] = useState();
 
@@ -34,7 +41,7 @@ export default function Portfolio({ portfolio }) {
 
       <section className="py-24 mt-20 px-5 container mx-auto">
         <div className="grid md:grid-cols-2 gap-8">
-          {portfolio.map((item, idx) => {
+          {allWorks.map((item, idx) => {
             return <WorkLayout item={item} key={idx} />;
           })}
         </div>
