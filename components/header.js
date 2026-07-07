@@ -52,28 +52,28 @@ export default function Header({
   return (
     <>
       <header>
-        <div className="flex items-center h-24">
+        <div className="flex items-center h-24 bg-primary">
           <nav className="container relative z-50 flex items-center justify-between px-5 mx-auto lg:px-0">
             <Link href="/" passHref className="flex-1 ">
               <Image
-                src="/images/logo.png"
+                src="/logo.png"
                 alt=""
                 className="cursor-pointer "
-                width="200"
-                height="40"
+                width="225"
+                height="59"
               />
             </Link>
 
             <div className="hidden lg:block">
-              <ul className="flex flex-col items-center space-x-12 text-lg font-semibold tracking-wider text-gray-700 uppercase lg:flex-row">
+              <ul className="flex flex-col items-center space-x-12 text-lg font-semibold tracking-wider text-white uppercase lg:flex-row">
                 <li
                   className={
-                    router.pathname == '/' ? 'text-primary underline' : ''
+                    router.pathname == '/' ? 'text-secondary underline' : ''
                   }
                 >
                   <Link
                     href="/"
-                    className="hover:text-primary hover:underline "
+                    className="hover:text-secondary hover:underline "
                   >
                     Home
                   </Link>
@@ -82,13 +82,13 @@ export default function Header({
                 <li
                   className={
                     router.pathname == '/services'
-                      ? 'text-primary underline'
+                      ? 'text-secondary underline'
                       : ''
                   }
                 >
                   <Link
                     href="/services"
-                    className=" hover:text-primary hover:underline"
+                    className="hover:text-secondary hover:underline"
                   >
                     Services
                   </Link>
@@ -96,13 +96,13 @@ export default function Header({
                 <li
                   className={
                     router.pathname == '/portfolio'
-                      ? 'text-primary underline'
+                      ? 'text-secondary underline'
                       : ''
                   }
                 >
                   <Link
                     href="/portfolio"
-                    className=" hover:text-primary hover:underline"
+                    className="hover:text-secondary hover:underline"
                   >
                     Portfolio
                   </Link>
@@ -110,12 +110,12 @@ export default function Header({
 
                 <li
                   className={
-                    router.pathname == '/about' ? 'text-primary underline' : ''
+                    router.pathname == '/about' ? 'text-secondary underline' : ''
                   }
                 >
                   <Link
                     href="/about"
-                    className=" hover:text-primary hover:underline"
+                    className="hover:text-secondary hover:underline"
                   >
                     About
                   </Link>
@@ -123,7 +123,7 @@ export default function Header({
                 <li>
                   <Link
                     href="/contact"
-                    className="p-4 text-white rounded-full pl-7 pr-7 hover:text-white bg-primary"
+                    className="p-4 text-primary rounded-full pl-7 pr-7 hover:text-primary bg-secondary"
                   >
                     Let&apos;s Talk
                   </Link>
@@ -185,21 +185,21 @@ export default function Header({
           <div className="container flex flex-col items-center justify-between mx-auto md:flex-row inner ">
             <motion.div className="lg:w-1/2" animate={animation}>
               <div className="pl-2 mt-10 lg:mr-0">
-                <h2 className="p-2 main-heading">
+                <h2 className="p-2 text-white main-heading">
                   {title}
-                  <span className="text-primary">!</span>
+                  <span className="text-secondary">!</span>
                 </h2>
-                <p className="p-1 main-text">{content}</p>
+                <p className="p-1 text-gray-300 main-text">{content}</p>
                 {button ? (
                   <motion.div
                     className="flex p-2 mt-6 lg:p-0"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                   >
-                    <Link href="/contact" className="btn-blue">
+                    <Link href="/contact" className="text-primary bg-secondary btn-blue">
                       Start A project
                     </Link>
-                    <Link href="/portfolio" className="ml-2 border-btn">
+                    <Link href="/portfolio" className="ml-2 text-white border-white hover:bg-primary hover:text-white border-btn">
                       Portfolio
                     </Link>
                   </motion.div>
@@ -209,7 +209,7 @@ export default function Header({
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                   >
-                    <Link href="/portfolio" className="btn-blue">
+                    <Link href="/portfolio" className="text-primary bg-secondary btn-blue">
                       Back to projects
                     </Link>
                   </motion.div>
