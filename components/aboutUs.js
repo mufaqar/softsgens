@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-hook-inview';
+import { RiStarFill } from 'react-icons/ri';
 
 const Player = dynamic(
   () => import('@lottiefiles/react-lottie-player').then((mod) => mod.Player),
@@ -35,7 +36,6 @@ export default function AboutUs() {
               autoplay
               loop
               src="https://assets1.lottiefiles.com/packages/lf20_teushzjj.json"
-              // style={{ height: '500px', width: '500px' }}
               className="md:w-[300px] md:h-[300px] lg:w-[500px] lg:h-[500px]"
             ></Player>
           </div>
@@ -45,24 +45,30 @@ export default function AboutUs() {
             className="py-16 pl-4 pr-4 md:pr-10 lg:pr-48 lg:pl-20"
           >
             <h2 className="text-left main-title text-primary">About Us</h2>
-            <h3 className="mt-4 mb-2 h3">Why SoftGens</h3>
+            <h3 className="mt-4 mb-2 h3">Who We Are</h3>
             <p className="main-text">
-              Whatever you need, from websites, to design, to business-boosting
-              solutions, we are ready to roll up our sleeves and get to work.
+              Softsgens is a team of passionate developers, designers, and digital strategists dedicated to building websites and applications that drive real business growth. We combine technical expertise with creative thinking to deliver solutions that stand out.
             </p>
-            <h3 className="mt-4 mb-2 h3">Our Missions</h3>
-            <p className="mb-6 main-text">
-              First, we take the time to understand your business, your goals,
-              and your challenges Then, we design a comprehensive set of
-              solutions. Once we have your blessing, we make it all come
-              together and present the finished product to you, wrapped in a bow
+            <h3 className="mt-4 mb-2 h3">What Our Clients Say</h3>
+            <div className="flex items-center space-x-1">
+              <RiStarFill color="#FB9247" />
+              <RiStarFill color="#FB9247" />
+              <RiStarFill color="#FB9247" />
+              <RiStarFill color="#FB9247" />
+              <RiStarFill color="#FB9247" />
+            </div>
+            <p className="mt-2 italic text-gray-600">
+              &ldquo;Softsgens transformed our online presence. The team was professional, responsive, and delivered beyond our expectations. Our traffic and conversions have never been better.&rdquo;
             </p>
-            <Link
-              href="/contact"
-              className="text-lg font-semibold text-primary"
-            >
-              Why Work With Us
-            </Link>
+            <p className="mt-1 text-sm font-semibold text-primary">— Sarah Mitchell, CEO of Lumos Retail</p>
+            <div className="mt-6">
+              <Link
+                href="/contact"
+                className="text-lg font-semibold text-primary"
+              >
+                Why Work With Us &rarr;
+              </Link>
+            </div>
           </motion.div>
         </div>
       </div>

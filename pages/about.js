@@ -4,7 +4,6 @@ import Story from '../components/story'
 import Testimonial from '../components/testimonial'
 import Footer from "../components/footer"
 import Head from 'next/head';
-import { Brands } from '../components/Brands'
 
 function About() {
   return (
@@ -25,7 +24,6 @@ function About() {
 
       <Story/>
       <Testimonial/>
-      <Brands/>
       <Footer/>
     </>
   )

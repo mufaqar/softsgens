@@ -3,16 +3,16 @@ import ecom from '../public/images/ecom.jpg';
 
 export const data = [
   {
-    title: 'Web Applications Development',
-    description:
-      'Reliable, professional and search engine friendly web solutions are a need of the today’s web. We build on strong methodologies from define design phase to development and deployment. We build on footprints of your unique needs. The result is a stable, adaptable, organized and user-friendly website for both you and customers.More Knocking on Your Virtual business door is our target.',
+    title: 'WordPress Services',
+    description: 'I build powerful, SEO-optimized WordPress websites, custom themes, plugins, and WooCommerce stores tailored to your business needs.',
     feature: {
-      one: 'CMS and Blog Website Services',
-      two: 'Custom/Core PHP Development',
-      Three: 'Wordpress Development',
-      Four: 'Woocomerece Online Store',
+      one: 'Custom WordPress Theme Development',
+      two: 'Plugin Development & Customization',
+      Three: 'WooCommerce Store Setup',
+      Four: 'WordPress Maintenance & SEO',
     },
     image: webDev,
+    link: '/services/wordpress-services',
   },
   {
     title: 'React & Next.js and Tailwindcss',
@@ -25,16 +25,18 @@ export const data = [
       Four: 'Auth',
     },
     image: ecom,
+    link: '/services/react-nextjs-development',
   },
   {
-    title: 'Logo & Print Media Design',
-    description: ' I build websites with passion that build brands.  ',
+    title: 'Digital Marketing & UGC Ads',
+    description: 'Scale your brand with digital marketing automation, UGC video ads, product CGI, social media reels, and creative ad strategies designed to maximize ROI.',
     feature: {
-      one: 'Logo & Brand ID Development',
-      two: 'Corporate Identity',
-      Three: 'Brochure ,      Catalog /Booklet/Magazine ,       Calendar ',
-      Four: 'Presentation Folder , Customized Packaging ,  Posters ,      Newsletters',
+      one: 'UGC & CGI Video Ads',
+      two: 'Social Media Ads & PPC',
+      three: 'Marketing Automation',
+      Four: 'Creative Ad Strategy',
     },
-    image: webDev,
+    image: ecom,
+    link: '/services/ugc-ads',
   },
 ];

@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import React from 'react';
-import StoryBgOne from '../public/images/StoryBgOne.svg';
-import StoryBgTwo from '../public/images/StoryBgTwo.svg';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-hook-inview';
-import { useEffect } from 'react';
+import Image from "next/image";
+import React from "react";
+import StoryBgOne from "../public/images/StoryBgOne.svg";
+import StoryBgTwo from "../public/images/StoryBgTwo.svg";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-hook-inview";
+import { useEffect } from "react";
 
 function Story() {
   const [ref, inView] = useInView();
@@ -20,7 +20,7 @@ function Story() {
         opacity: 1,
         scale: 1,
         transition: {
-          type: 'spring',
+          type: "spring",
           duration: 2,
           bounce: 0.3,
         },
@@ -73,7 +73,7 @@ function Story() {
               className="text-center text-yellow-500 main-heading"
               animate={animationOpacity}
             >
-              95+
+              95%
             </motion.h2>
             <motion.h6
               className="mt-2 text-center h3"
@@ -143,33 +143,23 @@ function Story() {
             Technology!
           </motion.h2>
           <p className="mt-4 text-base leading-7 tracking-wide text-gray-400">
-            Softs Generations is providing IT services to all its potential
-            clients worldwide. We have 100 potential clients that include
-            established companies, as well as start-ups. We have clients that
-            love to ask repeated orders after their first order.{' '}
+            Softsgens is a full-service digital agency specializing in custom
+            web development, WordPress solutions, and performance-driven
+            marketing. We partner with businesses of all sizes to build digital
+            experiences that deliver measurable results.
           </p>
           <p className="mt-4 text-base leading-7 tracking-wide text-gray-400">
-            We have a team of experienced developers and designers that can
-            fulfill all your Website development needs. We are proud of
-            ourselves because our clients refer us to other people because they
-            know that we are the leading solution provider and can render the
-            best and simple IT solution to your problems. With our 15-year
-            experience, we are offering quality assurance, on time delivery and
-            commitment to your projects.
-          </p>{' '}
-          <p className="mt-4 text-base leading-7 tracking-wide text-gray-400">
-            {' '}
-            We have experienced developers, analysts, database experts and
-            management staff. We believe that flexibility, commitment and
-            agility are the keys to giving creative and innovative technology to
-            the world.{' '}
+            Our team of experienced developers, designers, and strategists
+            brings together decades of combined expertise across modern
+            frameworks, CMS platforms, and digital advertising. We pride
+            ourselves on clear communication, on-time delivery, and building
+            long-term relationships with our clients.
           </p>
-          <motion.a
-            className="pt-4 shadow-lg btn-blue"
-            animate={animationOpacity}
-          >
-            Load More
-          </motion.a>
+          <p className="mt-4 text-base leading-7 tracking-wide text-gray-400">
+            Whether you need a custom WordPress site, a high-performance web
+            application, or a data-driven marketing campaign, we have the skills
+            and experience to bring your vision to life.
+          </p>
         </div>
       </section>
     </>

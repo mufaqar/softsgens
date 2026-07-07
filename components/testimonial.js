@@ -51,47 +51,47 @@ function Testimonial() {
 
   const data = [
     {
-      title: 'The Best Template You Got to Have it!',
+      title: 'Completely Transformed Our Business',
       description:
-        "Energistically streamline robust architectures whereas distributed mindshare. Intrinsicly leverage other's backend growth strategies through 24/365 products. Conveniently pursue revolutionary communities for compelling process improvements.",
-      name: 'Kathrin Richard',
-      designation: 'Web Developer',
+        'Softsgens rebuilt our entire e-commerce platform from the ground up. The team took the time to understand our unique needs and delivered a site that not only looks incredible but also performs flawlessly. Our sales have increased by 40% since launch.',
+      name: 'Sarah Mitchell',
+      designation: 'CEO, Lumos Retail',
       image: t1,
       videoURL: '',
     },
     {
-      title: 'Embarrassed by the First Version.',
+      title: 'Incredible Attention to Detail',
       description:
-        "Energistically streamline robust architectures whereas distributed mindshare. Intrinsicly leverage other's backend growth strategies through 24/365 products. Conveniently pursue revolutionary communities for compelling process improvements.",
-      name: 'Rupan Oberoi',
-      designation: 'Web Designer',
+        'Working with Softsgens was an absolute pleasure. They were responsive, professional, and deeply committed to getting every detail right. The final product exceeded our expectations, and we continue to rely on them for ongoing support.',
+      name: 'James Chen',
+      designation: 'Founder, TechFlow',
       image: t2,
       videoURL: '',
     },
     {
-      title: 'Amazing Quiety template!',
+      title: 'Our Go-To Development Partner',
       description:
-        "Energistically streamline robust architectures whereas distributed mindshare. Intrinsicly leverage other's backend growth strategies through 24/365 products. Conveniently pursue revolutionary communities for compelling process improvements.",
-      name: 'Kathrin Richard',
-      designation: 'Web Developer',
+        'We have partnered with Softsgens on multiple projects and every single time they deliver outstanding results. Their expertise in modern web technologies and their ability to translate our vision into reality is unmatched.',
+      name: 'Priya Patel',
+      designation: 'CMO, BrandSync',
       image: t3,
       videoURL: '',
     },
     {
-      title: 'The Best Template You Got to Have it!',
+      title: 'Fast, Reliable, and Talented',
       description:
-        "Energistically streamline robust architectures whereas distributed mindshare. Intrinsicly leverage other's backend growth strategies through 24/365 products. Conveniently pursue revolutionary communities for compelling process improvements.",
-      name: 'Jennifer White',
-      designation: 'Software Engineer',
+        'Deadlines were tight and requirements kept changing, but the Softsgens team handled everything with ease. They communicated clearly, adapted quickly, and delivered a polished product on time.',
+      name: 'Michael Torres',
+      designation: 'Product Manager, NexGen',
       image: t4,
       videoURL: '',
     },
     {
-      title: 'It is Undeniably Good!',
+      title: 'Best Investment We Made',
       description:
-        "Energistically streamline robust architectures whereas distributed mindshare. Intrinsicly leverage other's backend growth strategies through 24/365 products. Conveniently pursue revolutionary communities for compelling process improvements.",
-      name: 'Ami Nijai',
-      designation: 'Customer Support',
+        'Hiring Softsgens was the best decision we made for our digital presence. From the initial consultation to the final launch, every step was handled with care and expertise. Highly recommended for any business looking to level up.',
+      name: 'Aisha Khan',
+      designation: 'Director, GreenLeaf Media',
       image: t5,
       videoURL: '',
     },
@@ -123,8 +123,7 @@ function Testimonial() {
           animate={animationOpacity}
           className="max-w-2xl mx-auto mt-4 text-lg leading-7 tracking-wide text-center text-gray-400"
         >
-          Uniquely promote adaptive quality vectors rather than stand-alone
-          e-markets. pontificate alternative architectures whereas iterate.
+          Real stories from real clients who trusted us with their digital vision.
         </motion.p>
         <div ref={ref} className="container grid mx-auto mt-10 md:grid-cols-2">
           <motion.div className="" animate={animation}>
@@ -192,9 +191,9 @@ function Testimonial() {
             ></Image>
             <div>
               <h3 className="font-medium text-white whitespace-nowrap h3">
-                Hanry Luice
+                Sarah Mitchell
               </h3>
-              <p className="text-gray-400 whitespace-nowrap">Web Developer</p>
+              <p className="text-gray-400 whitespace-nowrap">CEO, Lumos Retail</p>
             </div>
           </div>
           <div
@@ -210,9 +209,9 @@ function Testimonial() {
             ></Image>
             <div>
               <h3 className="font-medium text-white h3 whitespace-nowrap">
-                Hanry Luice
+                James Chen
               </h3>
-              <p className="text-gray-400 whitespace-nowrap">Web Developer</p>
+              <p className="text-gray-400 whitespace-nowrap">Founder, TechFlow</p>
             </div>
           </div>
           <div
@@ -228,9 +227,9 @@ function Testimonial() {
             ></Image>
             <div>
               <h3 className="font-medium text-white h3 whitespace-nowrap">
-                Hanry Luice
+                Priya Patel
               </h3>
-              <p className="text-gray-400 whitespace-nowrap">Web Developer</p>
+              <p className="text-gray-400 whitespace-nowrap">CMO, BrandSync</p>
             </div>
           </div>
           <div
@@ -246,9 +245,9 @@ function Testimonial() {
             ></Image>
             <div>
               <h3 className="font-medium text-white h3 whitespace-nowrap">
-                Hanry Luice
+                Michael Torres
               </h3>
-              <p className="text-gray-400 whitespace-nowrap">Web Developer</p>
+              <p className="text-gray-400 whitespace-nowrap">PM, NexGen</p>
             </div>
           </div>
           <div
@@ -264,9 +263,9 @@ function Testimonial() {
             ></Image>
             <div>
               <h3 className="font-medium text-white h3 whitespace-nowrap">
-                Hanry Luice
+                Aisha Khan
               </h3>
-              <p className="text-gray-400 whitespace-nowrap">Web Developer</p>
+              <p className="text-gray-400 whitespace-nowrap">Director, GreenLeaf</p>
             </div>
           </div>
         </div>

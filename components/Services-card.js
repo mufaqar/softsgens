@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { data } from '../data_files/servicesData';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
@@ -73,7 +74,7 @@ export default function ServicesCard() {
                   animate={animation}
                 >
                   <div className="max-w-xl mb-6">
-                    <h2 className="main-title">{item.title}</h2>
+                    <h2 className="main-title">{item.link ? <Link href={item.link}>{item.title}</Link> : item.title}</h2>
                     <p className="mt-4 text-base text-gray-700 md:text-lg">
                       {item.description}
                     </p>
@@ -177,7 +178,7 @@ export default function ServicesCard() {
                     animate={animation}
                   >
                     <div className="max-w-xl mb-6">
-                      <h2 className="main-title">{item.title}</h2>
+                    <h2 className="main-title">{item.link ? <Link href={item.link}>{item.title}</Link> : item.title}</h2>
                       <p className="mt-4 text-base text-gray-700 md:text-lg">
                         {item.description}
                       </p>
