@@ -84,7 +84,7 @@ export default function ServicesCard() {
                       <li className="flex items-center">
                         <span className="mr-1">
                           <svg
-                            className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                            className="w-5 h-5 mt-px text-primary"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                           >
@@ -104,7 +104,7 @@ export default function ServicesCard() {
                       <li className="flex items-center">
                         <span className="mr-1">
                           <svg
-                            className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                            className="w-5 h-5 mt-px text-primary"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                           >
@@ -126,7 +126,7 @@ export default function ServicesCard() {
                       <li className="flex items-center">
                         <span className="mr-1">
                           <svg
-                            className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                            className="w-5 h-5 mt-px text-primary"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                           >
@@ -146,7 +146,7 @@ export default function ServicesCard() {
                       <li className="flex items-center">
                         <span className="mr-1">
                           <svg
-                            className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                            className="w-5 h-5 mt-px text-primary"
                             stroke="currentColor"
                             viewBox="0 0 52 52"
                           >
@@ -190,7 +190,7 @@ export default function ServicesCard() {
                         <li className="flex items-center">
                           <span className="mr-1">
                             <svg
-                              className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                              className="w-5 h-5 mt-px text-primary"
                               stroke="currentColor"
                               viewBox="0 0 52 52"
                             >
@@ -210,7 +210,7 @@ export default function ServicesCard() {
                         <li className="flex items-center">
                           <span className="mr-1">
                             <svg
-                              className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                              className="w-5 h-5 mt-px text-primary"
                               stroke="currentColor"
                               viewBox="0 0 52 52"
                             >
@@ -232,7 +232,7 @@ export default function ServicesCard() {
                         <li className="flex items-center">
                           <span className="mr-1">
                             <svg
-                              className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                              className="w-5 h-5 mt-px text-primary"
                               stroke="currentColor"
                               viewBox="0 0 52 52"
                             >
@@ -252,7 +252,7 @@ export default function ServicesCard() {
                         <li className="flex items-center">
                           <span className="mr-1">
                             <svg
-                              className="w-5 h-5 mt-px text-deep-purple-accent-400"
+                              className="w-5 h-5 mt-px text-primary"
                               stroke="currentColor"
                               viewBox="0 0 52 52"
                             >

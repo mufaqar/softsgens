@@ -1,9 +1,15 @@
-// next.config.js
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    domains: ["softgens.netlify.app", "images.pexels.com", "cdn.sanity.io"],
+    remotePatterns: [
+      { protocol: 'https', hostname: 'softgens.netlify.app' },
+      { protocol: 'https', hostname: 'images.pexels.com' },
+      { protocol: 'https', hostname: 'cdn.sanity.io' },
+    ],
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
 };
+
+module.exports = nextConfig;

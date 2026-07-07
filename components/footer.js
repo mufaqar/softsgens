@@ -5,10 +5,15 @@ import { SiMinutemailer } from 'react-icons/si';
 import { HiOutlineOfficeBuilding } from 'react-icons/hi';
 import { MdOutlineAlternateEmail } from 'react-icons/md';
 import { FiPhone } from 'react-icons/fi';
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import dynamic from 'next/dynamic';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-hook-inview';
+
+const Player = dynamic(
+  () => import('@lottiefiles/react-lottie-player').then((mod) => mod.Player),
+  { ssr: false }
+);
 
 export default function Footer() {
   const [ref, inView] = useInView();
@@ -50,7 +55,7 @@ export default function Footer() {
                     placeholder="Your mail address.!"
                     className="w-full p-3 border-none rounded-md shadow outline-none"
                   ></input>
-                  <button className="p-4 ml-3 bg-blue-500 rounded-md shadow hover:bg-white">
+                  <button className="p-4 ml-3 bg-primary rounded-md shadow hover:bg-secondary">
                     <SiMinutemailer />
                   </button>
                 </div>
@@ -127,7 +132,7 @@ export default function Footer() {
                 <div className="flex mt-5">
                   <Link
                     href="/contact"
-                    className="px-8 py-3 mt-8 text-lg font-semibold text-white uppercase bg-blue-500 border-gray-200 rounded-md shadow cursor-pointer hover:bg-white hover:text-gray-800 hover:border-2"
+                    className="px-8 py-3 mt-8 text-lg font-semibold text-white uppercase bg-primary border-gray-200 rounded-md shadow cursor-pointer hover:bg-secondary hover:text-primary hover:border-2"
                   >
                     Hire Now
                   </Link>

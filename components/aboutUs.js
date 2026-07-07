@@ -1,9 +1,14 @@
 import React from 'react';
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-hook-inview';
+
+const Player = dynamic(
+  () => import('@lottiefiles/react-lottie-player').then((mod) => mod.Player),
+  { ssr: false }
+);
 
 export default function AboutUs() {
   const [ref, inView] = useInView();
@@ -39,7 +44,7 @@ export default function AboutUs() {
             ref={ref}
             className="py-16 pl-4 pr-4 md:pr-10 lg:pr-48 lg:pl-20"
           >
-            <h2 className="text-left main-title text-secoundry">About Us</h2>
+            <h2 className="text-left main-title text-primary">About Us</h2>
             <h3 className="mt-4 mb-2 h3">Why SoftGens</h3>
             <p className="main-text">
               Whatever you need, from websites, to design, to business-boosting
@@ -54,7 +59,7 @@ export default function AboutUs() {
             </p>
             <Link
               href="/contact"
-              className="text-lg font-semibold text-blue-600"
+              className="text-lg font-semibold text-primary"
             >
               Why Work With Us
             </Link>

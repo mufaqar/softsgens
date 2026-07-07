@@ -2,10 +2,15 @@ import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
-import { Player, Controls } from '@lottiefiles/react-lottie-player';
+import dynamic from 'next/dynamic';
 import { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-hook-inview';
+
+const Player = dynamic(
+  () => import('@lottiefiles/react-lottie-player').then((mod) => mod.Player),
+  { ssr: false }
+);
 
 export default function Header({
   title,
@@ -63,12 +68,12 @@ export default function Header({
               <ul className="flex flex-col items-center space-x-12 text-lg font-semibold tracking-wider text-gray-700 uppercase lg:flex-row">
                 <li
                   className={
-                    router.pathname == '/' ? 'text-blue-700 underline' : ''
+                    router.pathname == '/' ? 'text-primary underline' : ''
                   }
                 >
                   <Link
                     href="/"
-                    className="hover:text-blue-700 hover:underline "
+                    className="hover:text-primary hover:underline "
                   >
                     Home
                   </Link>
@@ -77,13 +82,13 @@ export default function Header({
                 <li
                   className={
                     router.pathname == '/services'
-                      ? 'text-blue-700 underline'
+                      ? 'text-primary underline'
                       : ''
                   }
                 >
                   <Link
                     href="/services"
-                    className=" hover:text-blue-700 hover:underline"
+                    className=" hover:text-primary hover:underline"
                   >
                     Services
                   </Link>
@@ -91,13 +96,13 @@ export default function Header({
                 <li
                   className={
                     router.pathname == '/portfolio'
-                      ? 'text-blue-700 underline'
+                      ? 'text-primary underline'
                       : ''
                   }
                 >
                   <Link
                     href="/portfolio"
-                    className=" hover:text-blue-700 hover:underline"
+                    className=" hover:text-primary hover:underline"
                   >
                     Portfolio
                   </Link>
@@ -105,12 +110,12 @@ export default function Header({
 
                 <li
                   className={
-                    router.pathname == '/about' ? 'text-blue-700 underline' : ''
+                    router.pathname == '/about' ? 'text-primary underline' : ''
                   }
                 >
                   <Link
                     href="/about"
-                    className=" hover:text-blue-700 hover:underline"
+                    className=" hover:text-primary hover:underline"
                   >
                     About
                   </Link>
@@ -118,7 +123,7 @@ export default function Header({
                 <li>
                   <Link
                     href="/contact"
-                    className="p-4 text-white rounded-full pl-7 pr-7 hover:text-blue-700 hover:underline bg-gradient-to-l from-blue-300 to-blue-500"
+                    className="p-4 text-white rounded-full pl-7 pr-7 hover:text-white bg-primary"
                   >
                     Let&apos;s Talk
                   </Link>
@@ -138,11 +143,11 @@ export default function Header({
             } absolute z-10 block w-full top-24 lg:hidden`}
           >
             <div>
-              <ul className="w-full pl-10 bg-blue-400 md:pl-0">
+              <ul className="w-full pl-10 bg-primary md:pl-0">
                 <li className="pt-10">
                   <Link
                     href="/services"
-                    className="mt-6 text-2xl text-white hover:text-blue-700 hover:underline "
+                    className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
                   >
                     Services
                   </Link>
@@ -150,7 +155,7 @@ export default function Header({
                 <li className="pt-10">
                   <Link
                     href="/portfolio"
-                    className="mt-6 text-2xl text-white hover:text-blue-700 hover:underline "
+                    className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
                   >
                     Portfolio
                   </Link>
@@ -159,7 +164,7 @@ export default function Header({
                 <li className="pt-10">
                   <Link
                     href="/about"
-                    className="mt-6 text-2xl text-white hover:text-blue-700 hover:underline "
+                    className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
                   >
                     about
                   </Link>
@@ -167,7 +172,7 @@ export default function Header({
                 <li className="py-10">
                   <Link
                     href="/contact"
-                    className="mt-6 text-2xl text-white hover:text-blue-700 hover:underline "
+                    className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
                   >
                     Let&apos;s Talk
                   </Link>
@@ -182,7 +187,7 @@ export default function Header({
               <div className="pl-2 mt-10 lg:mr-0">
                 <h2 className="p-2 main-heading">
                   {title}
-                  <span className="text-blue-500">!</span>
+                  <span className="text-primary">!</span>
                 </h2>
                 <p className="p-1 main-text">{content}</p>
                 {button ? (

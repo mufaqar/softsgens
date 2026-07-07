@@ -2,22 +2,17 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '../../components/header';
-import { sanityClient } from '../../config/sanityClient';
-import PortableText from 'react-portable-text';
 import { useRouter } from 'next/router';
 import { Categories } from '../../data_files/portfolioData';
 import Footer from '../../components/footer';
 
-export default function SingleWork({ project }) {
-  //  console.log('🚀 ~ file: [slug].js:7 ~ SingleWork ~ data', project);
+export default function SingleWork() {
   const router = useRouter();
   const { slug } = router.query;
 
-  // Flatten categories to find the specific work by slug
   const allWorks = Categories.flatMap(category => category.works);
   const res = allWorks.find(work => work.slug === slug);
 
-  // Redirect to 404 if the work is not found
   if (!res) {
     if (router.isReady) {
     }
@@ -52,7 +47,7 @@ export default function SingleWork({ project }) {
               The Challenge
             </h2>
             <p className="text-xl text-slate-500 mb-5">
-              As a web developer, the task is to modernize {res?.title}'s aging web platform in just six months. The primary objectives include enhancing user experience, ensuring mobile responsiveness, optimizing performance, improving security, implementing
+              As a web developer, the task is to modernize {res?.title}&apos;s aging web platform in just six months. The primary objectives include enhancing user experience, ensuring mobile responsiveness, optimizing performance, improving security, implementing
             </p>
             <p className="text-xl text-slate-500 mb-5">
               SEO strategies, ensuring scalability, developing a user-friendly content management system, integrating third-party tools, conducting thorough testing, and providing comprehensive documentation.
@@ -108,34 +103,6 @@ export default function SingleWork({ project }) {
         </div>
       </section>
 
-      {/* <section className="py-24 px-8">
-        <div className="md:max-w-[1140px] mx-auto longinfo">
-          <PortableText
-            content={project?.content}
-            serializers={{
-              h1: (props) => (
-                <h1
-                  className="md:text-5xl text-4xl leading-7 font-bold tracking-wide mb-5"
-                  {...props}
-                />
-              ),
-              h2: (props) => (
-                <h1
-                  className="md:text-5xl text-4xl leading-7 font-bold tracking-wide mb-5"
-                  {...props}
-                />
-              ),
-              p: (props) => (
-                <p className="text-xl text-slate-500 mb-5" {...props} />
-              ),
-              li: ({ children }) => (
-                <li className="text-xl text-slate-700 font-bold">{children}</li>
-              ),
-            }}
-          />
-        </div>
-      </section> */}
-
       <section className="py-12 px-8 relative bg-gray-50">
         <div className="container px-4 mx-auto grid md:grid-cols-3 grid-cols-1 gap-5">
           {res?.gallery.slice(1).map((item, id) => {
@@ -153,51 +120,23 @@ export default function SingleWork({ project }) {
   );
 }
 
-const portfolioQuery = `*[_type == "portfolio" && slug.current == $slug][0]{
-  title,
-  shortinfo,
-  link,
-  slug,
-  mobile_view_image{
-    asset->{
-      url
-    }
-  },
-  content,
-  services[],
-  featureimage{
-    asset->{
-      url
-    }
-  },
-  gallery[]{
-    asset->{
-      url
-    }
-  }
-}`;
-
 export async function getStaticPaths() {
-  const paths = await sanityClient.fetch(`
-  *[_type == "portfolio" && defined(slug.current)]{
-       "params": {
-         "slug" : slug.current
-       }
-     }
-  `);
+  const allWorks = Categories.flatMap(category => category.works);
+  const paths = allWorks.map((work) => ({
+    params: { slug: work.slug },
+  }));
   return {
     paths,
-    fallback: true,
+    fallback: false,
   };
 }
 
 export async function getStaticProps({ params }) {
-  const { slug } = params;
-  const project = await sanityClient.fetch(portfolioQuery, { slug });
+  const allWorks = Categories.flatMap(category => category.works);
+  const project = allWorks.find((work) => work.slug === params.slug);
   return {
     props: {
-      project,
-      preview: true,
+      project: project || null,
     },
   };
 }

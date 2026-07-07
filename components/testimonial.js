@@ -171,7 +171,7 @@ function Testimonial() {
               </figure>
             </div>
             <div className="absolute flex items-center gap-3 font-medium text-white bottom-8 left-24">
-              <div className="inline-block pl-[18px] p-4 pr-[14px] text-xl text-white bg-blue-700 rounded-full hover:bg-black cursor-pointer">
+              <div className="inline-block pl-[18px] p-4 pr-[14px] text-xl text-white bg-primary rounded-full hover:bg-black cursor-pointer">
                 <FaPlay />
               </div>
               <p>Watch Video</p>
@@ -181,7 +181,7 @@ function Testimonial() {
         <div className="container flex justify-between mx-auto mt-12 overflow-x-scroll testimonial_data gap-x-2 md:overflow-x-hidden">
           <div
             onClick={() => ChangeTestimonial(0)}
-            className="inline-flex items-center p-3 space-x-3 bg-[#26367B] rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center p-3 space-x-3 bg-primary rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
           >
             <Image
               src={t1}
@@ -199,7 +199,7 @@ function Testimonial() {
           </div>
           <div
             onClick={() => ChangeTestimonial(1)}
-            className="inline-flex items-center p-3 space-x-3 bg-[#26367B] rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center p-3 space-x-3 bg-primary rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
           >
             <Image
               src={t2}
@@ -217,7 +217,7 @@ function Testimonial() {
           </div>
           <div
             onClick={() => ChangeTestimonial(2)}
-            className="inline-flex items-center p-3 space-x-3 bg-[#26367B] rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center p-3 space-x-3 bg-primary rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
           >
             <Image
               src={t3}
@@ -235,7 +235,7 @@ function Testimonial() {
           </div>
           <div
             onClick={() => ChangeTestimonial(3)}
-            className="inline-flex items-center p-3 space-x-3 bg-[#26367B] rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center p-3 space-x-3 bg-primary rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
           >
             <Image
               src={t4}
@@ -253,7 +253,7 @@ function Testimonial() {
           </div>
           <div
             onClick={() => ChangeTestimonial(4)}
-            className="inline-flex items-center p-3 space-x-3 bg-[#26367B] rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
+            className="inline-flex items-center p-3 space-x-3 bg-primary rounded-2xl px-5 shadow-xl cursor-pointer transition-all duration-300 hover:-translate-y-1"
           >
             <Image
               src={t5}

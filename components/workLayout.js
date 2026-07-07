@@ -1,12 +1,12 @@
-import Link from 'next/dist/client/link';
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function WorkLayout({ item }) {
   return (
     <>
       <div
-        className={
-          'relative group bg-[#4388F6] transition cursor-pointer duration-200 rounded-3xl'
+          className={
+          'relative group bg-primary transition cursor-pointer duration-200 rounded-3xl'
         }
       >
         <Link href={`portfolio/${item?.slug}`}>
@@ -32,7 +32,7 @@ export default function WorkLayout({ item }) {
             );
           })}
         </ul>
-        <Link href={`portfolio/${item?.slug.current}`}>
+        <Link href={`portfolio/${item?.slug}`}>
           <h2 className="absolute md:bottom-10 bottom-4 left-5 text-4xl font-bold text-white ">
             {item?.title}
           </h2>

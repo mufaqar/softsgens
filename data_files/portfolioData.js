@@ -6,6 +6,7 @@ export const Categories = [
         {
           title: 'Anypos',
           slug: 'anypos',
+          shortinfo: 'A modern point of sale system built for small businesses.',
           link: 'https://www.anypos.app',
           feature: "/images/anypose/any-feature.png",
           gallery: [
@@ -37,6 +38,7 @@ export const Categories = [
         {
           title: 'Solution Founder',
           slug: 'solutionfounder',
+          shortinfo: 'A platform connecting founders with tailored business solutions.',
           link: 'https://www.solutionfounder.com',
           feature: "/images/solut/sol-feature.png",
           gallery: [
@@ -74,6 +76,7 @@ export const Categories = [
         {
           title: 'Mams House',
           slug: 'mamshouse',
+          shortinfo: 'An eCommerce store for handmade and curated goods.',
           link: 'https://mamshouse.com',
           feature: "/images/mam/mam-feature.png",
           gallery: [
@@ -105,6 +108,7 @@ export const Categories = [
         {
           title: 'Breeze Chrome Extension',
           slug: 'breeze1.netlify.app',
+          shortinfo: 'A Chrome extension for productivity and task management.',
           link: 'https://breeze1.netlify.app',
           feature: "/images/bree/bree-feature.png",
           gallery: [
@@ -142,6 +146,7 @@ export const Categories = [
         {
           title: 'Smapy',
           slug: 'smapy',
+          shortinfo: 'An educational platform for interactive learning experiences.',
           link: 'https://smapy.vercel.app/he',
           feature: "/images/smap/sma-feature.png",
           gallery: [
@@ -173,6 +178,7 @@ export const Categories = [
         {
           title: 'Fund Gazer',
           slug: 'fundgazer',
+          shortinfo: 'A financial tracking app for monitoring investments and funds.',
           link: 'https://www.fundgazer.com',
           feature: "/images/fund/fun-feature.png",
           gallery: [

@@ -58,7 +58,7 @@ export default function Service() {
   return (
     <div className="container mx-auto mt-32 px-4" ref={ref}>
       <motion.h1
-        className="text-center main-title text-secoundry"
+        className="text-center main-title text-primary"
         animate={animation}
       >
         Services

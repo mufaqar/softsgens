@@ -15,28 +15,28 @@
 
 @layer components {
   .btn-blue {
-    @apply p-4 font-semibold text-white uppercase rounded-full md:pl-7 md:pr-7 hover:text-black bg-gradient-to-l from-blue-300 to-blue-500 whitespace-nowrap text-sm md:text-base pt-5
+    @apply p-4 font-semibold text-white uppercase rounded-full md:pl-7 md:pr-7 hover:text-white bg-primary whitespace-nowrap text-sm md:text-base pt-5
   }
   .border-btn{
-    @apply p-4  text-gray-800 uppercase border-2 border-white rounded-full md:pl-7 md:pr-7 hover:border-blue-400 hover:text-white hover:bg-gradient-to-l from-blue-300 to-blue-500 text-sm md:text-base
+    @apply p-4 text-gray-800 uppercase border-2 border-white rounded-full md:pl-7 md:pr-7 hover:bg-primary hover:text-white text-sm md:text-base
   }
   .main-heading{
-    @apply text-3xl font-extrabold leading-[42px] text-gray-900 md:text-6xl md:leading-[70px]
+    @apply text-3xl font-extrabold leading-[42px] text-primary md:text-6xl md:leading-[70px]
   }
   .main-text{
     @apply mt-2 text-lg leading-8 text-gray-700
   }
   .sub-heading{
-    @apply text-3xl md:text-5xl font-bold text-gray-800 leading-8 md:leading-[60px]
+    @apply text-3xl md:text-5xl font-bold text-primary leading-8 md:leading-[60px]
   }
   .main-title{
-    @apply text-3xl md:text-4xl font-bold text-gray-800
+    @apply text-3xl md:text-4xl font-bold text-primary
   }
   .sub-content{
     @apply text-xl leading-8 text-gray-700
   }
   .h3{
-    @apply text-lg font-semibold text-secoundry
+    @apply text-lg font-semibold text-primary
   }
   .gradient-btn{
     @apply p-4 py-3 font-semibold text-gray-800 uppercase rounded-full pl-7 pr-7 hover:text-white;
@@ -58,12 +58,12 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: radial-gradient(circle, rgba(209,185,215,1) 24%, rgb(250, 210, 181) 100%);
+  background: #000f24;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #5C9BF8;
+  background: #000f24;
 }
 
 .bg-hero {
@@ -127,10 +127,10 @@ body {
   display: none;
 }
 .bg-gradient{
-  background: radial-gradient(circle, rgba(209,185,215,1) 24%, rgba(253,226,207,1) 100%);
+  background: radial-gradient(circle, #000f24 24%, #1a1a3e 100%);
 }
 .li-gradient{
-  background: linear-gradient(328deg, rgba(253,226,207,1) 0%, rgba(229,233,255,1) 62%);
+  background: linear-gradient(328deg, #f3f1f1 0%, #e8e4f0 62%);
 }
 
 .main{
@@ -162,7 +162,7 @@ body {
   content: '';
   min-width: 200px;
   min-height: 150px;
-  background: #E5E9FF;
+  background: #f3f1f1;
   bottom: -1rem;
   left: -3rem;
   transform: rotate(-39deg);
@@ -173,10 +173,10 @@ footer{
   border-top-right-radius: 60px;
 }
 footer .copyright{
-  border-top: 1px solid #D0D3E7;
+  border-top: 1px solid #000f24;
 }
 .blue_gradient_bg{
-  background: linear-gradient(90deg, #021048, #1e38a3) !important;
+  background: linear-gradient(90deg, #000f24, #001a3d) !important;
 }
 .dots-bg{
   background: url('../public//images//dots.svg');
@@ -195,10 +195,10 @@ footer .copyright{
   padding: 4rem;
 }
 .stories_wrapper>div:nth-child(3n+1){
-  background: #e5e9ff75;
+  background: #f3f1f180;
 }
 .stories_wrapper>div:nth-child(4n+1){
-  background: #e5e9ff75;
+  background: #f3f1f180;
 }
 .story{
   background: url('../public/images/dot-dot-wave-shape.svg');

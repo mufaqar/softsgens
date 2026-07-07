@@ -56,7 +56,7 @@ function Story() {
           </div>
           <div>
             <motion.h2
-              className="text-center text-blue-500 main-heading"
+              className="text-center text-primary main-heading"
               animate={animationOpacity}
             >
               15+

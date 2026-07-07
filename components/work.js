@@ -2,18 +2,18 @@ import Image from 'next/image';
 function Work() {
   return (
     <>
-      <div className="bg-blue-500">
-        <div className="relative flex items-center max-w-screen-xl min-h-screen p-4 px-4 mx-auto dark:bg-gray-800 sm:px-6 lg:px-8 lg:pt-12">
+      <div className="bg-primary">
+        <div className="relative flex items-center max-w-screen-xl min-h-screen p-4 px-4 mx-auto sm:px-6 lg:px-8 lg:pt-12">
           <div className="relative">
             <div className="flex flex-col lg:flex-row">
               <div className="pt-10 ml-auto lg:pt-48 lg:col-start-2 lg:max-w-2xl lg:pl-10 lg:pr-32">
                 <p className="text-base font-semibold leading-6 text-gray-200 uppercase">
                   Success Stories
                 </p>
-                <h4 className="mt-2 text-2xl font-extrabold leading-8 text-white font-fira dark:text-white sm:text-3xl sm:leading-9">
+                <h4 className="mt-2 text-2xl font-extrabold leading-8 text-white font-fira text-primary sm:text-3xl sm:leading-9">
                   Our Work
                 </h4>
-                <p className="mt-4 text-lg leading-6 text-white dark:text-gray-300 font-fira">
+                <p className="mt-4 text-lg leading-6 text-white text-gray-300 font-fira">
                   Build a simply and powered collaborative space for all your
                   team. Track, share, measure, you have a fully control,
                   it&#x27;s never be simply and efficient.
@@ -34,14 +34,14 @@ function Work() {
                             width="400"
                             height="300"
                           />
-                          <div className="w-full p-4 bg-white dark:bg-gray-800">
-                            <p className="font-medium text-indigo-500 text-md">
+                          <div className="w-full p-4 bg-white bg-secondary bg-opacity-10">
+                            <p className="font-medium text-primary text-md">
                               WordPress , PHP , MySQL
                             </p>
-                            <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                            <p className="mb-2 text-xl font-medium text-gray-800 text-primary">
                               Teddington Legal
                             </p>
-                            <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                            <p className="font-light text-gray-400 text-gray-300 text-md">
                               Design and Developed Website and Build with
                               WordPress
                             </p>
@@ -59,7 +59,7 @@ function Work() {
                                 />
                               </a>
                               <div className="flex flex-col justify-between ml-4 text-sm">
-                                <p className="text-gray-800 dark:text-white">
+                                <p className="text-gray-800 text-primary">
                                   Live Website
                                 </p>
                               </div>
@@ -79,14 +79,14 @@ function Work() {
                           width="400"
                           height="300"
                         />
-                        <div className="w-full p-4 bg-white dark:bg-gray-800">
-                          <p className="font-medium text-indigo-500 text-md">
+                        <div className="w-full p-4 bg-white bg-secondary bg-opacity-10">
+                          <p className="font-medium text-primary text-md">
                             Woocommerece , WordPress , PHP
                           </p>
-                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                          <p className="mb-2 text-xl font-medium text-gray-800 text-primary">
                             mypartystore
                           </p>
-                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                          <p className="font-light text-gray-400 text-gray-300 text-md">
                             An Ecomerece Store System build with WP and
                             Woocomemrece
                           </p>
@@ -104,7 +104,7 @@ function Work() {
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
-                              <p className="text-gray-800 dark:text-white">
+                              <p className="text-gray-800 text-primary">
                                 Live Website
                               </p>
                             </div>
@@ -124,14 +124,14 @@ function Work() {
                           width="400"
                           height="300"
                         />
-                        <div className="w-full p-4 bg-white dark:bg-gray-800">
-                          <p className="font-medium text-indigo-500 text-md">
+                        <div className="w-full p-4 bg-white bg-secondary bg-opacity-10">
+                          <p className="font-medium text-primary text-md">
                             WordPress, Mysql , API
                           </p>
-                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                          <p className="mb-2 text-xl font-medium text-gray-800 text-primary">
                             FREEDOMWAY TRUCKS
                           </p>
-                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                          <p className="font-light text-gray-400 text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
                             is best racing GT about 7 years on...
                           </p>
@@ -149,7 +149,7 @@ function Work() {
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
-                              <p className="text-gray-800 dark:text-white">
+                              <p className="text-gray-800 text-primary">
                                 Live Website
                               </p>
                             </div>
@@ -168,14 +168,14 @@ function Work() {
                           width="400"
                           height="300"
                         />
-                        <div className="w-full p-4 bg-white dark:bg-gray-800">
-                          <p className="font-medium text-indigo-500 text-md">
+                        <div className="w-full p-4 bg-white bg-secondary bg-opacity-10">
+                          <p className="font-medium text-primary text-md">
                             Shopify , Ecomemrece , Payment
                           </p>
-                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                          <p className="mb-2 text-xl font-medium text-gray-800 text-primary">
                             Baja Store
                           </p>
-                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                          <p className="font-light text-gray-400 text-gray-300 text-md">
                             An Ecomerece system with payment and shipping
                             integration
                           </p>
@@ -193,7 +193,7 @@ function Work() {
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
-                              <p className="text-gray-800 dark:text-white">
+                              <p className="text-gray-800 text-primary">
                                 Live Website
                               </p>
                             </div>
@@ -211,14 +211,14 @@ function Work() {
                           width="400"
                           height="300"
                         />
-                        <div className="w-full p-4 bg-white dark:bg-gray-800">
-                          <p className="font-medium text-indigo-500 text-md">
+                        <div className="w-full p-4 bg-white bg-secondary bg-opacity-10">
+                          <p className="font-medium text-primary text-md">
                             WordPress , PHP
                           </p>
-                          <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
+                          <p className="mb-2 text-xl font-medium text-gray-800 text-primary">
                             7 Awi
                           </p>
-                          <p className="font-light text-gray-400 dark:text-gray-300 text-md">
+                          <p className="font-light text-gray-400 text-gray-300 text-md">
                             The new supercar is here, 543 cv and 140 000$. This
                             is best racing GT about 7 years on...
                           </p>
@@ -236,10 +236,10 @@ function Work() {
                               />
                             </a>
                             <div className="flex flex-col justify-between ml-4 text-sm">
-                              <p className="text-gray-800 dark:text-white">
+                              <p className="text-gray-800 text-primary">
                                 Jean Jacques
                               </p>
-                              <p className="text-gray-400 dark:text-gray-300">
+                              <p className="text-gray-400 text-gray-300">
                                 20 mars 2029 - 6 min read
                               </p>
                             </div>

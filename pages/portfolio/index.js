@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import Header from "../../components/header";
-import Image from "next/image";
 import Head from "next/head";
 import Footer from "../../components/footer";
 import WorkLayout from "../../components/workLayout";
-import { sanityClient } from "../../config/sanityClient";
 import { Categories } from "../../data_files/portfolioData";
 
-export default function Portfolio({ portfolio }) {
+export default function Portfolio() {
   const allWorks = Categories.flatMap((category) =>
     category.works.map((work) => ({
       ...work,
@@ -50,30 +48,4 @@ export default function Portfolio({ portfolio }) {
       <Footer />
     </div>
   );
-}
-
-export async function getStaticProps() {
-  const portfolio = await sanityClient.fetch(`*[_type == "portfolio"]{
-    title,
-    shortinfo,
-    link,
-    slug,
-    services[],
-    featureimage{
-      asset->{
-        url
-      }
-    },
-    gallery[]{
-      asset->{
-        url
-      }
-    }
-  }`);
-
-  return {
-    props: {
-      portfolio,
-    },
-  };
 }

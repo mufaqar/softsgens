@@ -91,7 +91,7 @@ export default function ContactMe() {
                   height="30"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#a5b4fc"
+                   stroke="#000f24"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -108,7 +108,7 @@ export default function ContactMe() {
                   height="30"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#a5b4fc"
+                   stroke="#000f24"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -126,7 +126,7 @@ export default function ContactMe() {
                   height="30"
                   viewBox="0 0 24 24"
                   fill="none"
-                  stroke="#a5b4fc"
+                   stroke="#000f24"
                   strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -211,11 +211,11 @@ export default function ContactMe() {
           </motion.div>
           <div className="relative px-4 ">
             <motion.div
-              className="absolute z-[-1] w-40 h-40 bg-indigo-400 rounded-full md:-right-28 -right-0 -top-28"
+              className="absolute z-[-1] w-40 h-40 bg-primary rounded-full md:-right-28 -right-0 -top-28"
               animate={animationOpacity}
             ></motion.div>
             <motion.div
-              className="absolute z-0 w-40 h-40 bg-indigo-400 rounded-full -left-28 -bottom-16"
+              className="absolute z-0 w-40 h-40 bg-primary rounded-full -left-28 -bottom-16"
               animate={animationOpacity}
             ></motion.div>
             <motion.div
@@ -228,7 +228,7 @@ export default function ContactMe() {
                   <input
                     type="text"
                     placeholder="Name"
-                    className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-300"
+                    className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-primary focus:ring-opacity-30"
                   />
                 </div>
                 <div>
@@ -236,7 +236,7 @@ export default function ContactMe() {
                   <input
                     type="email"
                     placeholder="Email"
-                    className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-300"
+                    className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-primary focus:ring-opacity-30"
                   />
                 </div>
                 <div>
@@ -244,10 +244,10 @@ export default function ContactMe() {
                   <textarea
                     placeholder="Message"
                     rows="4"
-                    className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-indigo-300"
+                    className="w-full px-4 py-2 mt-2 rounded-md outline-none ring-1 ring-gray-300 focus:ring-2 focus:ring-primary focus:ring-opacity-30"
                   ></textarea>
                 </div>
-                <button className="self-end inline-block px-6 py-4 text-sm font-bold text-white uppercase bg-indigo-600 rounded-lg">
+                <button className="self-end inline-block px-6 py-4 text-sm font-bold text-white uppercase bg-primary rounded-lg">
                   Send Message
                 </button>
               </form>

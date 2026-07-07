@@ -11,19 +11,19 @@ export default function ContactUs() {
               Tell us about your project.
             </h1>
             <div className="flex flex-wrap w-[380px]">
-              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
+              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-primary bg-primary bg-opacity-10 rounded-full">
                 Web Development
               </span>
-              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
+              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-primary bg-primary bg-opacity-10 rounded-full">
                 Next js
               </span>
-              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
+              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-primary bg-primary bg-opacity-10 rounded-full">
                 Wordpress
               </span>
-              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
+              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-primary bg-primary bg-opacity-10 rounded-full">
                 Online Store
               </span>
-              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-blue-700 bg-blue-100 rounded-full">
+              <span className="px-3 py-1 mt-3 mr-2 text-lg font-medium text-primary bg-primary bg-opacity-10 rounded-full">
                 Branding
               </span>
             </div>
@@ -72,32 +72,32 @@ export default function ContactUs() {
                 <input
                   type="submit"
                   value="Submit"
-                  className="w-24 p-3 mt-4 font-semibold text-white bg-blue-500 rounded hover:bg-blue-400"
+                  className="w-24 p-3 mt-4 font-semibold text-white bg-primary rounded hover:bg-primary hover:opacity-80"
                 />
               </div>
             </div>
           </form>
         </div>
         <div className="flex items-center justify-center pt-6 text-center lg:py-16">
-          <div className="bg-blue-500 w-[400px] p-8 py-20 text-white rounded-tl-none rounded-tr-md rounded-bl-none rounded-br-md">
+          <div className="bg-primary w-[400px] p-8 py-20 text-white rounded-tl-none rounded-tr-md rounded-bl-none rounded-br-md">
             <h1 className="mb-8 text-2xl font-semibold text-left ">
               What Happened Next
             </h1>
             <div className="flex text-left">
               <div>
-                <span className="items-center p-4 py-[10px] mr-3 font-semibold text-center bg-blue-400 rounded-full max-w-3">
+                <span className="items-center p-4 py-[10px] mr-3 font-semibold text-center bg-primary bg-opacity-50 rounded-full max-w-3">
                   1
                 </span>
               </div>
               <p className="font-medium text-gray-100 tex-left ">
-                Get in touch <br /> Call or email us and we’ll organise an
-                initial chat to see if we’re a good fit.
+                Get in touch <br /> Call or email us and we&apos;ll organise an
+                initial chat to see if we&apos;re a good fit.
               </p>
             </div>
 
             <div className="flex mt-5 text-left">
               <div>
-                <span className="items-center p-4 py-[10px] font-semibold mr-3 text-center bg-blue-400 rounded-full max-w-3">
+                <span className="items-center p-4 py-[10px] font-semibold mr-3 text-center bg-primary bg-opacity-50 rounded-full max-w-3">
                   2
                 </span>
               </div>
@@ -110,14 +110,14 @@ export default function ContactUs() {
 
             <div className="flex mt-5 text-left">
               <div>
-                <span className="items-center font-semibold p-4 py-[10px] mr-3 text-center bg-blue-400 rounded-full max-w-3">
+                <span className="items-center font-semibold p-4 py-[10px] mr-3 text-center bg-primary bg-opacity-50 rounded-full max-w-3">
                   3
                 </span>
               </div>
               <p className="font-medium text-gray-100 tex-left ">
                 Agree a plan <br />
-                We can write it together, or respond to your brief – we’ll work
-                around your needs.
+                We can write it together, or respond to your brief &ndash;
+                we&apos;ll work around your needs.
               </p>
             </div>
           </div>
