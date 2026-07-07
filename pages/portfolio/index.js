@@ -24,8 +24,8 @@ export default function Portfolio() {
   return (
     <div className="relative">
       <Head>
-        <title>Portfolio | SoftGens </title>
-        <meta name="description" content="Portfolio" />
+        <title>Portfolio | SoftGens - Web Development Projects & Case Studies</title>
+        <meta name="description" content="View SoftGens portfolio of web development projects including WordPress sites, React & Next.js applications, and eCommerce platforms." />
       </Head>
 
       <Header

@@ -9,8 +9,8 @@ function About() {
   return (
     <>
       <Head>
-        <title>About Us | SoftGens </title>
-        <meta name="description" content="About Us" />
+        <title>About Us | SoftGens - Digital Agency for Web & Video</title>
+        <meta name="description" content="Learn about SoftGens - a team of talented developers and creators specializing in web development, WordPress, React, Next.js, and UGC video ad production." />
       </Head>
 
       <Header 

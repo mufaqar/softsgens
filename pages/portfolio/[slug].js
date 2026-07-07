@@ -65,11 +65,9 @@ export default function SingleWork() {
               <ul>
                 {res?.features?.map((itm, idx) => (
                   <li key={idx}>
-                    <a href="#" passHref>
-                      <span className="underline hover:no-underline text-xl text-slate-700 font-bold">
-                        {itm?.name}
-                      </span>
-                    </a>
+                    <span className="text-xl text-slate-700 font-bold">
+                      {itm?.name}
+                    </span>
                   </li>
                 ))}
               </ul>

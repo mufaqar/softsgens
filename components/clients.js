@@ -30,14 +30,14 @@ export default function Clients() {
       >
         <motion.div className="w-full" animate={animation}>
           <h2 className="mt-8 sub-heading lg:mt-0">
-            I work with all types of clients
+            We work with all types of clients
             <br /> PHP &bull; WordPress &bull; React &bull; API
           </h2>
           <p className="mt-8 mb-6 text-lg max-w-2xl">
             From custom PHP backends and WordPress sites to modern React frontends and headless API integrations — I partner with businesses of every stack to build, scale, and optimize their digital products.
           </p>
-          <Link href="/" className="text-base font-semibold uppercase">
-            See What We do
+          <Link href="/services" className="text-base font-semibold uppercase">
+            See What We Do
           </Link>
         </motion.div>
       </div>

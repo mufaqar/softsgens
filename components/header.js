@@ -146,6 +146,14 @@ export default function Header({
               <ul className="w-full pl-10 bg-primary md:pl-0">
                 <li className="pt-10">
                   <Link
+                    href="/"
+                    className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li className="pt-10">
+                  <Link
                     href="/services"
                     className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
                   >
@@ -160,13 +168,12 @@ export default function Header({
                     Portfolio
                   </Link>
                 </li>
-
                 <li className="pt-10">
                   <Link
                     href="/about"
                     className="mt-6 text-2xl text-white hover:text-secondary hover:underline "
                   >
-                    about
+                    About
                   </Link>
                 </li>
                 <li className="py-10">

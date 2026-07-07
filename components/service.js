@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import ServicesImg from '../public/images/services.png';
 import wp from '../public/images/brands/wordpress.png';
 import react from '../public/images/brands/reactjs.png';
@@ -119,9 +120,9 @@ export default function Service() {
           </motion.div>
 
           <div className="flex items-center justify-end mt-10 -mr-20 md:mt-0">
-            <button className="shadow-sm gradient-btn bg-gradient">
+            <Link href="/services" className="shadow-sm gradient-btn bg-gradient inline-block text-center">
               Learn More
-            </button>
+            </Link>
           </div>
         </div>
       </div>

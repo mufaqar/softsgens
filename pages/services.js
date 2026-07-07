@@ -7,8 +7,8 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title>Services | SoftGens</title>
-        <meta name="description" content="Services" />
+        <title>Services | SoftGens - Web Development, WordPress, React & UGC Ads</title>
+        <meta name="description" content="Explore SoftGens services: WordPress development, React & Next.js web applications, digital marketing automation, and high-converting UGC video ads." />
       </Head>
       {/* <Menu /> */}
 
