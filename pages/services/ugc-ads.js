@@ -232,22 +232,6 @@ export default function UGCAads() {
         </div>
       </section>
 
-      <section className="py-24 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="main-title mb-4">Perfect For</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">Industries and businesses that benefit most from UGC content.</p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {perfectFor.map((item, i) => (
-              <span key={i} className="bg-primary text-white px-6 py-3 rounded-full text-sm font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5">
-                {item}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
-
     
 
       <section className="py-28 px-4 bg-primary text-white text-center relative overflow-hidden">
@@ -274,7 +258,7 @@ export default function UGCAads() {
         <section className="py-24 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-14">
-            <h2 className="main-title mb-4">All Services</h2>
+            <h2 className="main-title mb-4">We work for</h2>
             <p className="text-gray-600 max-w-2xl mx-auto text-lg">From CGI to UGC — every creative format to grow your brand.</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -288,6 +272,9 @@ export default function UGCAads() {
           </div>
         </div>
       </section>
+
+      
+  
 
       <Footer />
     </>

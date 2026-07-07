@@ -154,21 +154,7 @@ export default function ReactNextjsDevelopment() {
         </div>
       </section>
 
-      <section className="py-24 px-4 bg-secondary">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="main-title mb-4">Perfect For</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto text-lg">Projects that benefit most from React and Next.js.</p>
-          </div>
-          <div className="flex flex-wrap justify-center gap-3">
-            {['Startups & SaaS', 'eCommerce Platforms', 'Content-Rich Sites', 'Dashboards & Admin Panels', 'Real-Time Applications', 'Marketing Sites', 'Portfolio Websites', 'Enterprise Applications'].map((item, i) => (
-              <span key={i} className="bg-primary text-white px-6 py-3 rounded-full text-sm font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5">
-                {item}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       <section className="py-28 px-4 bg-primary text-white text-center relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -188,6 +174,23 @@ export default function ReactNextjsDevelopment() {
             <span>Get Started Today</span>
             <HiArrowRight className="w-5 h-5" />
           </Link>
+        </div>
+      </section>
+
+
+       <section className="py-24 px-4 bg-white">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12">
+            <h2 className="main-title mb-4">Perfect For</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">Projects that benefit most from React and Next.js.</p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-3">
+            {['Startups & SaaS', 'eCommerce Platforms', 'Content-Rich Sites', 'Dashboards & Admin Panels', 'Real-Time Applications', 'Marketing Sites', 'Portfolio Websites', 'Enterprise Applications'].map((item, i) => (
+              <span key={i} className="bg-primary text-white px-6 py-3 rounded-full text-sm font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5">
+                {item}
+              </span>
+            ))}
+          </div>
         </div>
       </section>
 
